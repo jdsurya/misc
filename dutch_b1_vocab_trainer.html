@@ -1,0 +1,1094 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dutch B1 Vocabulary Trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --bg: #fafafa;
+            --card-bg: #ffffff;
+            --accent: #0077b6;
+            --accent-soft: #e3f2fd;
+            --text-main: #222222;
+            --text-muted: #666666;
+            --border-soft: #dddddd;
+            --danger: #c62828;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            padding: 1.5rem;
+        }
+
+        .app {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-soft);
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .progress {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.15rem 0.6rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            background: var(--accent-soft);
+            color: var(--accent);
+            margin-left: 0.3rem;
+        }
+
+        .difficulty {
+            font-family: "SF Mono", Menlo, Consolas, monospace;
+        }
+
+        .main-word {
+            font-size: 2rem;
+            font-weight: 650;
+            margin-bottom: 0.5rem;
+        }
+
+        .pos {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.3rem;
+        }
+
+        .phase-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+
+        .sentence {
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .sentence .target-word {
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        .sentence .extra-b1 {
+            border-bottom: 2px dotted rgba(0, 119, 182, 0.5);
+        }
+
+        .translation {
+            margin-top: 0.25rem;
+            font-size: 1rem;
+            color: var(--text-muted);
+        }
+
+        .extra-info {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .extra-info dt {
+            font-weight: 600;
+        }
+
+        .extra-info dd {
+            margin: 0 0 0.4rem 0;
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1.25rem;
+        }
+
+        button {
+            border-radius: 999px;
+            padding: 0.55rem 1.1rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        button.main {
+            background: var(--accent);
+            color: white;
+            font-weight: 600;
+        }
+
+        button.secondary {
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+
+        button.ghost {
+            background: transparent;
+            border: 1px solid var(--border-soft);
+            color: var(--text-muted);
+        }
+
+        button.danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: default;
+        }
+
+        .hint {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.4rem;
+        }
+
+        .overview-card {
+            max-height: 320px;
+            overflow: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 0.35rem 0.4rem;
+            border-bottom: 1px solid #f0f0f0;
+            text-align: left;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            background: #f9fafb;
+            z-index: 1;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-muted);
+        }
+
+        tr.clickable-row {
+            cursor: pointer;
+        }
+
+        tr.clickable-row:hover {
+            background: #f5f9ff;
+        }
+
+        .current-row {
+            background: #e3f2fd;
+        }
+
+        .footer-note {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            .main-word {
+                font-size: 1.6rem;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            button {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .overview-card {
+                max-height: 260px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="app">
+    <h1>Dutch B1 Vocabulary Trainer</h1>
+    <p class="subtitle">
+        Klik op <strong>Volgende stap / woord</strong> om door de fasen te gaan: woord → Nederlandse zin → Engelse vertaling → extra info.
+        Gebruik je toetsenbord: <strong>Spatie/Enter</strong> = volgende stap, <strong>←</strong> = vorige woord.
+    </p>
+
+    <div class="card" id="trainer-card">
+        <div class="top-bar">
+            <div class="progress" id="progress-text">Woord 1 / 1</div>
+            <div class="progress">
+                Moeilijkheid: <span class="difficulty" id="difficulty-text"></span>
+                <span class="badge" id="phase-badge">Woord</span>
+            </div>
+        </div>
+
+        <div class="main-word" id="word-display">Laden...</div>
+        <div class="pos" id="pos-display"></div>
+
+        <div class="phase-label" id="phase-label"></div>
+
+        <div class="sentence" id="sentence-display"></div>
+        <div class="translation" id="translation-display"></div>
+
+        <dl class="extra-info" id="extra-info"></dl>
+
+        <div class="controls">
+            <button class="main" id="next-button">Volgende stap / woord ⏭</button>
+            <button class="secondary" id="replay-button">Opnieuw dit woord 🔁</button>
+            <button class="ghost" id="previous-button">Vorige woord ⏮</button>
+            <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
+            <button class="ghost" id="reset-button">Herbegin (vergeet voortgang)</button>
+        </div>
+        <div class="hint">
+            Hints: Spatie/Enter = volgende stap • Pijltje links = vorig woord •
+            Deze pagina bewaart automatisch je voortgang op dit apparaat (via localStorage).
+        </div>
+    </div>
+
+    <div class="card overview-card">
+        <h2>Overzicht van woorden</h2>
+        <p class="subtitle">Klik op een woord om er meteen naartoe te springen.</p>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Woord</th>
+                <th>Soort woord</th>
+                <th>Betekenis (EN)</th>
+                <th>★</th>
+            </tr>
+            </thead>
+            <tbody id="overview-body">
+            <!-- dynamically filled -->
+            </tbody>
+        </table>
+        <p class="footer-note">
+            Dit bestand bevat een voorbeeldset van woorden. Je kunt zelf meer woorden toevoegen in de JavaScript-sectie
+            (<code>vocabData</code>) in deze HTML.
+        </p>
+    </div>
+</div>
+
+<script>
+    // -------------------------
+    // Vocabulary data
+    // -------------------------
+    // difficulty: 1 = makkelijker B1, 2 = gemiddelde B1, 3 = moeilijkere B1
+
+    const vocabData = [
+        {
+            word: "aanpakken",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "aan + pakken",
+            meaning_en: "to tackle, to approach (a problem)",
+            example_nl: "De regering wil het probleem van werkloosheid grondig aanpakken.",
+            example_en: "The government wants to tackle the problem of unemployment thoroughly.",
+            other_b1_words: ["regering", "probleem", "werkloosheid", "grondig"]
+        },
+        {
+            word: "afhankelijk",
+            pos: "bijvoeglijk naamwoord",
+            difficulty: 2,
+            formation: "af + hangen + -elijk",
+            meaning_en: "dependent (on)",
+            example_nl: "Het succes van het project is afhankelijk van goede samenwerking.",
+            example_en: "The success of the project depends on good cooperation.",
+            other_b1_words: ["succes", "project", "samenwerking"]
+        },
+        {
+            word: "beleefde",
+            pos: "bijvoeglijk naamwoord",
+            difficulty: 1,
+            formation: "beleven → beleefd",
+            meaning_en: "polite",
+            example_nl: "In Nederland is het beleefd om iedereen een hand te geven bij een kennismaking.",
+            example_en: "In the Netherlands it is polite to shake hands with everyone when you meet for the first time.",
+            other_b1_words: ["kennismaking"]
+        },
+        {
+            word: "beschikbaar",
+            pos: "bijvoeglijk naamwoord",
+            difficulty: 2,
+            formation: "beschik + -baar",
+            meaning_en: "available",
+            example_nl: "Er is geen kamer meer beschikbaar in dit hotel tijdens het weekend.",
+            example_en: "There is no room available in this hotel during the weekend.",
+            other_b1_words: ["kamer", "hotel", "weekend"]
+        },
+        {
+            word: "betreffen",
+            pos: "werkwoord",
+            difficulty: 3,
+            formation: "be + treffen",
+            meaning_en: "to concern, to be about",
+            example_nl: "De regels betreffen alleen studenten die voltijd studeren.",
+            example_en: "The rules concern only students who study full-time.",
+            other_b1_words: ["regels", "studenten", "voltijd"]
+        },
+        {
+            word: "bewust",
+            pos: "bijvoeglijk naamwoord / bijwoord",
+            difficulty: 2,
+            formation: "be + wust (verwant aan weten)",
+            meaning_en: "conscious, aware; deliberately",
+            example_nl: "Ze maakt heel bewust gezonde keuzes in haar voeding.",
+            example_en: "She very consciously makes healthy choices in her diet.",
+            other_b1_words: ["gezonde", "keuzes", "voeding"]
+        },
+        {
+            word: "bijdragen",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "bij + dragen",
+            meaning_en: "to contribute",
+            example_nl: "Elke vrijwilliger kan op zijn eigen manier bijdragen aan het succes van het festival.",
+            example_en: "Every volunteer can contribute to the success of the festival in his or her own way.",
+            other_b1_words: ["vrijwilliger", "succes", "festival"]
+        },
+        {
+            word: "beïnvloeden",
+            pos: "werkwoord",
+            difficulty: 3,
+            formation: "be + invloed + -en",
+            meaning_en: "to influence",
+            example_nl: "Sociale media kunnen sterk beïnvloeden hoe jongeren over zichzelf denken.",
+            example_en: "Social media can strongly influence how young people think about themselves.",
+            other_b1_words: ["sociale", "jongeren"]
+        },
+        {
+            word: "daadwerkelijk",
+            pos: "bijvoeglijk naamwoord / bijwoord",
+            difficulty: 3,
+            formation: "daad + werkelijk",
+            meaning_en: "actually, in reality",
+            example_nl: "Hij heeft veel plannen, maar hij voert er weinig daadwerkelijk uit.",
+            example_en: "He has many plans, but he actually carries out few of them.",
+            other_b1_words: ["plannen"]
+        },
+        {
+            word: "desondanks",
+            pos: "bijwoord",
+            difficulty: 3,
+            formation: "des + ondanks",
+            meaning_en: "nevertheless, despite that",
+            example_nl: "Het regende de hele dag; desondanks gingen we naar het strand.",
+            example_en: "It rained all day; nevertheless, we went to the beach.",
+            other_b1_words: ["regende", "strand"]
+        },
+        {
+            word: "doelgericht",
+            pos: "bijvoeglijk naamwoord",
+            difficulty: 2,
+            formation: "doel + gericht",
+            meaning_en: "goal-oriented, focused",
+            example_nl: "Als je doelgericht studeert, kun je in korte tijd veel leren.",
+            example_en: "If you study in a goal-oriented way, you can learn a lot in a short time.",
+            other_b1_words: ["studeren", "korte tijd"]
+        },
+        {
+            word: "doorbrengen",
+            pos: "werkwoord",
+            difficulty: 1,
+            formation: "door + brengen",
+            meaning_en: "to spend (time)",
+            example_nl: "We brengen onze vakantie het liefst door in een rustig dorp aan zee.",
+            example_en: "We prefer to spend our holidays in a quiet village by the sea.",
+            other_b1_words: ["vakantie", "rustig", "dorp", "zee"]
+        },
+        {
+            word: "drukte",
+            pos: "zelfstandig naamwoord",
+            difficulty: 1,
+            formation: "druk + -te",
+            meaning_en: "crowd, hustle and bustle",
+            example_nl: "Door de drukte in de stad kwam hij te laat op zijn afspraak.",
+            example_en: "Because of the crowds in the city, he arrived late for his appointment.",
+            other_b1_words: ["stad", "afspraak"]
+        },
+        {
+            word: "eigenschap",
+            pos: "zelfstandig naamwoord",
+            difficulty: 2,
+            formation: "eigen + schap",
+            meaning_en: "characteristic, quality, trait",
+            example_nl: "Geduld is een belangrijke eigenschap als je met kinderen werkt.",
+            example_en: "Patience is an important quality when you work with children.",
+            other_b1_words: ["geduld", "belangrijke"]
+        },
+        {
+            word: "erkennen",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "er + kennen",
+            meaning_en: "to admit, to recognize",
+            example_nl: "Hij wilde eerst zijn fout niet erkennen, maar later bood hij zijn excuses aan.",
+            example_en: "At first he did not want to admit his mistake, but later he apologized.",
+            other_b1_words: ["fout", "excuses"]
+        },
+        {
+            word: "ervaren",
+            pos: "werkwoord / bijvoeglijk naamwoord",
+            difficulty: 2,
+            formation: "er + varen",
+            meaning_en: "to experience; experienced",
+            example_nl: "Ze heeft ervaren hoe moeilijk het is om in een ander land opnieuw te beginnen.",
+            example_en: "She has experienced how difficult it is to start again in another country.",
+            other_b1_words: ["moeilijk", "land", "opnieuw"]
+        },
+        {
+            word: "evenwicht",
+            pos: "zelfstandig naamwoord",
+            difficulty: 3,
+            formation: "even + wicht",
+            meaning_en: "balance, equilibrium",
+            example_nl: "Het is belangrijk om een goed evenwicht te vinden tussen werk en privéleven.",
+            example_en: "It is important to find a good balance between work and private life.",
+            other_b1_words: ["belangrijk", "vinden", "privéleven"]
+        },
+        {
+            word: "geheim",
+            pos: "zelfstandig / bijvoeglijk naamwoord",
+            difficulty: 1,
+            formation: "ge + heim (oud woord voor huis)",
+            meaning_en: "secret",
+            example_nl: "Ze vertelde haar beste vriendin een groot geheim over haar familie.",
+            example_en: "She told her best friend a big secret about her family.",
+            other_b1_words: ["beste", "familie"]
+        },
+        {
+            word: "geleden",
+            pos: "bijwoord (tijd)",
+            difficulty: 1,
+            formation: "lijden → geleden (verleden tijdsvorm)",
+            meaning_en: "ago",
+            example_nl: "Tien jaar geleden woonde hij nog bij zijn ouders.",
+            example_en: "Ten years ago he still lived with his parents.",
+            other_b1_words: ["woon­de", "ouders"]
+        },
+        {
+            word: "gelukkig",
+            pos: "bijvoeglijk naamwoord / bijwoord",
+            difficulty: 1,
+            formation: "geluk + -ig",
+            meaning_en: "happy; fortunately",
+            example_nl: "Gelukkig is het examen beter gegaan dan hij had verwacht.",
+            example_en: "Fortunately, the exam went better than he had expected.",
+            other_b1_words: ["examen", "verwacht"]
+        },
+        {
+            word: "geschikt",
+            pos: "bijvoeglijk naamwoord",
+            difficulty: 2,
+            formation: "ge + schikken + -t",
+            meaning_en: "suitable, appropriate",
+            example_nl: "Deze kamer is niet geschikt voor drie personen, want hij is te klein.",
+            example_en: "This room is not suitable for three people, because it is too small.",
+            other_b1_words: ["kamer", "personen", "klein"]
+        },
+        {
+            word: "gevolg",
+            pos: "zelfstandig naamwoord",
+            difficulty: 1,
+            formation: "ge + volgen",
+            meaning_en: "consequence, result",
+            example_nl: "Als gevolg van de staking reden er geen treinen.",
+            example_en: "As a result of the strike, no trains were running.",
+            other_b1_words: ["staking", "treinen"]
+        },
+        {
+            word: "indruk",
+            pos: "zelfstandig naamwoord",
+            difficulty: 2,
+            formation: "in + druk",
+            meaning_en: "impression",
+            example_nl: "De docent maakte een goede eerste indruk op de nieuwe studenten.",
+            example_en: "The teacher made a good first impression on the new students.",
+            other_b1_words: ["docent", "nieuwe", "studenten"]
+        },
+        {
+            word: "inhouden",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "in + houden",
+            meaning_en: "to mean, to imply; to contain",
+            example_nl: "Kunt u uitleggen wat deze regel precies inhoudt?",
+            example_en: "Could you explain what exactly this rule means?",
+            other_b1_words: ["uitleggen", "regel", "precies"]
+        },
+        {
+            word: "kennelijk",
+            pos: "bijwoord / bijvoeglijk naamwoord",
+            difficulty: 3,
+            formation: "kennen → kennelijk",
+            meaning_en: "apparently, evidently",
+            example_nl: "Hij had kennelijk de instructies niet goed gelezen.",
+            example_en: "Apparently, he had not read the instructions carefully.",
+            other_b1_words: ["instructies", "gelezen"]
+        },
+        {
+            word: "klacht",
+            pos: "zelfstandig naamwoord",
+            difficulty: 2,
+            formation: "klagen → klacht",
+            meaning_en: "complaint",
+            example_nl: "De klant diende een klacht in over de slechte service.",
+            example_en: "The customer filed a complaint about the poor service.",
+            other_b1_words: ["klant", "slechte", "service"]
+        },
+        {
+            word: "meedoen",
+            pos: "werkwoord",
+            difficulty: 1,
+            formation: "mee + doen",
+            meaning_en: "to participate, to join in",
+            example_nl: "Wil je morgen meedoen aan de sportdag op school?",
+            example_en: "Do you want to take part in the sports day at school tomorrow?",
+            other_b1_words: ["morgen", "sportdag", "school"]
+        },
+        {
+            word: "nadelig",
+            pos: "bijvoeglijk naamwoord",
+            difficulty: 3,
+            formation: "nadeel + -ig",
+            meaning_en: "disadvantageous, harmful",
+            example_nl: "Te weinig slaap heeft een nadelig effect op je concentratie.",
+            example_en: "Too little sleep has a negative effect on your concentration.",
+            other_b1_words: ["slaap", "effect", "concentratie"]
+        },
+        {
+            word: "omgaan met",
+            pos: "werkwoord (scheidbaar)",
+            difficulty: 2,
+            formation: "om + gaan + met",
+            meaning_en: "to deal with, to handle",
+            example_nl: "Hij weet niet goed hoe hij met kritiek moet omgaan.",
+            example_en: "He does not really know how to deal with criticism.",
+            other_b1_words: ["kritiek"]
+        },
+        {
+            word: "omstandigheden",
+            pos: "zelfstandig naamwoord (meervoud)",
+            difficulty: 3,
+            formation: "om + stand + -ig + heden",
+            meaning_en: "circumstances, conditions",
+            example_nl: "Door de slechte weersomstandigheden werd het concert verplaatst.",
+            example_en: "Because of the bad weather conditions, the concert was moved.",
+            other_b1_words: ["slechte", "weer", "concert", "verplaatst"]
+        },
+        {
+            word: "onmiddellijk",
+            pos: "bijwoord / bijvoeglijk naamwoord",
+            difficulty: 2,
+            formation: "on + middel + -lijk",
+            meaning_en: "immediately, at once",
+            example_nl: "Bij brand moet je onmiddellijk de hulpdiensten bellen.",
+            example_en: "In case of fire you must immediately call the emergency services.",
+            other_b1_words: ["brand", "hulpdiensten"]
+        },
+        {
+            word: "ontbreken",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "ont + breken",
+            meaning_en: "to be missing, to lack",
+            example_nl: "In het verslag ontbreken nog een paar belangrijke gegevens.",
+            example_en: "In the report, a few important pieces of information are still missing.",
+            other_b1_words: ["verslag", "belangrijke", "gegevens"]
+        },
+        {
+            word: "ontstaan",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "ont + staan",
+            meaning_en: "to arise, to develop",
+            example_nl: "Er is een misverstand ontstaan doordat de e-mail niet duidelijk was.",
+            example_en: "A misunderstanding arose because the email was not clear.",
+            other_b1_words: ["misverstand", "e-mail", "duidelijk"]
+        },
+        {
+            word: "oproepen",
+            pos: "werkwoord",
+            difficulty: 3,
+            formation: "op + roepen",
+            meaning_en: "to call up, to evoke",
+            example_nl: "Die muziek roept veel herinneringen aan mijn jeugd op.",
+            example_en: "That music calls up many memories of my youth.",
+            other_b1_words: ["muziek", "herinneringen", "jeugd"]
+        },
+        {
+            word: "overleggen",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "over + leggen",
+            meaning_en: "to discuss, to consult",
+            example_nl: "We moeten eerst met het team overleggen voordat we een beslissing nemen.",
+            example_en: "We first have to discuss it with the team before we make a decision.",
+            other_b1_words: ["team", "beslissing"]
+        },
+        {
+            word: "overtuigen",
+            pos: "werkwoord",
+            difficulty: 3,
+            formation: "over + tuigen",
+            meaning_en: "to convince, to persuade",
+            example_nl: "Het kostte veel moeite om hem te overtuigen van het belang van die cursus.",
+            example_en: "It took a lot of effort to convince him of the importance of that course.",
+            other_b1_words: ["moeite", "belang", "cursus"]
+        },
+        {
+            word: "ruimte",
+            pos: "zelfstandig naamwoord",
+            difficulty: 1,
+            formation: "ruim + -te",
+            meaning_en: "space, room",
+            example_nl: "Er is genoeg ruimte in de woonkamer voor een grote tafel.",
+            example_en: "There is enough space in the living room for a big table.",
+            other_b1_words: ["genoeg", "woonkamer", "grote", "tafel"]
+        },
+        {
+            word: "schade",
+            pos: "zelfstandig naamwoord",
+            difficulty: 2,
+            formation: "schaden → schade",
+            meaning_en: "damage",
+            example_nl: "De storm heeft veel schade aan de daken veroorzaakt.",
+            example_en: "The storm caused a lot of damage to the roofs.",
+            other_b1_words: ["storm", "daken", "veroorzaakt"]
+        },
+        {
+            word: "steeds",
+            pos: "bijwoord",
+            difficulty: 1,
+            formation: "ouder Nederlands woord",
+            meaning_en: "constantly, more and more",
+            example_nl: "Hij wordt steeds beter in het begrijpen van gesproken Nederlands.",
+            example_en: "He is getting better and better at understanding spoken Dutch.",
+            other_b1_words: ["beter", "begrijpen", "gesproken"]
+        },
+        {
+            word: "toestaan",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "toe + staan",
+            meaning_en: "to allow, to permit",
+            example_nl: "Op deze locatie is het niet toegestaan om te roken.",
+            example_en: "At this location it is not allowed to smoke.",
+            other_b1_words: ["locatie", "roken"]
+        },
+        {
+            word: "toepassen",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "toe + passen",
+            meaning_en: "to apply, to use (a rule, method)",
+            example_nl: "Je moet de grammatica niet alleen kennen, maar ook kunnen toepassen.",
+            example_en: "You should not only know the grammar, but also be able to apply it.",
+            other_b1_words: ["grammatica"]
+        },
+        {
+            word: "uitoefenen",
+            pos: "werkwoord",
+            difficulty: 3,
+            formation: "uit + oefenen",
+            meaning_en: "to exercise (influence, pressure), to practice (a profession)",
+            example_nl: "Die organisatie oefent veel invloed uit op het beleid van de regering.",
+            example_en: "That organisation exercises a lot of influence on the government's policy.",
+            other_b1_words: ["organisatie", "invloed", "beleid", "regering"]
+        },
+        {
+            word: "uitgebreid",
+            pos: "bijvoeglijk naamwoord / bijwoord",
+            difficulty: 2,
+            formation: "uit + breiden → uitgebreid",
+            meaning_en: "extensive, elaborate",
+            example_nl: "Na het examen gaven de studenten een uitgebreid feest.",
+            example_en: "After the exam, the students gave an elaborate party.",
+            other_b1_words: ["examen", "studenten", "feest"]
+        },
+        {
+            word: "uitstellen",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "uit + stellen",
+            meaning_en: "to postpone, to delay",
+            example_nl: "Door ziekte moest hij zijn rijexamen opnieuw uitstellen.",
+            example_en: "Because of illness he had to postpone his driving test again.",
+            other_b1_words: ["ziekte", "rijexamen", "opnieuw"]
+        },
+        {
+            word: "voldoende",
+            pos: "bijvoeglijk naamwoord / bijwoord",
+            difficulty: 1,
+            formation: "vol + doen + -de",
+            meaning_en: "sufficient, enough",
+            example_nl: "Het is belangrijk dat je voldoende water drinkt tijdens het sporten.",
+            example_en: "It is important that you drink enough water while exercising.",
+            other_b1_words: ["belangrijk", "water", "sporten"]
+        },
+        {
+            word: "voorstellen",
+            pos: "werkwoord",
+            difficulty: 2,
+            formation: "voor + stellen",
+            meaning_en: "to introduce; to suggest; to imagine",
+            example_nl: "Mag ik je even voorstellen aan mijn collega?",
+            example_en: "May I quickly introduce you to my colleague?",
+            other_b1_words: ["collega"]
+        },
+        {
+            word: "waarschijnlijk",
+            pos: "bijwoord / bijvoeglijk naamwoord",
+            difficulty: 1,
+            formation: "waar + schijn + -lijk",
+            meaning_en: "probably, likely",
+            example_nl: "Het zal waarschijnlijk morgen de hele dag regenen.",
+            example_en: "It will probably rain all day tomorrow.",
+            other_b1_words: ["morgen", "hele dag", "regenen"]
+        },
+        {
+            word: "zogenaamd",
+            pos: "bijvoeglijk naamwoord / bijwoord",
+            difficulty: 3,
+            formation: "zo + genaamd",
+            meaning_en: "so-called",
+            example_nl: "Hij gebruikt een zogenaamd slimme truc om sneller geld te verdienen.",
+            example_en: "He uses a so‑called clever trick to earn money faster.",
+            other_b1_words: ["slimme", "truc", "verdienen"]
+        }
+    ];
+
+    // -------------------------
+    // State & persistence
+    // -------------------------
+
+    const STORAGE_KEY_INDEX = "nl_b1_trainer_index_v1";
+    const STORAGE_KEY_ORDER = "nl_b1_trainer_order_v1";
+
+    let order = [];
+    let currentIndex = 0;
+    let currentPhase = 0; // 0 = word, 1 = Dutch sentence, 2 = English translation, 3 = extra info
+
+    function createDefaultOrder() {
+        return vocabData.map((_, idx) => idx);
+    }
+
+    function shuffleArray(arr) {
+        const copy = arr.slice();
+        for (let i = copy.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [copy[i], copy[j]] = [copy[j], copy[i]];
+        }
+        return copy;
+    }
+
+    function loadState() {
+        try {
+            const savedOrder = localStorage.getItem(STORAGE_KEY_ORDER);
+            const savedIndexStr = localStorage.getItem(STORAGE_KEY_INDEX);
+            if (savedOrder) {
+                const parsed = JSON.parse(savedOrder);
+                if (Array.isArray(parsed) && parsed.length === vocabData.length) {
+                    order = parsed;
+                }
+            }
+            if (!order || order.length !== vocabData.length) {
+                order = createDefaultOrder();
+            }
+            if (savedIndexStr !== null) {
+                const idx = parseInt(savedIndexStr, 10);
+                if (!isNaN(idx) && idx >= 0 && idx < vocabData.length) {
+                    currentIndex = idx;
+                }
+            }
+        } catch (e) {
+            order = createDefaultOrder();
+            currentIndex = 0;
+        }
+    }
+
+    function saveState() {
+        try {
+            localStorage.setItem(STORAGE_KEY_ORDER, JSON.stringify(order));
+            localStorage.setItem(STORAGE_KEY_INDEX, String(currentIndex));
+        } catch (e) {
+            // ignore if storage is unavailable
+        }
+    }
+
+    // -------------------------
+    // Rendering logic
+    // -------------------------
+
+    const wordDisplay = document.getElementById("word-display");
+    const posDisplay = document.getElementById("pos-display");
+    const sentenceDisplay = document.getElementById("sentence-display");
+    const translationDisplay = document.getElementById("translation-display");
+    const extraInfoDisplay = document.getElementById("extra-info");
+    const progressText = document.getElementById("progress-text");
+    const difficultyText = document.getElementById("difficulty-text");
+    const phaseBadge = document.getElementById("phase-badge");
+    const phaseLabel = document.getElementById("phase-label");
+    const overviewBody = document.getElementById("overview-body");
+
+    const nextButton = document.getElementById("next-button");
+    const replayButton = document.getElementById("replay-button");
+    const previousButton = document.getElementById("previous-button");
+    const shuffleButton = document.getElementById("shuffle-button");
+    const resetButton = document.getElementById("reset-button");
+
+    const phaseNames = [
+        { badge: "Fase 1: woord", label: "Lees en spreek het woord hardop uit." },
+        { badge: "Fase 2: zin (NL)", label: "Begrijp de Nederlandse zin en zoek de betekenis uit de context." },
+        { badge: "Fase 3: vertaling (EN)", label: "Controleer je begrip met de Engelse vertaling." },
+        { badge: "Fase 4: extra info", label: "Bekijk betekenis, woordvorming en andere B1-woorden." }
+    ];
+
+    function difficultyToStars(level) {
+        if (level <= 1) return "★☆☆ (B1 licht)";
+        if (level === 2) return "★★☆ (B1 middel)";
+        return "★★★ (B1 stevig)";
+    }
+
+    function clearDisplays() {
+        sentenceDisplay.innerHTML = "";
+        translationDisplay.textContent = "";
+        extraInfoDisplay.innerHTML = "";
+    }
+
+    function highlightSentence(example_nl, mainWord, extras) {
+        // Very simple word highlighting based on splitting on spaces and punctuation.
+        const tokens = example_nl.split(/(\s+|[.,;:!?])/g);
+        const lowerMain = mainWord.toLowerCase();
+        const extraSet = new Set((extras || []).map(w => w.toLowerCase()));
+
+        function stripPunct(str) {
+            return str.replace(/^[.,;:!?()"'«»]+|[.,;:!?()"'«»]+$/g, "");
+        }
+
+        return tokens.map(t => {
+            const core = stripPunct(t);
+            const lowerCore = core.toLowerCase();
+            if (!core) return t; // whitespace or pure punctuation
+
+            if (lowerCore === lowerMain) {
+                return t.replace(core, `<span class="target-word">${core}</span>`);
+            }
+            if (extraSet.has(lowerCore)) {
+                return t.replace(core, `<span class="extra-b1">${core}</span>`);
+            }
+            return t;
+        }).join("");
+    }
+
+    function updateOverviewTable() {
+        overviewBody.innerHTML = "";
+        order.forEach((dataIndex, i) => {
+            const item = vocabData[dataIndex];
+            const tr = document.createElement("tr");
+            tr.classList.add("clickable-row");
+            if (i === currentIndex) {
+                tr.classList.add("current-row");
+            }
+
+            tr.innerHTML = `
+                <td>${i + 1}</td>
+                <td>${item.word}</td>
+                <td>${item.pos}</td>
+                <td>${item.meaning_en}</td>
+                <td>${"★".repeat(item.difficulty)}</td>
+            `;
+
+            tr.addEventListener("click", () => {
+                currentIndex = i;
+                currentPhase = 0;
+                saveState();
+                render();
+            });
+
+            overviewBody.appendChild(tr);
+        });
+    }
+
+    function render() {
+        if (!order.length) return;
+
+        const globalIndex = currentIndex;
+        const dataIndex = order[globalIndex];
+        const item = vocabData[dataIndex];
+
+        progressText.textContent = `Woord ${globalIndex + 1} / ${vocabData.length}`;
+        difficultyText.textContent = difficultyToStars(item.difficulty);
+
+        wordDisplay.textContent = item.word;
+        posDisplay.textContent = item.pos ? `Soort woord: ${item.pos}` : "";
+
+        const phaseInfo = phaseNames[currentPhase];
+        phaseBadge.textContent = phaseInfo.badge;
+        phaseLabel.textContent = phaseInfo.label;
+
+        clearDisplays();
+
+        if (currentPhase >= 1) {
+            sentenceDisplay.innerHTML = highlightSentence(item.example_nl, item.word, item.other_b1_words);
+        }
+
+        if (currentPhase >= 2) {
+            translationDisplay.textContent = item.example_en;
+        }
+
+        if (currentPhase >= 3) {
+            const ddOther = (item.other_b1_words && item.other_b1_words.length)
+                ? item.other_b1_words.join(", ")
+                : "—";
+
+            extraInfoDisplay.innerHTML = `
+                <dt>Betekenis (EN)</dt>
+                <dd>${item.meaning_en}</dd>
+                <dt>Woordvorming</dt>
+                <dd>${item.formation}</dd>
+                <dt>Moeilijkheid</dt>
+                <dd>${difficultyToStars(item.difficulty)}</dd>
+                <dt>Andere B1-woorden in de zin</dt>
+                <dd>${ddOther}</dd>
+            `;
+        }
+
+        previousButton.disabled = (currentIndex === 0);
+        nextButton.textContent = (currentPhase === 3 && currentIndex === vocabData.length - 1)
+            ? "Laatste stap (opnieuw beginnen)"
+            : (currentPhase === 3 ? "Volgende woord ⏭" : "Volgende stap ⏭");
+
+        updateOverviewTable();
+    }
+
+    // -------------------------
+    // Event handlers
+    // -------------------------
+
+    nextButton.addEventListener("click", () => {
+        if (currentPhase < 3) {
+            currentPhase += 1;
+        } else {
+            // move to next word
+            if (currentIndex < vocabData.length - 1) {
+                currentIndex += 1;
+            } else {
+                // loop back to start
+                currentIndex = 0;
+            }
+            currentPhase = 0;
+        }
+        saveState();
+        render();
+    });
+
+    replayButton.addEventListener("click", () => {
+        currentPhase = 0;
+        render();
+    });
+
+    previousButton.addEventListener("click", () => {
+        if (currentIndex > 0) {
+            currentIndex -= 1;
+            currentPhase = 3; // show full info when going back
+            saveState();
+            render();
+        }
+    });
+
+    shuffleButton.addEventListener("click", () => {
+        order = shuffleArray(createDefaultOrder());
+        currentIndex = 0;
+        currentPhase = 0;
+        saveState();
+        render();
+    });
+
+    resetButton.addEventListener("click", () => {
+        if (confirm("Weet je zeker dat je alle voortgang wilt vergeten en opnieuw wilt beginnen?")) {
+            try {
+                localStorage.removeItem(STORAGE_KEY_INDEX);
+                localStorage.removeItem(STORAGE_KEY_ORDER);
+            } catch (e) {}
+            order = createDefaultOrder();
+            currentIndex = 0;
+            currentPhase = 0;
+            render();
+        }
+    });
+
+    document.addEventListener("keydown", (e) => {
+        // Space or Enter: next step / word
+        if (e.code === "Space" || e.code === "Enter") {
+            e.preventDefault();
+            nextButton.click();
+        }
+        // ArrowLeft: previous word
+        if (e.code === "ArrowLeft") {
+            previousButton.click();
+        }
+    });
+
+    // -------------------------
+    // Init
+    // -------------------------
+
+    loadState();
+    render();
+
+</script>
+</body>
+</html>
