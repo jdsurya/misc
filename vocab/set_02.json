@@ -1,0 +1,467 @@
+{
+  "id": 2,
+  "label": "Set II",
+  "description": "Dutch B1 vocabulary – Set II (20 woorden).",
+  "words": [
+    {
+      "word": "geschikt",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "ge + schikken + -t",
+      "meaning_en": "suitable, appropriate",
+      "example_nl": "Deze kamer is niet geschikt voor drie personen, want hij is te klein.",
+      "example_en": "This room is not suitable for three people, because it is too small.",
+      "other_b1_words": [
+        {
+          "word": "kamer",
+          "meaning_en": ""
+        },
+        {
+          "word": "personen",
+          "meaning_en": ""
+        },
+        {
+          "word": "klein",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "gevolg",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "ge + volgen",
+      "meaning_en": "consequence, result",
+      "example_nl": "Als gevolg van de staking reden er geen treinen.",
+      "example_en": "As a result of the strike, no trains were running.",
+      "other_b1_words": [
+        {
+          "word": "staking",
+          "meaning_en": ""
+        },
+        {
+          "word": "treinen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "indruk",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "in + druk",
+      "meaning_en": "impression",
+      "example_nl": "De docent maakte een goede eerste indruk op de nieuwe studenten.",
+      "example_en": "The teacher made a good first impression on the new students.",
+      "other_b1_words": [
+        {
+          "word": "docent",
+          "meaning_en": ""
+        },
+        {
+          "word": "nieuwe",
+          "meaning_en": ""
+        },
+        {
+          "word": "studenten",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "inhouden",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "in + houden",
+      "meaning_en": "to mean, to imply; to contain",
+      "example_nl": "Kunt u uitleggen wat deze regel precies inhoudt?",
+      "example_en": "Could you explain what exactly this rule means?",
+      "other_b1_words": [
+        {
+          "word": "uitleggen",
+          "meaning_en": ""
+        },
+        {
+          "word": "regel",
+          "meaning_en": ""
+        },
+        {
+          "word": "precies",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "kennelijk",
+      "pos": "bijwoord / bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "kennen → kennelijk",
+      "meaning_en": "apparently, evidently",
+      "example_nl": "Hij had kennelijk de instructies niet goed gelezen.",
+      "example_en": "Apparently, he had not read the instructions carefully.",
+      "other_b1_words": [
+        {
+          "word": "instructies",
+          "meaning_en": ""
+        },
+        {
+          "word": "gelezen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "klacht",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "klagen → klacht",
+      "meaning_en": "complaint",
+      "example_nl": "De klant diende een klacht in over de slechte service.",
+      "example_en": "The customer filed a complaint about the poor service.",
+      "other_b1_words": [
+        {
+          "word": "klant",
+          "meaning_en": ""
+        },
+        {
+          "word": "slechte",
+          "meaning_en": ""
+        },
+        {
+          "word": "service",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "meedoen",
+      "pos": "werkwoord",
+      "difficulty": 1,
+      "formation": "mee + doen",
+      "meaning_en": "to participate, to join in",
+      "example_nl": "Wil je morgen meedoen aan de sportdag op school?",
+      "example_en": "Do you want to take part in the sports day at school tomorrow?",
+      "other_b1_words": [
+        {
+          "word": "morgen",
+          "meaning_en": ""
+        },
+        {
+          "word": "sportdag",
+          "meaning_en": ""
+        },
+        {
+          "word": "school",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "nadelig",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "nadeel + -ig",
+      "meaning_en": "disadvantageous, harmful",
+      "example_nl": "Te weinig slaap heeft een nadelig effect op je concentratie.",
+      "example_en": "Too little sleep has a negative effect on your concentration.",
+      "other_b1_words": [
+        {
+          "word": "slaap",
+          "meaning_en": ""
+        },
+        {
+          "word": "effect",
+          "meaning_en": ""
+        },
+        {
+          "word": "concentratie",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "omgaan met",
+      "pos": "werkwoord (scheidbaar)",
+      "difficulty": 2,
+      "formation": "om + gaan + met",
+      "meaning_en": "to deal with, to handle",
+      "example_nl": "Hij weet niet goed hoe hij met kritiek moet omgaan.",
+      "example_en": "He does not really know how to deal with criticism.",
+      "other_b1_words": [
+        {
+          "word": "kritiek",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "omstandigheden",
+      "pos": "zelfstandig naamwoord (meervoud)",
+      "difficulty": 3,
+      "formation": "om + stand + -ig + heden",
+      "meaning_en": "circumstances, conditions",
+      "example_nl": "Door de slechte weersomstandigheden werd het concert verplaatst.",
+      "example_en": "Because of the bad weather conditions, the concert was moved.",
+      "other_b1_words": [
+        {
+          "word": "slechte",
+          "meaning_en": ""
+        },
+        {
+          "word": "weer",
+          "meaning_en": ""
+        },
+        {
+          "word": "concert",
+          "meaning_en": ""
+        },
+        {
+          "word": "verplaatst",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "onmiddellijk",
+      "pos": "bijwoord / bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "on + middel + -lijk",
+      "meaning_en": "immediately, at once",
+      "example_nl": "Bij brand moet je onmiddellijk de hulpdiensten bellen.",
+      "example_en": "In case of fire you must immediately call the emergency services.",
+      "other_b1_words": [
+        {
+          "word": "brand",
+          "meaning_en": ""
+        },
+        {
+          "word": "hulpdiensten",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "ontbreken",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "ont + breken",
+      "meaning_en": "to be missing, to lack",
+      "example_nl": "In het verslag ontbreken nog een paar belangrijke gegevens.",
+      "example_en": "In the report, a few important pieces of information are still missing.",
+      "other_b1_words": [
+        {
+          "word": "verslag",
+          "meaning_en": ""
+        },
+        {
+          "word": "belangrijke",
+          "meaning_en": ""
+        },
+        {
+          "word": "gegevens",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "ontstaan",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "ont + staan",
+      "meaning_en": "to arise, to develop",
+      "example_nl": "Er is een misverstand ontstaan doordat de e-mail niet duidelijk was.",
+      "example_en": "A misunderstanding arose because the email was not clear.",
+      "other_b1_words": [
+        {
+          "word": "misverstand",
+          "meaning_en": ""
+        },
+        {
+          "word": "e-mail",
+          "meaning_en": ""
+        },
+        {
+          "word": "duidelijk",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "oproepen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "formation": "op + roepen",
+      "meaning_en": "to call up, to evoke",
+      "example_nl": "Die muziek roept veel herinneringen aan mijn jeugd op.",
+      "example_en": "That music calls up many memories of my youth.",
+      "other_b1_words": [
+        {
+          "word": "muziek",
+          "meaning_en": ""
+        },
+        {
+          "word": "herinneringen",
+          "meaning_en": ""
+        },
+        {
+          "word": "jeugd",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "overleggen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "over + leggen",
+      "meaning_en": "to discuss, to consult",
+      "example_nl": "We moeten eerst met het team overleggen voordat we een beslissing nemen.",
+      "example_en": "We first have to discuss it with the team before we make a decision.",
+      "other_b1_words": [
+        {
+          "word": "team",
+          "meaning_en": ""
+        },
+        {
+          "word": "beslissing",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "overtuigen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "formation": "over + tuigen",
+      "meaning_en": "to convince, to persuade",
+      "example_nl": "Het kostte veel moeite om hem te overtuigen van het belang van die cursus.",
+      "example_en": "It took a lot of effort to convince him of the importance of that course.",
+      "other_b1_words": [
+        {
+          "word": "moeite",
+          "meaning_en": ""
+        },
+        {
+          "word": "belang",
+          "meaning_en": ""
+        },
+        {
+          "word": "cursus",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "ruimte",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "ruim + -te",
+      "meaning_en": "space, room",
+      "example_nl": "Er is genoeg ruimte in de woonkamer voor een grote tafel.",
+      "example_en": "There is enough space in the living room for a big table.",
+      "other_b1_words": [
+        {
+          "word": "genoeg",
+          "meaning_en": ""
+        },
+        {
+          "word": "woonkamer",
+          "meaning_en": ""
+        },
+        {
+          "word": "grote",
+          "meaning_en": ""
+        },
+        {
+          "word": "tafel",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "schade",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "schaden → schade",
+      "meaning_en": "damage",
+      "example_nl": "De storm heeft veel schade aan de daken veroorzaakt.",
+      "example_en": "The storm caused a lot of damage to the roofs.",
+      "other_b1_words": [
+        {
+          "word": "storm",
+          "meaning_en": ""
+        },
+        {
+          "word": "daken",
+          "meaning_en": ""
+        },
+        {
+          "word": "veroorzaakt",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "steeds",
+      "pos": "bijwoord",
+      "difficulty": 1,
+      "formation": "ouder Nederlands woord",
+      "meaning_en": "constantly, more and more",
+      "example_nl": "Hij wordt steeds beter in het begrijpen van gesproken Nederlands.",
+      "example_en": "He is getting better and better at understanding spoken Dutch.",
+      "other_b1_words": [
+        {
+          "word": "beter",
+          "meaning_en": ""
+        },
+        {
+          "word": "begrijpen",
+          "meaning_en": ""
+        },
+        {
+          "word": "gesproken",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "toestaan",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "toe + staan",
+      "meaning_en": "to allow, to permit",
+      "example_nl": "Op deze locatie is het niet toegestaan om te roken.",
+      "example_en": "At this location it is not allowed to smoke.",
+      "other_b1_words": [
+        {
+          "word": "locatie",
+          "meaning_en": ""
+        },
+        {
+          "word": "roken",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    }
+  ]
+}

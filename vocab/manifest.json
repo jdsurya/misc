@@ -1,0 +1,7 @@
+{
+  "maxSets": 25,
+  "filePrefix": "set_",
+  "fileNumberPadding": 2,
+  "fileExtension": ".json",
+  "version": 1
+}

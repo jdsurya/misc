@@ -1,0 +1,479 @@
+{
+  "id": 3,
+  "label": "Set III",
+  "description": "Dutch B1 vocabulary – Set III (20 woorden).",
+  "words": [
+    {
+      "word": "toepassen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "toe + passen",
+      "meaning_en": "to apply, to use (a rule, method)",
+      "example_nl": "Je moet de grammatica niet alleen kennen, maar ook kunnen toepassen.",
+      "example_en": "You should not only know the grammar, but also be able to apply it.",
+      "other_b1_words": [
+        {
+          "word": "grammatica",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "uitoefenen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "formation": "uit + oefenen",
+      "meaning_en": "to exercise (influence, pressure), to practice (a profession)",
+      "example_nl": "Die organisatie oefent veel invloed uit op het beleid van de regering.",
+      "example_en": "That organisation exercises a lot of influence on the government's policy.",
+      "other_b1_words": [
+        {
+          "word": "organisatie",
+          "meaning_en": ""
+        },
+        {
+          "word": "invloed",
+          "meaning_en": ""
+        },
+        {
+          "word": "beleid",
+          "meaning_en": ""
+        },
+        {
+          "word": "regering",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "uitgebreid",
+      "pos": "bijvoeglijk naamwoord / bijwoord",
+      "difficulty": 2,
+      "formation": "uit + breiden → uitgebreid",
+      "meaning_en": "extensive, elaborate",
+      "example_nl": "Na het examen gaven de studenten een uitgebreid feest.",
+      "example_en": "After the exam, the students gave an elaborate party.",
+      "other_b1_words": [
+        {
+          "word": "examen",
+          "meaning_en": ""
+        },
+        {
+          "word": "studenten",
+          "meaning_en": ""
+        },
+        {
+          "word": "feest",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "uitstellen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "uit + stellen",
+      "meaning_en": "to postpone, to delay",
+      "example_nl": "Door ziekte moest hij zijn rijexamen opnieuw uitstellen.",
+      "example_en": "Because of illness he had to postpone his driving test again.",
+      "other_b1_words": [
+        {
+          "word": "ziekte",
+          "meaning_en": ""
+        },
+        {
+          "word": "rijexamen",
+          "meaning_en": ""
+        },
+        {
+          "word": "opnieuw",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "voldoende",
+      "pos": "bijvoeglijk naamwoord / bijwoord",
+      "difficulty": 1,
+      "formation": "vol + doen + -de",
+      "meaning_en": "sufficient, enough",
+      "example_nl": "Het is belangrijk dat je voldoende water drinkt tijdens het sporten.",
+      "example_en": "It is important that you drink enough water while exercising.",
+      "other_b1_words": [
+        {
+          "word": "belangrijk",
+          "meaning_en": ""
+        },
+        {
+          "word": "water",
+          "meaning_en": ""
+        },
+        {
+          "word": "sporten",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "voorstellen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "voor + stellen",
+      "meaning_en": "to introduce; to suggest; to imagine",
+      "example_nl": "Mag ik je even voorstellen aan mijn collega?",
+      "example_en": "May I quickly introduce you to my colleague?",
+      "other_b1_words": [
+        {
+          "word": "collega",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "waarschijnlijk",
+      "pos": "bijwoord / bijvoeglijk naamwoord",
+      "difficulty": 1,
+      "formation": "waar + schijn + -lijk",
+      "meaning_en": "probably, likely",
+      "example_nl": "Het zal waarschijnlijk morgen de hele dag regenen.",
+      "example_en": "It will probably rain all day tomorrow.",
+      "other_b1_words": [
+        {
+          "word": "morgen",
+          "meaning_en": ""
+        },
+        {
+          "word": "hele dag",
+          "meaning_en": ""
+        },
+        {
+          "word": "regenen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "zogenaamd",
+      "pos": "bijvoeglijk naamwoord / bijwoord",
+      "difficulty": 3,
+      "formation": "zo + genaamd",
+      "meaning_en": "so-called",
+      "example_nl": "Hij gebruikt een zogenaamd slimme truc om sneller geld te verdienen.",
+      "example_en": "He uses a so‑called clever trick to earn money faster.",
+      "other_b1_words": [
+        {
+          "word": "slimme",
+          "meaning_en": ""
+        },
+        {
+          "word": "truc",
+          "meaning_en": ""
+        },
+        {
+          "word": "verdienen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "afleiding",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "af + leiding",
+      "meaning_en": "distraction",
+      "example_nl": "Als ik wil studeren, probeer ik alle afleiding uit te zetten.",
+      "example_en": "When I want to study, I try to turn off all distractions.",
+      "other_b1_words": [
+        {
+          "word": "studeren",
+          "meaning_en": ""
+        },
+        {
+          "word": "proberen",
+          "meaning_en": ""
+        },
+        {
+          "word": "uitzetten",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "betrouwbaar",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "be + trouw + -baar",
+      "meaning_en": "reliable, trustworthy",
+      "example_nl": "Het is belangrijk dat je informatie uit een betrouwbare bron haalt.",
+      "example_en": "It is important that you get information from a reliable source.",
+      "other_b1_words": [
+        {
+          "word": "belangrijk",
+          "meaning_en": ""
+        },
+        {
+          "word": "informatie",
+          "meaning_en": ""
+        },
+        {
+          "word": "bron",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "doorzetten",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "door + zetten",
+      "meaning_en": "to persevere, to keep going",
+      "example_nl": "Ook als het moeilijk wordt, wil hij met zijn studie doorzetten.",
+      "example_en": "Even when it gets difficult, he wants to persevere with his studies.",
+      "other_b1_words": [
+        {
+          "word": "moeilijk",
+          "meaning_en": ""
+        },
+        {
+          "word": "studie",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "eenzaamheid",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "eenzaam + -heid",
+      "meaning_en": "loneliness",
+      "example_nl": "Sinds hij verhuisd is naar een andere stad, voelt hij soms veel eenzaamheid.",
+      "example_en": "Since he moved to another city, he sometimes feels a lot of loneliness.",
+      "other_b1_words": [
+        {
+          "word": "verhuizen",
+          "meaning_en": ""
+        },
+        {
+          "word": "stad",
+          "meaning_en": ""
+        },
+        {
+          "word": "soms",
+          "meaning_en": ""
+        },
+        {
+          "word": "voelen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "gedeelte",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "ge + deel + -te",
+      "meaning_en": "part, section",
+      "example_nl": "In het eerste gedeelte van de cursus leer je vooral grammatica.",
+      "example_en": "In the first part of the course you mainly learn grammar.",
+      "other_b1_words": [
+        {
+          "word": "eerste",
+          "meaning_en": ""
+        },
+        {
+          "word": "cursus",
+          "meaning_en": ""
+        },
+        {
+          "word": "grammatica",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "gewoonte",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "ge + woon + -te",
+      "meaning_en": "habit",
+      "example_nl": "Het is een goede gewoonte om elke dag even Nederlands te lezen.",
+      "example_en": "It is a good habit to read some Dutch every day.",
+      "other_b1_words": [
+        {
+          "word": "goede",
+          "meaning_en": ""
+        },
+        {
+          "word": "elke dag",
+          "meaning_en": ""
+        },
+        {
+          "word": "lezen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "leeftijd",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "leef + tijd",
+      "meaning_en": "age",
+      "example_nl": "Op zijn leeftijd is het niet makkelijk om nog een nieuwe taal te leren.",
+      "example_en": "At his age it is not easy to learn a new language anymore.",
+      "other_b1_words": [
+        {
+          "word": "makkelijk",
+          "meaning_en": ""
+        },
+        {
+          "word": "nieuwe",
+          "meaning_en": ""
+        },
+        {
+          "word": "taal",
+          "meaning_en": ""
+        },
+        {
+          "word": "leren",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "misverstand",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "mis + verstand",
+      "meaning_en": "misunderstanding",
+      "example_nl": "Door een misverstand kwam hij op de verkeerde dag naar het examen.",
+      "example_en": "Because of a misunderstanding he came on the wrong day to the exam.",
+      "other_b1_words": [
+        {
+          "word": "verkeerde",
+          "meaning_en": ""
+        },
+        {
+          "word": "dag",
+          "meaning_en": ""
+        },
+        {
+          "word": "examen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "ondersteunen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "onder + steunen",
+      "meaning_en": "to support",
+      "example_nl": "Zijn familie ondersteunt hem bij het zoeken naar een nieuwe baan.",
+      "example_en": "His family supports him in looking for a new job.",
+      "other_b1_words": [
+        {
+          "word": "familie",
+          "meaning_en": ""
+        },
+        {
+          "word": "zoeken",
+          "meaning_en": ""
+        },
+        {
+          "word": "nieuwe",
+          "meaning_en": ""
+        },
+        {
+          "word": "baan",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "samenvatting",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "samen + vatten → samenvatting",
+      "meaning_en": "summary",
+      "example_nl": "Aan het eind van het hoofdstuk staat een korte samenvatting.",
+      "example_en": "At the end of the chapter there is a short summary.",
+      "other_b1_words": [
+        {
+          "word": "eind",
+          "meaning_en": ""
+        },
+        {
+          "word": "hoofdstuk",
+          "meaning_en": ""
+        },
+        {
+          "word": "korte",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "tegenslag",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "tegen + slag",
+      "meaning_en": "setback, stroke of bad luck",
+      "example_nl": "Na een financiële tegenslag moest hij zijn plannen veranderen.",
+      "example_en": "After a financial setback he had to change his plans.",
+      "other_b1_words": [
+        {
+          "word": "financiële",
+          "meaning_en": ""
+        },
+        {
+          "word": "plannen",
+          "meaning_en": ""
+        },
+        {
+          "word": "veranderen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "verantwoordelijk",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "ver + antwoord + -elijk",
+      "meaning_en": "responsible",
+      "example_nl": "Als teamleider ben je verantwoordelijk voor het resultaat.",
+      "example_en": "As a team leader you are responsible for the result.",
+      "other_b1_words": [
+        {
+          "word": "teamleider",
+          "meaning_en": ""
+        },
+        {
+          "word": "resultaat",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    }
+  ]
+}

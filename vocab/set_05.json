@@ -1,0 +1,515 @@
+{
+  "id": 5,
+  "label": "Set V",
+  "description": "Dutch B1 vocabulary – Set V (20 woorden).",
+  "words": [
+    {
+      "word": "geluidsoverlast",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "geluid + overlast",
+      "meaning_en": "noise nuisance, noise pollution",
+      "example_nl": "Bewoners klagen over de geluidsoverlast van vliegtuigen in de nacht.",
+      "example_en": "Residents complain about the noise nuisance from airplanes at night.",
+      "other_b1_words": [
+        {
+          "word": "bewoners",
+          "meaning_en": ""
+        },
+        {
+          "word": "klagen",
+          "meaning_en": ""
+        },
+        {
+          "word": "vliegtuigen",
+          "meaning_en": ""
+        },
+        {
+          "word": "nacht",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "gemeenschap",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "gemeen + schap",
+      "meaning_en": "community",
+      "example_nl": "In deze kleine gemeenschap kent bijna iedereen elkaar.",
+      "example_en": "In this small community almost everyone knows each other.",
+      "other_b1_words": [
+        {
+          "word": "kleine",
+          "meaning_en": ""
+        },
+        {
+          "word": "iedereen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "geneigd",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "neigen → geneigd",
+      "meaning_en": "inclined, tending",
+      "example_nl": "Hij is geneigd om te lang door te werken en vergeet pauze te nemen.",
+      "example_en": "He is inclined to keep working too long and forgets to take a break.",
+      "other_b1_words": [
+        {
+          "word": "te lang",
+          "meaning_en": ""
+        },
+        {
+          "word": "werken",
+          "meaning_en": ""
+        },
+        {
+          "word": "vergeet",
+          "meaning_en": ""
+        },
+        {
+          "word": "pauze",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "geschiedenis",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "geschied + enis",
+      "meaning_en": "history",
+      "example_nl": "Ze vindt de Nederlandse geschiedenis interessant, vooral de Gouden Eeuw.",
+      "example_en": "She finds Dutch history interesting, especially the Golden Age.",
+      "other_b1_words": [
+        {
+          "word": "Nederlandse",
+          "meaning_en": ""
+        },
+        {
+          "word": "interessant",
+          "meaning_en": ""
+        },
+        {
+          "word": "vooral",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "herkennen",
+      "pos": "werkwoord",
+      "difficulty": 1,
+      "formation": "her + kennen",
+      "meaning_en": "to recognise",
+      "example_nl": "Ik herkende hem bijna niet zonder zijn baard.",
+      "example_en": "I hardly recognised him without his beard.",
+      "other_b1_words": [
+        {
+          "word": "bijna",
+          "meaning_en": ""
+        },
+        {
+          "word": "zonder",
+          "meaning_en": ""
+        },
+        {
+          "word": "baard",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "hopeloos",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "hoop + -eloos",
+      "meaning_en": "hopeless",
+      "example_nl": "Na drie mislukte examens voelde hij zich hopeloos.",
+      "example_en": "After three failed exams he felt hopeless.",
+      "other_b1_words": [
+        {
+          "word": "drie",
+          "meaning_en": ""
+        },
+        {
+          "word": "mislukte",
+          "meaning_en": ""
+        },
+        {
+          "word": "examens",
+          "meaning_en": ""
+        },
+        {
+          "word": "voelde",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "indrukwekkend",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "indruk + wekkend",
+      "meaning_en": "impressive",
+      "example_nl": "Het uitzicht vanaf de top van de berg was echt indrukwekkend.",
+      "example_en": "The view from the top of the mountain was really impressive.",
+      "other_b1_words": [
+        {
+          "word": "uitzicht",
+          "meaning_en": ""
+        },
+        {
+          "word": "top",
+          "meaning_en": ""
+        },
+        {
+          "word": "berg",
+          "meaning_en": ""
+        },
+        {
+          "word": "echt",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "instelling",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "in + stelling",
+      "meaning_en": "institution; setting; attitude",
+      "example_nl": "De onderwijsinstelling biedt ook cursussen in de avond aan.",
+      "example_en": "The educational institution also offers courses in the evening.",
+      "other_b1_words": [
+        {
+          "word": "onderwijsinstelling",
+          "meaning_en": ""
+        },
+        {
+          "word": "bieden",
+          "meaning_en": ""
+        },
+        {
+          "word": "cursussen",
+          "meaning_en": ""
+        },
+        {
+          "word": "avond",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "invoering",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "invoeren → invoering",
+      "meaning_en": "introduction (of a law, system)",
+      "example_nl": "De invoering van het nieuwe systeem zorgde eerst voor veel verwarring.",
+      "example_en": "The introduction of the new system initially caused a lot of confusion.",
+      "other_b1_words": [
+        {
+          "word": "nieuw",
+          "meaning_en": ""
+        },
+        {
+          "word": "systeem",
+          "meaning_en": ""
+        },
+        {
+          "word": "zorgde",
+          "meaning_en": ""
+        },
+        {
+          "word": "verwarring",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "keuzevrijheid",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "keuze + vrijheid",
+      "meaning_en": "freedom of choice",
+      "example_nl": "In dit zorgstelsel hebben patiënten veel keuzevrijheid.",
+      "example_en": "In this healthcare system patients have a lot of freedom of choice.",
+      "other_b1_words": [
+        {
+          "word": "zorgstelsel",
+          "meaning_en": ""
+        },
+        {
+          "word": "patiënten",
+          "meaning_en": ""
+        },
+        {
+          "word": "veel",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "klimaatverandering",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "klimaat + verandering",
+      "meaning_en": "climate change",
+      "example_nl": "Steeds meer jongeren maken zich zorgen over klimaatverandering.",
+      "example_en": "More and more young people worry about climate change.",
+      "other_b1_words": [
+        {
+          "word": "steeds meer",
+          "meaning_en": ""
+        },
+        {
+          "word": "jongeren",
+          "meaning_en": ""
+        },
+        {
+          "word": "zorgen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "maatschappij",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "maat + schap + -ij",
+      "meaning_en": "society",
+      "example_nl": "In een moderne maatschappij spelen sociale media een grote rol.",
+      "example_en": "In a modern society social media play a big role.",
+      "other_b1_words": [
+        {
+          "word": "moderne",
+          "meaning_en": ""
+        },
+        {
+          "word": "sociale media",
+          "meaning_en": ""
+        },
+        {
+          "word": "grote",
+          "meaning_en": ""
+        },
+        {
+          "word": "rol",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "omgeving",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "om + geving",
+      "meaning_en": "environment, surroundings",
+      "example_nl": "Hij zoekt een baan in de omgeving van Amsterdam.",
+      "example_en": "He is looking for a job in the area around Amsterdam.",
+      "other_b1_words": [
+        {
+          "word": "baan",
+          "meaning_en": ""
+        },
+        {
+          "word": "zoeken",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "onderdrukken",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "formation": "onder + drukken",
+      "meaning_en": "to suppress, to oppress",
+      "example_nl": "In sommige landen wordt de pers nog steeds zwaar onderdrukt.",
+      "example_en": "In some countries the press is still heavily suppressed.",
+      "other_b1_words": [
+        {
+          "word": "sommige",
+          "meaning_en": ""
+        },
+        {
+          "word": "landen",
+          "meaning_en": ""
+        },
+        {
+          "word": "pers",
+          "meaning_en": ""
+        },
+        {
+          "word": "nog steeds",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "onzekerheid",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "onzeker + -heid",
+      "meaning_en": "uncertainty, insecurity",
+      "example_nl": "De economische onzekerheid maakt het moeilijk om plannen te maken.",
+      "example_en": "The economic uncertainty makes it difficult to make plans.",
+      "other_b1_words": [
+        {
+          "word": "economische",
+          "meaning_en": ""
+        },
+        {
+          "word": "moeilijk",
+          "meaning_en": ""
+        },
+        {
+          "word": "plannen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "oplossing",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "op + lossing",
+      "meaning_en": "solution",
+      "example_nl": "Na lang overleg vonden ze eindelijk een goede oplossing voor het probleem.",
+      "example_en": "After a long discussion they finally found a good solution to the problem.",
+      "other_b1_words": [
+        {
+          "word": "lang",
+          "meaning_en": ""
+        },
+        {
+          "word": "overleg",
+          "meaning_en": ""
+        },
+        {
+          "word": "eindelijk",
+          "meaning_en": ""
+        },
+        {
+          "word": "probleem",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "opschuiven",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "formation": "op + schuiven",
+      "meaning_en": "to move up, to shift",
+      "example_nl": "Kun je iets opschuiven, zodat er nog iemand aan tafel kan zitten?",
+      "example_en": "Could you move up a bit so that one more person can sit at the table?",
+      "other_b1_words": [
+        {
+          "word": "iemand",
+          "meaning_en": ""
+        },
+        {
+          "word": "tafel",
+          "meaning_en": ""
+        },
+        {
+          "word": "zitten",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "overbodig",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "over + bodig (oud)",
+      "meaning_en": "unnecessary, superfluous",
+      "example_nl": "Veel bijlagen in de e-mail waren eigenlijk overbodig.",
+      "example_en": "Many attachments in the e‑mail were actually unnecessary.",
+      "other_b1_words": [
+        {
+          "word": "bijlagen",
+          "meaning_en": ""
+        },
+        {
+          "word": "e-mail",
+          "meaning_en": ""
+        },
+        {
+          "word": "eigenlijk",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "toegenomen",
+      "pos": "bijvoeglijk naamwoord / voltooid deelwoord",
+      "difficulty": 2,
+      "formation": "toe + nemen → toegenomen",
+      "meaning_en": "increased",
+      "example_nl": "Het aantal internationale studenten is de laatste jaren sterk toegenomen.",
+      "example_en": "The number of international students has strongly increased in recent years.",
+      "other_b1_words": [
+        {
+          "word": "aantal",
+          "meaning_en": ""
+        },
+        {
+          "word": "internationale",
+          "meaning_en": ""
+        },
+        {
+          "word": "studenten",
+          "meaning_en": ""
+        },
+        {
+          "word": "laatste jaren",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "voortdurend",
+      "pos": "bijwoord / bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "voort + durend",
+      "meaning_en": "constant, continually",
+      "example_nl": "Ze is voortdurend bezig haar Nederlands te verbeteren.",
+      "example_en": "She is constantly working on improving her Dutch.",
+      "other_b1_words": [
+        {
+          "word": "bezig",
+          "meaning_en": ""
+        },
+        {
+          "word": "verbeteren",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    }
+  ]
+}

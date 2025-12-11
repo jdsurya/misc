@@ -1,0 +1,519 @@
+{
+  "id": 4,
+  "label": "Set IV",
+  "description": "Dutch B1 vocabulary – Set IV (20 woorden).",
+  "words": [
+    {
+      "word": "aantrekken",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "aan + trekken",
+      "meaning_en": "to attract; to put on (clothes)",
+      "example_nl": "De lage huurprijzen trekken veel studenten naar deze buurt aan.",
+      "example_en": "The low rents attract many students to this neighbourhood.",
+      "other_b1_words": [
+        {
+          "word": "lage",
+          "meaning_en": ""
+        },
+        {
+          "word": "huurprijzen",
+          "meaning_en": ""
+        },
+        {
+          "word": "studenten",
+          "meaning_en": ""
+        },
+        {
+          "word": "buurt",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "achterstand",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "achter + stand",
+      "meaning_en": "backlog, delay, disadvantage",
+      "example_nl": "Door ziekte heeft hij een grote achterstand opgelopen met zijn studie.",
+      "example_en": "Because of illness he has built up a big delay in his studies.",
+      "other_b1_words": [
+        {
+          "word": "ziekte",
+          "meaning_en": ""
+        },
+        {
+          "word": "grote",
+          "meaning_en": ""
+        },
+        {
+          "word": "studie",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "afgerond",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 1,
+      "formation": "af + ronden → afgerond",
+      "meaning_en": "finished, completed",
+      "example_nl": "Het project is bijna afgerond; we moeten alleen het verslag nog schrijven.",
+      "example_en": "The project is almost finished; we only still have to write the report.",
+      "other_b1_words": [
+        {
+          "word": "project",
+          "meaning_en": ""
+        },
+        {
+          "word": "bijna",
+          "meaning_en": ""
+        },
+        {
+          "word": "verslag",
+          "meaning_en": ""
+        },
+        {
+          "word": "schrijven",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "afhankelijkheid",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "afhankelijk + -heid",
+      "meaning_en": "dependence, dependency",
+      "example_nl": "De afhankelijkheid van mobiele telefoons neemt steeds verder toe.",
+      "example_en": "The dependence on mobile phones keeps increasing more and more.",
+      "other_b1_words": [
+        {
+          "word": "mobiele",
+          "meaning_en": ""
+        },
+        {
+          "word": "telefoons",
+          "meaning_en": ""
+        },
+        {
+          "word": "neemt",
+          "meaning_en": ""
+        },
+        {
+          "word": "steeds",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "afweging",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "afwegen → afweging",
+      "meaning_en": "consideration, weighing (of options)",
+      "example_nl": "Na een zorgvuldige afweging koos zij voor een deeltijdopleiding.",
+      "example_en": "After a careful consideration she chose a part‑time course.",
+      "other_b1_words": [
+        {
+          "word": "zorgvuldige",
+          "meaning_en": ""
+        },
+        {
+          "word": "koos",
+          "meaning_en": ""
+        },
+        {
+          "word": "deeltijdopleiding",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "arbeidsmarkt",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "arbeid + markt",
+      "meaning_en": "labour market, job market",
+      "example_nl": "Op de huidige arbeidsmarkt is er veel vraag naar technische beroepen.",
+      "example_en": "On the current labour market there is a high demand for technical professions.",
+      "other_b1_words": [
+        {
+          "word": "huidige",
+          "meaning_en": ""
+        },
+        {
+          "word": "vraag",
+          "meaning_en": ""
+        },
+        {
+          "word": "technische",
+          "meaning_en": ""
+        },
+        {
+          "word": "beroepen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "balans",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "uit het Frans 'balance'",
+      "meaning_en": "balance",
+      "example_nl": "Ze zoekt een betere balans tussen werk, studie en vrije tijd.",
+      "example_en": "She is looking for a better balance between work, study and free time.",
+      "other_b1_words": [
+        {
+          "word": "betere",
+          "meaning_en": ""
+        },
+        {
+          "word": "werk",
+          "meaning_en": ""
+        },
+        {
+          "word": "studie",
+          "meaning_en": ""
+        },
+        {
+          "word": "vrije tijd",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "bepalen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "be + palen",
+      "meaning_en": "to determine, to decide",
+      "example_nl": "De docent bepaalt welke onderwerpen op het examen komen.",
+      "example_en": "The teacher determines which topics will be on the exam.",
+      "other_b1_words": [
+        {
+          "word": "docent",
+          "meaning_en": ""
+        },
+        {
+          "word": "onderwerpen",
+          "meaning_en": ""
+        },
+        {
+          "word": "examen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "beschadigen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "formation": "be + schade + -igen",
+      "meaning_en": "to damage",
+      "example_nl": "Als je het boek beschadigt, moet je het aan de bibliotheek vergoeden.",
+      "example_en": "If you damage the book, you have to compensate the library for it.",
+      "other_b1_words": [
+        {
+          "word": "boek",
+          "meaning_en": ""
+        },
+        {
+          "word": "bibliotheek",
+          "meaning_en": ""
+        },
+        {
+          "word": "vergoeden",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "bescheiden",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "bescheid (oud) + -en",
+      "meaning_en": "modest, humble",
+      "example_nl": "Hoewel hij veel talent heeft, blijft hij heel bescheiden over zijn prestaties.",
+      "example_en": "Although he has a lot of talent, he remains very modest about his achievements.",
+      "other_b1_words": [
+        {
+          "word": "talent",
+          "meaning_en": ""
+        },
+        {
+          "word": "prestaties",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "beurs",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "verwant aan Frans 'bourse'",
+      "meaning_en": "stock exchange; fair; grant",
+      "example_nl": "Met een studiebeurs kon zij toch naar de universiteit.",
+      "example_en": "With a study grant she could still go to university.",
+      "other_b1_words": [
+        {
+          "word": "studiebeurs",
+          "meaning_en": ""
+        },
+        {
+          "word": "universiteit",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "bewoner",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "bewonen → bewoner",
+      "meaning_en": "inhabitant, resident",
+      "example_nl": "De bewoners van het appartementencomplex organiseren elk jaar een buurtfeest.",
+      "example_en": "The residents of the apartment building organise a neighbourhood party every year.",
+      "other_b1_words": [
+        {
+          "word": "bewoners",
+          "meaning_en": ""
+        },
+        {
+          "word": "appartementencomplex",
+          "meaning_en": ""
+        },
+        {
+          "word": "organiseren",
+          "meaning_en": ""
+        },
+        {
+          "word": "buurtfeest",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "bijbehorend",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "bij + behoren + -end",
+      "meaning_en": "corresponding, associated",
+      "example_nl": "Bij deze cursus hoort een werkboek met bijbehorende online oefeningen.",
+      "example_en": "With this course comes a workbook with corresponding online exercises.",
+      "other_b1_words": [
+        {
+          "word": "cursus",
+          "meaning_en": ""
+        },
+        {
+          "word": "werkboek",
+          "meaning_en": ""
+        },
+        {
+          "word": "online",
+          "meaning_en": ""
+        },
+        {
+          "word": "oefeningen",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "doelstelling",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "doel + stelling",
+      "meaning_en": "objective, goal",
+      "example_nl": "Een belangrijke doelstelling van de opleiding is dat studenten zelfstandig leren werken.",
+      "example_en": "An important objective of the programme is that students learn to work independently.",
+      "other_b1_words": [
+        {
+          "word": "belangrijke",
+          "meaning_en": ""
+        },
+        {
+          "word": "opleiding",
+          "meaning_en": ""
+        },
+        {
+          "word": "studenten",
+          "meaning_en": ""
+        },
+        {
+          "word": "zelfstandig",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "doorstromen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "formation": "door + stromen",
+      "meaning_en": "to move on (to a higher level), to flow through",
+      "example_nl": "Na het mbo wil hij doorstromen naar het hbo.",
+      "example_en": "After secondary vocational education he wants to move on to higher professional education.",
+      "other_b1_words": [
+        {
+          "word": "mbo",
+          "meaning_en": ""
+        },
+        {
+          "word": "hbo",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "eenzijdig",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "één + zijde + -ig",
+      "meaning_en": "one-sided",
+      "example_nl": "Het nieuws in die krant is erg eenzijdig en laat maar één mening zien.",
+      "example_en": "The news in that newspaper is very one‑sided and shows only one opinion.",
+      "other_b1_words": [
+        {
+          "word": "nieuws",
+          "meaning_en": ""
+        },
+        {
+          "word": "krant",
+          "meaning_en": ""
+        },
+        {
+          "word": "mening",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "eigendom",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "eigen + dom",
+      "meaning_en": "property, ownership",
+      "example_nl": "Dit huis is geen huurhuis maar persoonlijk eigendom.",
+      "example_en": "This house is not a rental house but personal property.",
+      "other_b1_words": [
+        {
+          "word": "huis",
+          "meaning_en": ""
+        },
+        {
+          "word": "huurhuis",
+          "meaning_en": ""
+        },
+        {
+          "word": "persoonlijk",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "financieel",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "financie + -eel",
+      "meaning_en": "financial",
+      "example_nl": "Ze maakt zich zorgen over haar financiële situatie na het verliezen van haar baan.",
+      "example_en": "She is worried about her financial situation after losing her job.",
+      "other_b1_words": [
+        {
+          "word": "zorgen",
+          "meaning_en": ""
+        },
+        {
+          "word": "situatie",
+          "meaning_en": ""
+        },
+        {
+          "word": "verliezen",
+          "meaning_en": ""
+        },
+        {
+          "word": "baan",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "geavanceerd",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "formation": "ge + avanceer (Frans) + -d",
+      "meaning_en": "advanced, sophisticated",
+      "example_nl": "De universiteit gebruikt geavanceerde software om gegevens te analyseren.",
+      "example_en": "The university uses advanced software to analyse data.",
+      "other_b1_words": [
+        {
+          "word": "universiteit",
+          "meaning_en": ""
+        },
+        {
+          "word": "software",
+          "meaning_en": ""
+        },
+        {
+          "word": "gegevens",
+          "meaning_en": ""
+        },
+        {
+          "word": "analyseren",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    },
+    {
+      "word": "gedrag",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "gedragen → gedrag",
+      "meaning_en": "behaviour",
+      "example_nl": "Het gedrag van de kinderen veranderde toen de nieuwe leraar kwam.",
+      "example_en": "The children's behaviour changed when the new teacher arrived.",
+      "other_b1_words": [
+        {
+          "word": "kinderen",
+          "meaning_en": ""
+        },
+        {
+          "word": "veranderde",
+          "meaning_en": ""
+        },
+        {
+          "word": "nieuwe",
+          "meaning_en": ""
+        },
+        {
+          "word": "leraar",
+          "meaning_en": ""
+        }
+      ],
+      "formation_parts": []
+    }
+  ]
+}
