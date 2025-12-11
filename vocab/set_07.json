@@ -1,0 +1,487 @@
+{
+  "id": 7,
+  "label": "Set VII",
+  "description": "Dutch B1 vocabulary – Set VII (20 woorden).",
+  "words": [
+    {
+      "word": "inzicht",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "in + zicht",
+      "formation_parts": [],
+      "meaning_en": "insight, understanding",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"inzicht\".",
+      "example_en": "In class the students discussed the word \"inzicht\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "kennis",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "formation": "kennen → kennis",
+      "formation_parts": [],
+      "meaning_en": "knowledge; acquaintance",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"kennis\".",
+      "example_en": "In class the students discussed the word \"kennis\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "klantvriendelijk",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "klant + vriendelijk",
+      "formation_parts": [],
+      "meaning_en": "customer-friendly",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"klantvriendelijk\".",
+      "example_en": "In class the students discussed the word \"klantvriendelijk\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "kwalificatie",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "kwalificeren → kwalificatie",
+      "formation_parts": [],
+      "meaning_en": "qualification",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"kwalificatie\".",
+      "example_en": "In class the students discussed the word \"kwalificatie\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "leefomgeving",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "leven + omgeving",
+      "formation_parts": [],
+      "meaning_en": "living environment",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"leefomgeving\".",
+      "example_en": "In class the students discussed the word \"leefomgeving\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "maatschappelijk",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "maatschappij + -lijk",
+      "formation_parts": [],
+      "meaning_en": "social, societal",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"maatschappelijk\".",
+      "example_en": "In class the students discussed the word \"maatschappelijk\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "meetbaar",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "meten → meetbaar",
+      "formation_parts": [],
+      "meaning_en": "measurable",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"meetbaar\".",
+      "example_en": "In class the students discussed the word \"meetbaar\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "noodoplossing",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "nood + oplossing",
+      "formation_parts": [],
+      "meaning_en": "temporary / emergency solution",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"noodoplossing\".",
+      "example_en": "In class the students discussed the word \"noodoplossing\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "ontwikkeling",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "ontwikkelen → ontwikkeling",
+      "formation_parts": [],
+      "meaning_en": "development",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"ontwikkeling\".",
+      "example_en": "In class the students discussed the word \"ontwikkeling\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "onderhandeling",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "onderhandelen → onderhandeling",
+      "formation_parts": [],
+      "meaning_en": "negotiation",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"onderhandeling\".",
+      "example_en": "In class the students discussed the word \"onderhandeling\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "onvoldoende",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 1,
+      "formation": "on + voldoende",
+      "formation_parts": [],
+      "meaning_en": "insufficient; failing grade",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"onvoldoende\".",
+      "example_en": "In class the students discussed the word \"onvoldoende\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "oplevering",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "opleveren → oplevering",
+      "formation_parts": [],
+      "meaning_en": "completion, delivery (of a project)",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"oplevering\".",
+      "example_en": "In class the students discussed the word \"oplevering\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "overzichtelijk",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "overzicht + -elijk",
+      "formation_parts": [],
+      "meaning_en": "clear, well-organised",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"overzichtelijk\".",
+      "example_en": "In class the students discussed the word \"overzichtelijk\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "planmatig",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "formation": "plan + -matig",
+      "formation_parts": [],
+      "meaning_en": "planned, methodical",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"planmatig\".",
+      "example_en": "In class the students discussed the word \"planmatig\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "richtlijn",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "richt + lijn",
+      "formation_parts": [],
+      "meaning_en": "guideline",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"richtlijn\".",
+      "example_en": "In class the students discussed the word \"richtlijn\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "samenhang",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "samen + hangen → samenhang",
+      "formation_parts": [],
+      "meaning_en": "coherence, connection",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"samenhang\".",
+      "example_en": "In class the students discussed the word \"samenhang\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "tegenspraak",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "formation": "tegen + spraak",
+      "formation_parts": [],
+      "meaning_en": "contradiction, disagreement",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"tegenspraak\".",
+      "example_en": "In class the students discussed the word \"tegenspraak\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "toename",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "toe + nemen → toename",
+      "formation_parts": [],
+      "meaning_en": "increase, rise",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"toename\".",
+      "example_en": "In class the students discussed the word \"toename\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "toepassing",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "toepassen → toepassing",
+      "formation_parts": [],
+      "meaning_en": "application, use",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"toepassing\".",
+      "example_en": "In class the students discussed the word \"toepassing\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    },
+    {
+      "word": "uitdaging",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "formation": "uitdagen → uitdaging",
+      "formation_parts": [],
+      "meaning_en": "challenge",
+      "example_nl": "In de les bespraken de studenten met de docent het woord \"uitdaging\".",
+      "example_en": "In class the students discussed the word \"uitdaging\" with the teacher.",
+      "other_b1_words": [
+        {
+          "word": "les",
+          "meaning_en": "lesson"
+        },
+        {
+          "word": "studenten",
+          "meaning_en": "students"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        }
+      ]
+    }
+  ]
+}
