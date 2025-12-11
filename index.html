@@ -313,6 +313,7 @@
             <button class="main" id="next-button">Volgende stap / woord ⏭</button>
             <button class="secondary" id="replay-button">Opnieuw dit woord 🔁</button>
             <button class="ghost" id="previous-button">Vorige woord ⏮</button>
+            <button class="ghost" id="skip-button">Sla woord over ⏭</button>
             <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
             <button class="ghost" id="reset-button">Herbegin (vergeet voortgang)</button>
         </div>
@@ -341,25 +342,21 @@
         </table>
         <p class="footer-note">
             Nieuwe vocab-set toevoegen? Maak een JSON-bestand in de map <code>vocab/</code> volgens de manifest-instellingen
-            (bijv. <code>set_06.json</code>) en publiceer opnieuw op GitHub Pages.
+            (bijv. <code>set_11.json</code>) en publiceer opnieuw op GitHub Pages.
         </p>
     </div>
 </div>
 
 <script>
-    // -------------------------
-    // Config & state
-    // -------------------------
-
     const SET_STORAGE_PREFIX = "nl_b1_trainer_set_";
     let manifestConfig = null;
-    let allSets = []; // {id, label, description, words}
+    let allSets = [];
     let currentSetId = null;
 
     let vocabData = [];
     let order = [];
     let currentIndex = 0;
-    let currentPhase = 0; // 0 = word, 1 = Dutch sentence, 2 = English translation, 3 = extra info
+    let currentPhase = 0;
 
     function storageKeyIndex() {
         return currentSetId == null ? null : SET_STORAGE_PREFIX + "index_" + String(currentSetId);
@@ -418,14 +415,8 @@
         try {
             localStorage.setItem(keyOrder, JSON.stringify(order));
             localStorage.setItem(keyIndex, String(currentIndex));
-        } catch (e) {
-            // ignore
-        }
+        } catch (e) {}
     }
-
-    // -------------------------
-    // Rendering logic
-    // -------------------------
 
     const wordDisplay = document.getElementById("word-display");
     const posDisplay = document.getElementById("pos-display");
@@ -443,6 +434,7 @@
     const nextButton = document.getElementById("next-button");
     const replayButton = document.getElementById("replay-button");
     const previousButton = document.getElementById("previous-button");
+    const skipButton = document.getElementById("skip-button");
     const shuffleButton = document.getElementById("shuffle-button");
     const resetButton = document.getElementById("reset-button");
 
@@ -474,15 +466,15 @@
         return extras;
     }
 
+    function stripPunct(str) {
+        return str.replace(/^[.,;:!?()"'«»]+|[.,;:!?()"'«»]+$/g, "");
+    }
+
     function highlightSentence(example_nl, mainWord, extras) {
         const tokens = example_nl.split(/(\s+|[.,;:!?])/g);
         const lowerMain = mainWord.toLowerCase();
         const normalisedExtras = normaliseExtraWords(extras);
         const extraSet = new Set(normalisedExtras.map(e => (e.word || "").toLowerCase()));
-
-        function stripPunct(str) {
-            return str.replace(/^[.,;:!?()"'«»]+|[.,;:!?()"'«»]+$/g, "");
-        }
 
         return tokens.map(t => {
             const core = stripPunct(t);
@@ -609,10 +601,6 @@
         updateOverviewTable();
     }
 
-    // -------------------------
-    // Event handlers
-    // -------------------------
-
     nextButton.addEventListener("click", () => {
         if (!vocabData.length) return;
         if (currentPhase < 3) {
@@ -643,6 +631,18 @@
             saveState();
             render();
         }
+    });
+
+    skipButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        if (currentIndex < vocabData.length - 1) {
+            currentIndex += 1;
+        } else {
+            currentIndex = 0;
+        }
+        currentPhase = 0;
+        saveState();
+        render();
     });
 
     shuffleButton.addEventListener("click", () => {
@@ -678,10 +678,6 @@
         }
     });
 
-    // -------------------------
-    // Loading manifest & sets
-    // -------------------------
-
     async function loadManifestAndSets() {
         try {
             const res = await fetch("vocab/manifest.json");
@@ -708,7 +704,7 @@
             try {
                 const res = await fetch(url);
                 if (!res.ok) {
-                    continue; // file probably doesn't exist, skip
+                    continue;
                 }
                 const data = await res.json();
                 if (!data || !Array.isArray(data.words)) continue;
@@ -732,7 +728,6 @@
             return;
         }
 
-        // Populate dropdown
         setSelect.innerHTML = "";
         allSets.forEach(set => {
             const opt = document.createElement("option");
@@ -741,7 +736,6 @@
             setSelect.appendChild(opt);
         });
 
-        // Choose first set by default
         switchToSet(allSets[0].id);
     }
 
@@ -751,7 +745,6 @@
         currentSetId = id;
         vocabData = setObj.words || [];
         setDescription.textContent = setObj.description || "";
-        // Ensure dropdown reflects this
         if (setSelect.value !== String(id)) {
             setSelect.value = String(id);
         }
@@ -759,7 +752,6 @@
         render();
     }
 
-    // Kick off loading
     loadManifestAndSets();
 </script>
 </body>
