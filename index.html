@@ -311,9 +311,8 @@
 
         <div class="controls">
             <button class="main" id="next-button">Volgende stap / woord ⏭</button>
-            <button class="secondary" id="replay-button">Opnieuw dit woord 🔁</button>
-            <button class="ghost" id="previous-button">Vorige woord ⏮</button>
             <button class="ghost" id="skip-button">Sla woord over ⏭</button>
+            <button class="ghost" id="previous-button">Vorige woord ⏮</button>
             <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
             <button class="ghost" id="reset-button">Herbegin (vergeet voortgang)</button>
         </div>
@@ -432,7 +431,6 @@
     const setDescription = document.getElementById("set-description");
 
     const nextButton = document.getElementById("next-button");
-    const replayButton = document.getElementById("replay-button");
     const previousButton = document.getElementById("previous-button");
     const skipButton = document.getElementById("skip-button");
     const shuffleButton = document.getElementById("shuffle-button");
@@ -614,12 +612,6 @@
             currentPhase = 0;
         }
         saveState();
-        render();
-    });
-
-    replayButton.addEventListener("click", () => {
-        if (!vocabData.length) return;
-        currentPhase = 0;
         render();
     });
 
