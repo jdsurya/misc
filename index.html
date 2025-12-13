@@ -348,6 +348,7 @@
 
 <script>
     const SET_STORAGE_PREFIX = "nl_b1_trainer_set_";
+    const SELECTED_SET_KEY = "nl_b1_trainer_selected_set_id";
     let manifestConfig = null;
     let allSets = [];
     let currentSetId = null;
@@ -727,15 +728,26 @@
             opt.textContent = set.label;
             setSelect.appendChild(opt);
         });
+        // Restore last selected set if available
+        let savedSetId = null;
+        try {
+            const raw = localStorage.getItem(SELECTED_SET_KEY);
+            if (raw !== null) {
+                const parsed = parseInt(raw, 10);
+                if (!isNaN(parsed)) savedSetId = parsed;
+            }
+        } catch (e) {}
 
-        switchToSet(allSets[0].id);
-    }
+        const exists = (savedSetId !== null) && allSets.some(s => s.id === savedSetId);
+        switchToSet(exists ? savedSetId : allSets[0].id);
+}
 
     function switchToSet(id) {
         const setObj = allSets.find(s => s.id === id);
         if (!setObj) return;
         currentSetId = id;
-        vocabData = setObj.words || [];
+                try { localStorage.setItem(SELECTED_SET_KEY, String(id)); } catch (e) {}
+vocabData = setObj.words || [];
         setDescription.textContent = setObj.description || "";
         if (setSelect.value !== String(id)) {
             setSelect.value = String(id);
