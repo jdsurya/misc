@@ -1,0 +1,487 @@
+{
+  "id": 14,
+  "label": "Set XIV",
+  "description": "Dutch B1 vocabulary – Set XIV (20 woorden).",
+  "words": [
+    {
+      "word": "integraal",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "integral, complete",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De integraal is belangrijk in een goede redenering.",
+      "example_en": "The integral is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "kritisch",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "critical",
+      "formation": "kritiek → kritisch",
+      "formation_parts": [],
+      "example_nl": "De kritisch is belangrijk in een goede redenering.",
+      "example_en": "The critical is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "logischerwijs",
+      "pos": "bijwoord",
+      "difficulty": 3,
+      "meaning_en": "logically, by logic",
+      "formation": "logisch + -erwijs",
+      "formation_parts": [],
+      "example_nl": "Logischerwijs kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Logischerwijs, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "methodisch",
+      "pos": "bijvoeglijk naamwoord / bijwoord",
+      "difficulty": 3,
+      "meaning_en": "methodical(ly)",
+      "formation": "methode → methodisch",
+      "formation_parts": [],
+      "example_nl": "Methodisch kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Methodisch, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "ondergeschikt",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "subordinate, secondary",
+      "formation": "onder + geschikt",
+      "formation_parts": [],
+      "example_nl": "De ondergeschikt is belangrijk in een goede redenering.",
+      "example_en": "The subordinate is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "overkoepelend",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "overarching",
+      "formation": "over + koepel + -end",
+      "formation_parts": [],
+      "example_nl": "De overkoepelend is belangrijk in een goede redenering.",
+      "example_en": "The overarching is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "significant",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "significant",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De significant is belangrijk in een goede redenering.",
+      "example_en": "The significant is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "systematisch",
+      "pos": "bijvoeglijk naamwoord / bijwoord",
+      "difficulty": 3,
+      "meaning_en": "systematic(ally)",
+      "formation": "systeem → systematisch",
+      "formation_parts": [],
+      "example_nl": "Systematisch kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Systematisch, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "daarentegen",
+      "pos": "bijwoord",
+      "difficulty": 2,
+      "meaning_en": "on the other hand",
+      "formation": "daar + tegen + -en",
+      "formation_parts": [],
+      "example_nl": "Daarentegen kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Daarentegen, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "daarmee",
+      "pos": "bijwoord",
+      "difficulty": 1,
+      "meaning_en": "with that, thereby",
+      "formation": "daar + mee",
+      "formation_parts": [],
+      "example_nl": "Daarmee kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Daarmee, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "enerzijds",
+      "pos": "bijwoord",
+      "difficulty": 2,
+      "meaning_en": "on the one hand",
+      "formation": "ener + zijds",
+      "formation_parts": [],
+      "example_nl": "Enerzijds kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Enerzijds, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "eveneens",
+      "pos": "bijwoord",
+      "difficulty": 1,
+      "meaning_en": "likewise, also",
+      "formation": "even + eens",
+      "formation_parts": [],
+      "example_nl": "Eveneens kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Eveneens, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "redelijkerwijs",
+      "pos": "bijwoord",
+      "difficulty": 2,
+      "meaning_en": "reasonably",
+      "formation": "redelijk + -erwijs",
+      "formation_parts": [],
+      "example_nl": "Redelijkerwijs kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Redelijkerwijs, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "reproduceren",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to reproduce (results)",
+      "formation": "re + produceren",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te reproduceren in het verslag.",
+      "example_en": "The student tries to use \"reproduceren\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "standpunt",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "meaning_en": "point of view, standpoint",
+      "formation": "stand + punt",
+      "formation_parts": [],
+      "example_nl": "De standpunt is belangrijk in een goede redenering.",
+      "example_en": "The point of view is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "afwegen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to weigh up, to consider carefully",
+      "formation": "af + wegen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te afwegen in het verslag.",
+      "example_en": "The student tries to use \"afwegen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "aannemelijk",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "plausible, likely",
+      "formation": "aan + nemen → aannemelijk",
+      "formation_parts": [],
+      "example_nl": "De aannemelijk is belangrijk in een goede redenering.",
+      "example_en": "The plausible is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "onderbouwd",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "well-founded, substantiated",
+      "formation": "onderbouwen → onderbouwd",
+      "formation_parts": [],
+      "example_nl": "De onderbouwd is belangrijk in een goede redenering.",
+      "example_en": "The well-founded is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "tegenstrijdig",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "contradictory",
+      "formation": "tegen + strijd + -ig",
+      "formation_parts": [],
+      "example_nl": "De tegenstrijdig is belangrijk in een goede redenering.",
+      "example_en": "The contradictory is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "onweerlegbaar",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "irrefutable",
+      "formation": "on + weerleggen + -baar",
+      "formation_parts": [],
+      "example_nl": "De onweerlegbaar is belangrijk in een goede redenering.",
+      "example_en": "The irrefutable is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    }
+  ]
+}

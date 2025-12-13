@@ -1,0 +1,487 @@
+{
+  "id": 13,
+  "label": "Set XIII",
+  "description": "Dutch B1 vocabulary – Set XIII (20 woorden).",
+  "words": [
+    {
+      "word": "betrekken bij",
+      "pos": "werkwoord (uitdrukking)",
+      "difficulty": 2,
+      "meaning_en": "to involve in, to relate to",
+      "formation": "betrekken + bij",
+      "formation_parts": [],
+      "example_nl": "De docent vraagt om het begrip \"betrekken bij\" te gebruiken in een duidelijke uitleg.",
+      "example_en": "The student tries to use \"betrekken bij\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "ervan uitgaan",
+      "pos": "werkwoord (uitdrukking)",
+      "difficulty": 2,
+      "meaning_en": "to assume, to proceed from",
+      "formation": "er + van + uit + gaan",
+      "formation_parts": [],
+      "example_nl": "De docent vraagt om het begrip \"ervan uitgaan\" te gebruiken in een duidelijke uitleg.",
+      "example_en": "The student tries to use \"ervan uitgaan\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "functioneren",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to function",
+      "formation": "functie → functioneren",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te functioneren in het verslag.",
+      "example_en": "The student tries to use \"functioneren\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "impliceren",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to imply",
+      "formation": "impliciet → impliceren",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te impliceren in het verslag.",
+      "example_en": "The student tries to use \"impliceren\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "nuanceren",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to nuance, to qualify",
+      "formation": "nuance → nuanceren",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te nuanceren in het verslag.",
+      "example_en": "The student tries to use \"nuanceren\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "onderkennen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to recognize, to acknowledge",
+      "formation": "onder + kennen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te onderkennen in het verslag.",
+      "example_en": "The student tries to use \"onderkennen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "overwegen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to consider",
+      "formation": "over + wegen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te overwegen in het verslag.",
+      "example_en": "The student tries to use \"overwegen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "rechtvaardigen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to justify",
+      "formation": "recht + vaardig + -en",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te rechtvaardigen in het verslag.",
+      "example_en": "The student tries to use \"rechtvaardigen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "samenvatten",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to summarize",
+      "formation": "samen + vatten",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te samenvatten in het verslag.",
+      "example_en": "The student tries to use \"samenvatten\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "toelichten",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to explain, to clarify",
+      "formation": "toe + lichten",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te toelichten in het verslag.",
+      "example_en": "The student tries to use \"toelichten\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "toetsen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to test, to check",
+      "formation": "toets + -en",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te toetsen in het verslag.",
+      "example_en": "The student tries to use \"toetsen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "uiteenzetten",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to set out, to explain in detail",
+      "formation": "uit + een + zetten",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te uiteenzetten in het verslag.",
+      "example_en": "The student tries to use \"uiteenzetten\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "veronderstellen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to assume",
+      "formation": "ver + onder + stellen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te veronderstellen in het verslag.",
+      "example_en": "The student tries to use \"veronderstellen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "coherent",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "coherent",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De coherent is belangrijk in een goede redenering.",
+      "example_en": "The coherent is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "consistent",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "consistent",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De consistent is belangrijk in een goede redenering.",
+      "example_en": "The consistent is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "desbetreffend",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "concerned, relevant (to the matter)",
+      "formation": "des + betreffend",
+      "formation_parts": [],
+      "example_nl": "De desbetreffend is belangrijk in een goede redenering.",
+      "example_en": "The concerned is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "expliciet",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "explicit",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De expliciet is belangrijk in een goede redenering.",
+      "example_en": "The explicit is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "generaliseerbaar",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "generalizable",
+      "formation": "generaliseren → generaliseerbaar",
+      "formation_parts": [],
+      "example_nl": "De generaliseerbaar is belangrijk in een goede redenering.",
+      "example_en": "The generalizable is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "geleidelijk",
+      "pos": "bijvoeglijk naamwoord / bijwoord",
+      "difficulty": 1,
+      "meaning_en": "gradual(ly)",
+      "formation": "geleiden → geleidelijk",
+      "formation_parts": [],
+      "example_nl": "Geleidelijk kom je tot een andere conclusie als je de feiten anders bekijkt.",
+      "example_en": "Geleidelijk, you reach a different conclusion if you look at the facts differently.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "inherent",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "inherent",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De inherent is belangrijk in een goede redenering.",
+      "example_en": "The inherent is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    }
+  ]
+}

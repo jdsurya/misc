@@ -1,0 +1,487 @@
+{
+  "id": 11,
+  "label": "Set XI",
+  "description": "Dutch B1 vocabulary – Set XI (20 woorden).",
+  "words": [
+    {
+      "word": "aanname",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "meaning_en": "assumption",
+      "formation": "aan + nemen → aanname",
+      "formation_parts": [],
+      "example_nl": "De aanname is belangrijk in een goede redenering.",
+      "example_en": "The assumption is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "argument",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 1,
+      "meaning_en": "argument",
+      "formation": "uit het Latijn via Frans",
+      "formation_parts": [],
+      "example_nl": "De argument is belangrijk in een goede redenering.",
+      "example_en": "The argument is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "beargumenteren",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to argue (for), to justify with arguments",
+      "formation": "be + argumenteren",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te beargumenteren in het verslag.",
+      "example_en": "The student tries to use \"beargumenteren\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "benadrukken",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to emphasize",
+      "formation": "be + drukken",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te benadrukken in het verslag.",
+      "example_en": "The student tries to use \"benadrukken\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "betwijfelen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to doubt",
+      "formation": "be + twijfelen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te betwijfelen in het verslag.",
+      "example_en": "The student tries to use \"betwijfelen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "conclusie",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "meaning_en": "conclusion",
+      "formation": "concluderen → conclusie",
+      "formation_parts": [],
+      "example_nl": "De conclusie is belangrijk in een goede redenering.",
+      "example_en": "The conclusion is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "gevolgtrekking",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "meaning_en": "inference",
+      "formation": "gevolg + trekken → gevolgtrekking",
+      "formation_parts": [],
+      "example_nl": "De gevolgtrekking is belangrijk in een goede redenering.",
+      "example_en": "The inference is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "hypothese",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "meaning_en": "hypothesis",
+      "formation": "uit het Grieks",
+      "formation_parts": [],
+      "example_nl": "De hypothese is belangrijk in een goede redenering.",
+      "example_en": "The hypothesis is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "onderbouwen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to substantiate, to support with evidence",
+      "formation": "onder + bouwen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te onderbouwen in het verslag.",
+      "example_en": "The student tries to use \"onderbouwen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "redenering",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "meaning_en": "reasoning",
+      "formation": "redeneren → redenering",
+      "formation_parts": [],
+      "example_nl": "De redenering is belangrijk in een goede redenering.",
+      "example_en": "The reasoning is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "stelling",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 2,
+      "meaning_en": "claim, proposition",
+      "formation": "stellen → stelling",
+      "formation_parts": [],
+      "example_nl": "De stelling is belangrijk in een goede redenering.",
+      "example_en": "The claim is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "tegenwerping",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "meaning_en": "objection, counterargument",
+      "formation": "tegen + werpen → tegenwerping",
+      "formation_parts": [],
+      "example_nl": "De tegenwerping is belangrijk in een goede redenering.",
+      "example_en": "The objection is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "weerleggen",
+      "pos": "werkwoord",
+      "difficulty": 3,
+      "meaning_en": "to refute",
+      "formation": "weer + leggen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te weerleggen in het verslag.",
+      "example_en": "The student tries to use \"weerleggen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "aanvaardbaar",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "acceptable",
+      "formation": "aanvaarden → aanvaardbaar",
+      "formation_parts": [],
+      "example_nl": "De aanvaardbaar is belangrijk in een goede redenering.",
+      "example_en": "The acceptable is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "beoordelen",
+      "pos": "werkwoord",
+      "difficulty": 2,
+      "meaning_en": "to assess, to judge",
+      "formation": "be + oordelen",
+      "formation_parts": [],
+      "example_nl": "De student probeert zijn keuze goed te beoordelen in het verslag.",
+      "example_en": "The student tries to use \"beoordelen\" correctly in the report.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "doeltreffend",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "effective",
+      "formation": "doel + treffend",
+      "formation_parts": [],
+      "example_nl": "De doeltreffend is belangrijk in een goede redenering.",
+      "example_en": "The effective is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "doorslaggevend",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "decisive",
+      "formation": "door + slaan → doorslaggevend",
+      "formation_parts": [],
+      "example_nl": "De doorslaggevend is belangrijk in een goede redenering.",
+      "example_en": "The decisive is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "effectiviteit",
+      "pos": "zelfstandig naamwoord",
+      "difficulty": 3,
+      "meaning_en": "effectiveness",
+      "formation": "effectief + -iteit",
+      "formation_parts": [],
+      "example_nl": "De effectiviteit is belangrijk in een goede redenering.",
+      "example_en": "The effectiveness is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "essentieel",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 3,
+      "meaning_en": "essential",
+      "formation": "uit het Latijn",
+      "formation_parts": [],
+      "example_nl": "De essentieel is belangrijk in een goede redenering.",
+      "example_en": "The essential is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    },
+    {
+      "word": "hanteerbaar",
+      "pos": "bijvoeglijk naamwoord",
+      "difficulty": 2,
+      "meaning_en": "manageable, workable",
+      "formation": "hanteren → hanteerbaar",
+      "formation_parts": [],
+      "example_nl": "De hanteerbaar is belangrijk in een goede redenering.",
+      "example_en": "The manageable is important in good reasoning.",
+      "other_b1_words": [
+        {
+          "word": "student",
+          "meaning_en": "student"
+        },
+        {
+          "word": "docent",
+          "meaning_en": "teacher"
+        },
+        {
+          "word": "onderzoek",
+          "meaning_en": "research"
+        }
+      ]
+    }
+  ]
+}
