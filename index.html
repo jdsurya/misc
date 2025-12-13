@@ -314,8 +314,7 @@
             <button class="ghost" id="skip-button">Sla woord over ⏭</button>
             <button class="ghost" id="previous-button">Vorige woord ⏮</button>
             <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
-            <button class="ghost" id="reset-button">Herbegin (vergeet voortgang)</button>
-        </div>
+</div>
         <div class="hint">
             Hints: Spatie/Enter = volgende stap • Pijltje links = vorig woord •
             Deze pagina bewaart automatisch je voortgang per set op dit apparaat (via localStorage).
@@ -435,9 +434,7 @@
     const previousButton = document.getElementById("previous-button");
     const skipButton = document.getElementById("skip-button");
     const shuffleButton = document.getElementById("shuffle-button");
-    const resetButton = document.getElementById("reset-button");
-
-    const phaseNames = [
+const phaseNames = [
         { badge: "Fase 1: woord", label: "Lees en spreek het woord hardop uit." },
         { badge: "Fase 2: zin (NL)", label: "Begrijp de Nederlandse zin en zoek de betekenis uit de context." },
         { badge: "Fase 3: vertaling (EN)", label: "Controleer je begrip met de Engelse vertaling." },
@@ -646,23 +643,6 @@
         saveState();
         render();
     });
-
-    resetButton.addEventListener("click", () => {
-        if (!vocabData.length) return;
-        if (confirm("Weet je zeker dat je alle voortgang voor deze set wilt vergeten en opnieuw wilt beginnen?")) {
-            try {
-                const keyIndex = storageKeyIndex();
-                const keyOrder = storageKeyOrder();
-                if (keyIndex) localStorage.removeItem(keyIndex);
-                if (keyOrder) localStorage.removeItem(keyOrder);
-            } catch (e) {}
-            order = createDefaultOrder();
-            currentIndex = 0;
-            currentPhase = 0;
-            render();
-        }
-    });
-
     setSelect.addEventListener("change", () => {
         const val = setSelect.value;
         const id = parseInt(val, 10);
