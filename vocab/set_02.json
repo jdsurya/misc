@@ -9,8 +9,8 @@
       "difficulty": 2,
       "formation": "ge + schikken + -t",
       "meaning_en": "suitable, appropriate",
-      "example_nl": "Deze kamer is niet geschikt voor drie personen, want hij is te klein.",
-      "example_en": "This room is not suitable for three people, because it is too small.",
+      "example_nl": "Deze ruimte is geschikt om te overleggen, omdat er genoeg plek is om rustig te praten.",
+      "example_en": "This room is suitable for a meeting because there is enough space to talk calmly.",
       "other_b1_words": [
         {
           "word": "kamer",
@@ -33,8 +33,8 @@
       "difficulty": 1,
       "formation": "ge + volgen",
       "meaning_en": "consequence, result",
-      "example_nl": "Als gevolg van de staking reden er geen treinen.",
-      "example_en": "As a result of the strike, no trains were running.",
+      "example_nl": "Het gevolg van de schade was een klacht van de buren, dus we moesten onmiddellijk overleggen.",
+      "example_en": "The consequence of the damage was a complaint from the neighbours, so we had to consult immediately.",
       "other_b1_words": [
         {
           "word": "staking",
@@ -53,8 +53,8 @@
       "difficulty": 2,
       "formation": "in + druk",
       "meaning_en": "impression",
-      "example_nl": "De docent maakte een goede eerste indruk op de nieuwe studenten.",
-      "example_en": "The teacher made a good first impression on the new students.",
+      "example_nl": "Tijdens het overleg maakte hij een goede indruk, omdat hij rustig kon omgaan met de klacht.",
+      "example_en": "During the meeting he made a good impression because he could deal calmly with the complaint.",
       "other_b1_words": [
         {
           "word": "docent",
@@ -77,8 +77,8 @@
       "difficulty": 2,
       "formation": "in + houden",
       "meaning_en": "to mean, to imply; to contain",
-      "example_nl": "Kunt u uitleggen wat deze regel precies inhoudt?",
-      "example_en": "Could you explain what exactly this rule means?",
+      "example_nl": "De nieuwe regel houdt in dat iedereen mag meedoen, tenzij de omstandigheden het niet toestaan.",
+      "example_en": "The new rule means that everyone may participate unless the circumstances do not allow it.",
       "other_b1_words": [
         {
           "word": "uitleggen",
@@ -101,8 +101,8 @@
       "difficulty": 3,
       "formation": "kennen → kennelijk",
       "meaning_en": "apparently, evidently",
-      "example_nl": "Hij had kennelijk de instructies niet goed gelezen.",
-      "example_en": "Apparently, he had not read the instructions carefully.",
+      "example_nl": "Kennelijk ontbreekt er informatie, want niemand kan uitleggen hoe de schade is ontstaan.",
+      "example_en": "Apparently information is missing, because nobody can explain how the damage occurred.",
       "other_b1_words": [
         {
           "word": "instructies",
@@ -121,8 +121,8 @@
       "difficulty": 2,
       "formation": "klagen → klacht",
       "meaning_en": "complaint",
-      "example_nl": "De klant diende een klacht in over de slechte service.",
-      "example_en": "The customer filed a complaint about the poor service.",
+      "example_nl": "Na de klacht hebben we meteen overlegd om verdere schade te voorkomen.",
+      "example_en": "After the complaint we consulted right away to prevent further damage.",
       "other_b1_words": [
         {
           "word": "klant",
@@ -145,8 +145,8 @@
       "difficulty": 1,
       "formation": "mee + doen",
       "meaning_en": "to participate, to join in",
-      "example_nl": "Wil je morgen meedoen aan de sportdag op school?",
-      "example_en": "Do you want to take part in the sports day at school tomorrow?",
+      "example_nl": "Als je wilt meedoen, moet je afspraken respecteren en goed kunnen omgaan met anderen.",
+      "example_en": "If you want to participate, you must respect agreements and be able to deal well with others.",
       "other_b1_words": [
         {
           "word": "morgen",
@@ -169,8 +169,8 @@
       "difficulty": 3,
       "formation": "nadeel + -ig",
       "meaning_en": "disadvantageous, harmful",
-      "example_nl": "Te weinig slaap heeft een nadelig effect op je concentratie.",
-      "example_en": "Too little sleep has a negative effect on your concentration.",
+      "example_nl": "Te laat reageren is nadelig, want het gevolg kan zijn dat de schade groter wordt.",
+      "example_en": "Responding too late is disadvantageous, because the consequence can be that the damage becomes bigger.",
       "other_b1_words": [
         {
           "word": "slaap",
@@ -193,8 +193,8 @@
       "difficulty": 2,
       "formation": "om + gaan + met",
       "meaning_en": "to deal with, to handle",
-      "example_nl": "Hij weet niet goed hoe hij met kritiek moet omgaan.",
-      "example_en": "He does not really know how to deal with criticism.",
+      "example_nl": "De docent laat zien hoe je professioneel kunt omgaan met een klacht zonder dat het ruzie oproept.",
+      "example_en": "The teacher shows how you can deal professionally with a complaint without it causing a quarrel.",
       "other_b1_words": [
         {
           "word": "kritiek",
@@ -209,8 +209,8 @@
       "difficulty": 3,
       "formation": "om + stand + -ig + heden",
       "meaning_en": "circumstances, conditions",
-      "example_nl": "Door de slechte weersomstandigheden werd het concert verplaatst.",
-      "example_en": "Because of the bad weather conditions, the concert was moved.",
+      "example_nl": "Door bijzondere omstandigheden konden we niet in deze ruimte overleggen.",
+      "example_en": "Because of special circumstances we could not meet in this room.",
       "other_b1_words": [
         {
           "word": "slechte",
@@ -237,8 +237,8 @@
       "difficulty": 2,
       "formation": "on + middel + -lijk",
       "meaning_en": "immediately, at once",
-      "example_nl": "Bij brand moet je onmiddellijk de hulpdiensten bellen.",
-      "example_en": "In case of fire you must immediately call the emergency services.",
+      "example_nl": "Toen de schade werd ontdekt, moesten we onmiddellijk overleggen over een oplossing.",
+      "example_en": "When the damage was discovered, we had to consult immediately about a solution.",
       "other_b1_words": [
         {
           "word": "brand",
@@ -257,8 +257,8 @@
       "difficulty": 2,
       "formation": "ont + breken",
       "meaning_en": "to be missing, to lack",
-      "example_nl": "In het verslag ontbreken nog een paar belangrijke gegevens.",
-      "example_en": "In the report, a few important pieces of information are still missing.",
+      "example_nl": "In het plan ontbreekt een duidelijke afspraak, en dat kan nadelig zijn voor iedereen die wil meedoen.",
+      "example_en": "A clear agreement is missing in the plan, and that can be disadvantageous for everyone who wants to participate.",
       "other_b1_words": [
         {
           "word": "verslag",
@@ -281,8 +281,8 @@
       "difficulty": 2,
       "formation": "ont + staan",
       "meaning_en": "to arise, to develop",
-      "example_nl": "Er is een misverstand ontstaan doordat de e-mail niet duidelijk was.",
-      "example_en": "A misunderstanding arose because the email was not clear.",
+      "example_nl": "De schade is ontstaan doordat er te weinig ruimte was en niemand onmiddellijk ingreep.",
+      "example_en": "The damage occurred because there was too little space and nobody intervened immediately.",
       "other_b1_words": [
         {
           "word": "misverstand",
@@ -305,8 +305,8 @@
       "difficulty": 3,
       "formation": "op + roepen",
       "meaning_en": "to call up, to evoke",
-      "example_nl": "Die muziek roept veel herinneringen aan mijn jeugd op.",
-      "example_en": "That music calls up many memories of my youth.",
+      "example_nl": "Een harde toon kan een klacht oproepen, zelfs als de omstandigheden lastig zijn.",
+      "example_en": "A harsh tone can provoke a complaint, even if the circumstances are difficult.",
       "other_b1_words": [
         {
           "word": "muziek",
@@ -329,8 +329,8 @@
       "difficulty": 2,
       "formation": "over + leggen",
       "meaning_en": "to discuss, to consult",
-      "example_nl": "We moeten eerst met het team overleggen voordat we een beslissing nemen.",
-      "example_en": "We first have to discuss it with the team before we make a decision.",
+      "example_nl": "We overleggen eerst met de buren, zodat we een oplossing kunnen toestaan die voor iedereen geschikt is.",
+      "example_en": "We first consult with the neighbours so that we can allow a solution that is suitable for everyone.",
       "other_b1_words": [
         {
           "word": "team",
@@ -349,8 +349,8 @@
       "difficulty": 3,
       "formation": "over + tuigen",
       "meaning_en": "to convince, to persuade",
-      "example_nl": "Het kostte veel moeite om hem te overtuigen van het belang van die cursus.",
-      "example_en": "It took a lot of effort to convince him of the importance of that course.",
+      "example_nl": "Hij probeerde de groep te overtuigen dat overleggen beter is dan onmiddellijk boos worden.",
+      "example_en": "He tried to convince the group that consulting is better than getting angry immediately.",
       "other_b1_words": [
         {
           "word": "moeite",
@@ -373,8 +373,8 @@
       "difficulty": 1,
       "formation": "ruim + -te",
       "meaning_en": "space, room",
-      "example_nl": "Er is genoeg ruimte in de woonkamer voor een grote tafel.",
-      "example_en": "There is enough space in the living room for a big table.",
+      "example_nl": "Er is niet genoeg ruimte voor iedereen om mee te doen, dus we moeten de planning aanpassen.",
+      "example_en": "There is not enough space for everyone to participate, so we must adjust the planning.",
       "other_b1_words": [
         {
           "word": "genoeg",
@@ -401,8 +401,8 @@
       "difficulty": 2,
       "formation": "schaden → schade",
       "meaning_en": "damage",
-      "example_nl": "De storm heeft veel schade aan de daken veroorzaakt.",
-      "example_en": "The storm caused a lot of damage to the roofs.",
+      "example_nl": "De schade was klein, maar het gevolg was toch een klacht omdat het een slechte indruk gaf.",
+      "example_en": "The damage was small, but the consequence was still a complaint because it gave a bad impression.",
       "other_b1_words": [
         {
           "word": "storm",
@@ -425,8 +425,8 @@
       "difficulty": 1,
       "formation": "ouder Nederlands woord",
       "meaning_en": "constantly, more and more",
-      "example_nl": "Hij wordt steeds beter in het begrijpen van gesproken Nederlands.",
-      "example_en": "He is getting better and better at understanding spoken Dutch.",
+      "example_nl": "Steeds dezelfde fout maken is nadelig; daardoor kan er opnieuw schade ontstaan.",
+      "example_en": "Making the same mistake again and again is disadvantageous; it can cause damage to occur again.",
       "other_b1_words": [
         {
           "word": "beter",
@@ -449,8 +449,8 @@
       "difficulty": 2,
       "formation": "toe + staan",
       "meaning_en": "to allow, to permit",
-      "example_nl": "Op deze locatie is het niet toegestaan om te roken.",
-      "example_en": "At this location it is not allowed to smoke.",
+      "example_nl": "De manager wil meedoen toestaan, maar alleen als de omstandigheden veilig zijn en er genoeg ruimte is.",
+      "example_en": "The manager wants to allow participation, but only if the circumstances are safe and there is enough space.",
       "other_b1_words": [
         {
           "word": "locatie",
