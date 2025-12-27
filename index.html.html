@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dutch B1 Vocabulary Trainer – Sets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --bg: #fafafa;
+            --card-bg: #ffffff;
+            --accent: #0077b6;
+            --accent-soft: #e3f2fd;
+            --text-main: #222222;
+            --text-muted: #666666;
+            --border-soft: #dddddd;
+            --danger: #c62828;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text-main);
+            padding: 1.5rem;
+        }
+
+        .app {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-soft);
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .progress {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.15rem 0.6rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            background: var(--accent-soft);
+            color: var(--accent);
+            margin-left: 0.3rem;
+        }
+
+        .difficulty {
+            font-family: "SF Mono", Menlo, Consolas, monospace;
+        }
+
+        .main-word {
+            font-size: 2rem;
+            font-weight: 650;
+            margin-bottom: 0.5rem;
+        }
+
+        .pos {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.3rem;
+        }
+
+        .phase-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+
+        .sentence {
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .sentence .target-word {
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        .sentence .extra-b1 {
+            border-bottom: 2px dotted rgba(0, 119, 182, 0.5);
+        }
+
+        .translation {
+            margin-top: 0.25rem;
+            font-size: 1rem;
+            color: var(--text-muted);
+        }
+
+        .extra-info {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .extra-info dt {
+            font-weight: 600;
+        }
+
+        .extra-info dd {
+            margin: 0 0 0.4rem 0;
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1.25rem;
+        }
+
+        button {
+            border-radius: 999px;
+            padding: 0.55rem 1.1rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        button.main {
+            background: var(--accent);
+            color: white;
+            font-weight: 600;
+        }
+
+        button.secondary {
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+
+        button.ghost {
+            background: transparent;
+            border: 1px solid var(--border-soft);
+            color: var(--text-muted);
+        }
+
+        button.danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: default;
+        }
+
+        .hint {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.4rem;
+        }
+
+        .overview-card {
+            max-height: 320px;
+            overflow: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            padding: 0.35rem 0.4rem;
+            border-bottom: 1px solid #f0f0f0;
+            text-align: left;
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            background: #f9fafb;
+            z-index: 1;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-muted);
+        }
+
+        tr.clickable-row {
+            cursor: pointer;
+        }
+
+        tr.clickable-row:hover {
+            background: #f5f9ff;
+        }
+
+        .current-row {
+            background: #e3f2fd;
+        }
+
+        .footer-note {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+        }
+
+        .set-selector {
+            font-size: 0.9rem;
+        }
+
+        .set-selector label {
+            font-weight: 600;
+            margin-right: 0.35rem;
+        }
+
+        .set-selector select {
+            padding: 0.25rem 0.6rem;
+            border-radius: 999px;
+            border: 1px solid var(--border-soft);
+            font-size: 0.9rem;
+            background: white;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            .main-word {
+                font-size: 1.6rem;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            button {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .overview-card {
+                max-height: 260px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="app">
+    <h1>Dutch B1 Vocabulary Trainer</h1>
+    <p class="subtitle">
+        Klik op <strong>Volgende stap / woord</strong> om door de fasen te gaan: woord → Nederlandse zin → Engelse vertaling → extra info.
+        Gebruik je toetsenbord: <strong>Spatie/Enter</strong> = volgende stap, <strong>←</strong> = vorige woord.
+    </p>
+
+    <div class="card" id="trainer-card">
+        <div class="top-bar">
+            <div>
+                <div class="progress" id="progress-text">Woord 1 / 1</div>
+                <div class="progress">
+                    Moeilijkheid: <span class="difficulty" id="difficulty-text"></span>
+                    <span class="badge" id="phase-badge">Woord</span>
+                </div>
+            </div>
+            <div class="set-selector">
+                <label for="set-select">Woorden-set:</label>
+                <select id="set-select">
+                    <option>Sets laden…</option>
+                </select>
+                <div class="progress" id="set-description" style="margin-top:0.25rem;"></div>
+                <div class="progress" style="margin-top:0.5rem;">
+                    <label for="mode-select" style="margin-right:0.5rem;">Oefenrichting:</label>
+                    <select id="mode-select">
+                        <option value="nl-en">NL → EN</option>
+                        <option value="en-nl">EN → NL</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-word" id="word-display">Laden...</div>
+        <div class="pos" id="pos-display"></div>
+
+        <div class="phase-label" id="phase-label"></div>
+
+        <div class="sentence" id="sentence-display"></div>
+        <div class="translation" id="translation-display"></div>
+
+        <dl class="extra-info" id="extra-info"></dl>
+
+        <div class="controls">
+            <button class="main" id="next-button">Volgende stap / woord ⏭</button>
+            <button class="ghost" id="skip-button">Sla woord over ⏭</button>
+            <button class="ghost" id="previous-button">Vorige woord ⏮</button>
+            <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
+            <button class="ghost" id="reset-button">Herbegin (vergeet voortgang)</button>
+        </div>
+        <div class="hint">
+            Hints: Spatie/Enter = volgende stap • Pijltje links = vorig woord •
+            Deze pagina bewaart automatisch je voortgang per set op dit apparaat (via localStorage).
+        </div>
+    </div>
+
+    <div class="card overview-card">
+        <h2>Overzicht van woorden</h2>
+        <p class="subtitle">Klik op een woord om er meteen naartoe te springen. Het overzicht hoort bij de geselecteerde set.</p>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Woord</th>
+                <th>Soort woord</th>
+                <th>Betekenis (EN)</th>
+                <th>★</th>
+            </tr>
+            </thead>
+            <tbody id="overview-body">
+            <!-- dynamically filled -->
+            </tbody>
+        </table>
+        <p class="footer-note">
+            Nieuwe vocab-set toevoegen? Maak een JSON-bestand in de map <code>vocab/</code> volgens de manifest-instellingen
+            (bijv. <code>set_11.json</code>) en publiceer opnieuw op GitHub Pages.
+        </p>
+    </div>
+</div>
+
+<script>
+    const SET_STORAGE_PREFIX = "nl_b1_trainer_set_";
+    let manifestConfig = null;
+    let allSets = [];
+    let currentSetId = null;
+
+    let vocabData = [];
+    let order = [];
+    let currentIndex = 0;
+    let currentPhase = 0;
+
+    function storageKeyIndex() {
+        return currentSetId == null ? null : SET_STORAGE_PREFIX + "index_" + String(currentSetId);
+    }
+
+    function storageKeyOrder() {
+        return currentSetId == null ? null : SET_STORAGE_PREFIX + "order_" + String(currentSetId);
+    }
+
+    function createDefaultOrder() {
+        return vocabData.map((_, idx) => idx);
+    }
+
+    function shuffleArray(arr) {
+        const copy = arr.slice();
+        for (let i = copy.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [copy[i], copy[j]] = [copy[j], copy[i]];
+        }
+        return copy;
+    }
+
+    function loadState() {
+        order = createDefaultOrder();
+        currentIndex = 0;
+        currentPhase = 0;
+        const keyIndex = storageKeyIndex();
+        const keyOrder = storageKeyOrder();
+        if (!keyIndex || !keyOrder) return;
+
+        try {
+            const savedOrder = localStorage.getItem(keyOrder);
+            const savedIndexStr = localStorage.getItem(keyIndex);
+            if (savedOrder) {
+                const parsed = JSON.parse(savedOrder);
+                if (Array.isArray(parsed) && parsed.length === vocabData.length) {
+                    order = parsed;
+                }
+            }
+            if (savedIndexStr !== null) {
+                const idx = parseInt(savedIndexStr, 10);
+                if (!isNaN(idx) && idx >= 0 && idx < vocabData.length) {
+                    currentIndex = idx;
+                }
+            }
+        } catch (e) {
+            order = createDefaultOrder();
+            currentIndex = 0;
+        }
+    }
+
+    function saveState() {
+        const keyIndex = storageKeyIndex();
+        const keyOrder = storageKeyOrder();
+        if (!keyIndex || !keyOrder) return;
+        try {
+            localStorage.setItem(keyOrder, JSON.stringify(order));
+            localStorage.setItem(keyIndex, String(currentIndex));
+        } catch (e) {}
+    }
+
+    const wordDisplay = document.getElementById("word-display");
+    const posDisplay = document.getElementById("pos-display");
+    const sentenceDisplay = document.getElementById("sentence-display");
+    const translationDisplay = document.getElementById("translation-display");
+    const extraInfoDisplay = document.getElementById("extra-info");
+    const progressText = document.getElementById("progress-text");
+    const difficultyText = document.getElementById("difficulty-text");
+    const phaseBadge = document.getElementById("phase-badge");
+    const phaseLabel = document.getElementById("phase-label");
+    const overviewBody = document.getElementById("overview-body");
+    const setSelect = document.getElementById("set-select");
+    const setDescription = document.getElementById("set-description");
+    const modeSelect = document.getElementById("mode-select");
+
+    const MODE_STORAGE_KEY = "nl_b1_trainer_mode";
+    let vocabMode = (function(){
+        try { return localStorage.getItem(MODE_STORAGE_KEY) || "nl-en"; } catch (e) { return "nl-en"; }
+    })();
+    if (modeSelect) {
+        modeSelect.value = vocabMode;
+        modeSelect.addEventListener("change", () => {
+            vocabMode = modeSelect.value || "nl-en";
+            try { localStorage.setItem(MODE_STORAGE_KEY, vocabMode); } catch (e) {}
+            render();
+        });
+    }
+
+    const nextButton = document.getElementById("next-button");
+    const previousButton = document.getElementById("previous-button");
+    const skipButton = document.getElementById("skip-button");
+    const shuffleButton = document.getElementById("shuffle-button");
+    const resetButton = document.getElementById("reset-button");
+
+    const phaseNames = [
+        { badge: "Fase 1: woord", label: "Lees en spreek het woord hardop uit." },
+        { badge: "Fase 2: zin (NL)", label: "Begrijp de Nederlandse zin en zoek de betekenis uit de context." },
+        { badge: "Fase 3: vertaling (EN)", label: "Controleer je begrip met de Engelse vertaling." },
+        { badge: "Fase 4: extra info", label: "Bekijk betekenis, woordvorming en andere B1-woorden." }
+    ];
+
+    function difficultyToStars(level) {
+        if (level <= 1) return "★☆☆ (B1 licht)";
+        if (level === 2) return "★★☆ (B1 middel)";
+        return "★★★ (B1 stevig)";
+    }
+
+    function clearDisplays() {
+        sentenceDisplay.innerHTML = "";
+        translationDisplay.textContent = "";
+        extraInfoDisplay.innerHTML = "";
+    }
+
+    function normaliseExtraWords(extras) {
+        if (!extras) return [];
+        if (extras.length === 0) return [];
+        if (typeof extras[0] === "string") {
+            return extras.map(w => ({ word: w, meaning_en: "" }));
+        }
+        return extras;
+    }
+
+    function stripPunct(str) {
+        return str.replace(/^[.,;:!?()"'«»]+|[.,;:!?()"'«»]+$/g, "");
+    }
+
+    function highlightSentence(example_nl, mainWord, extras) {
+        const tokens = example_nl.split(/(\s+|[.,;:!?])/g);
+        const lowerMain = mainWord.toLowerCase();
+        const normalisedExtras = normaliseExtraWords(extras);
+        const extraSet = new Set(normalisedExtras.map(e => (e.word || "").toLowerCase()));
+
+        return tokens.map(t => {
+            const core = stripPunct(t);
+            const lowerCore = core.toLowerCase();
+            if (!core) return t;
+            if (lowerCore === lowerMain) {
+                return t.replace(core, `<span class="target-word">${core}</span>`);
+            }
+            if (extraSet.has(lowerCore)) {
+                return t.replace(core, `<span class="extra-b1">${core}</span>`);
+            }
+            return t;
+        }).join("");
+    }
+
+    function updateOverviewTable() {
+        overviewBody.innerHTML = "";
+        order.forEach((dataIndex, i) => {
+            const item = vocabData[dataIndex];
+            const tr = document.createElement("tr");
+            tr.classList.add("clickable-row");
+            if (i === currentIndex) {
+                tr.classList.add("current-row");
+            }
+
+            tr.innerHTML = `
+                <td>${i + 1}</td>
+                <td>${item.word}</td>
+                <td>${item.pos || ""}</td>
+                <td>${item.meaning_en || ""}</td>
+                <td>${"★".repeat(item.difficulty || 1)}</td>
+            `;
+
+            tr.addEventListener("click", () => {
+                currentIndex = i;
+                currentPhase = 0;
+                saveState();
+                render();
+            });
+
+            overviewBody.appendChild(tr);
+        });
+    }
+
+    function render() {
+        if (!order.length || !vocabData.length) {
+            progressText.textContent = "Geen woorden geladen.";
+            wordDisplay.textContent = "—";
+            posDisplay.textContent = "";
+            clearDisplays();
+            return;
+        }
+
+        const globalIndex = currentIndex;
+        const dataIndex = order[globalIndex];
+        const item = vocabData[dataIndex];
+
+        const currentSet = allSets.find(s => s.id === currentSetId);
+        const setLabel = currentSet ? currentSet.label : "—";
+
+        progressText.textContent = `Set ${setLabel}: woord ${globalIndex + 1} / ${vocabData.length}`;
+        difficultyText.textContent = difficultyToStars(item.difficulty || 1);
+
+        wordDisplay.textContent = (vocabMode === "en-nl" ? (item.meaning_en || "—") : item.word);
+        posDisplay.textContent = item.pos ? `Soort woord: ${item.pos}` : "";
+
+        const phaseInfo = phaseNames[currentPhase];
+        phaseBadge.textContent = phaseInfo.badge;
+        phaseLabel.textContent = phaseInfo.label;
+
+        clearDisplays();
+
+        if (currentPhase >= 1) {
+            sentenceDisplay.innerHTML = highlightSentence(item.example_nl, item.word, item.other_b1_words);
+        }
+
+        if (currentPhase >= 2) {
+            translationDisplay.textContent = item.example_en || "";
+        }
+
+        if (currentPhase >= 3) {
+            const extras = normaliseExtraWords(item.other_b1_words);
+            let ddOther = "—";
+            if (extras.length) {
+                ddOther = extras.map(e => {
+                    if (e.meaning_en) {
+                        return `${e.word} — ${e.meaning_en}`;
+                    }
+                    return e.word;
+                }).join("; ");
+            }
+
+            let formationPartsHtml = "";
+            if (Array.isArray(item.formation_parts) && item.formation_parts.length) {
+                const partsList = item.formation_parts.map(p => {
+                    if (!p) return "";
+                    const m = p.meaning_en ? ` — ${p.meaning_en}` : "";
+                    return `<li><code>${p.part}</code>${m}</li>`;
+                }).join("");
+                formationPartsHtml = `
+                    <dt>Onderdelen van de woordvorming</dt>
+                    <dd><ul>${partsList}</ul></dd>
+                `;
+            }
+
+            extraInfoDisplay.innerHTML = `
+                <dt>${vocabMode === "en-nl" ? "Woord (NL)" : "Betekenis (EN)"}</dt>
+                <dd>${vocabMode === "en-nl" ? item.word : (item.meaning_en || "")}</dd>
+                <dt>Woordvorming</dt>
+                <dd>${item.formation || "—"}</dd>
+                ${formationPartsHtml}
+                <dt>Moeilijkheid</dt>
+                <dd>${difficultyToStars(item.difficulty || 1)}</dd>
+                <dt>Andere B1-woorden in de zin</dt>
+                <dd>${ddOther}</dd>
+            `;
+        }
+
+        previousButton.disabled = (currentIndex === 0);
+        nextButton.textContent = (currentPhase === 3 && currentIndex === vocabData.length - 1)
+            ? "Laatste stap (opnieuw beginnen)"
+            : (currentPhase === 3 ? "Volgende woord ⏭" : "Volgende stap ⏭");
+
+        updateOverviewTable();
+    }
+
+    nextButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        if (currentPhase < 3) {
+            currentPhase += 1;
+        } else {
+            if (currentIndex < vocabData.length - 1) {
+                currentIndex += 1;
+            } else {
+                currentIndex = 0;
+            }
+            currentPhase = 0;
+        }
+        saveState();
+        render();
+    });
+
+    previousButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        if (currentIndex > 0) {
+            currentIndex -= 1;
+            currentPhase = 3;
+            saveState();
+            render();
+        }
+    });
+
+    skipButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        if (currentIndex < vocabData.length - 1) {
+            currentIndex += 1;
+        } else {
+            currentIndex = 0;
+        }
+        currentPhase = 0;
+        saveState();
+        render();
+    });
+
+    shuffleButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        order = shuffleArray(createDefaultOrder());
+        currentIndex = 0;
+        currentPhase = 0;
+        saveState();
+        render();
+    });
+
+    resetButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        if (confirm("Weet je zeker dat je alle voortgang voor deze set wilt vergeten en opnieuw wilt beginnen?")) {
+            try {
+                const keyIndex = storageKeyIndex();
+                const keyOrder = storageKeyOrder();
+                if (keyIndex) localStorage.removeItem(keyIndex);
+                if (keyOrder) localStorage.removeItem(keyOrder);
+            } catch (e) {}
+            order = createDefaultOrder();
+            currentIndex = 0;
+            currentPhase = 0;
+            render();
+        }
+    });
+
+    setSelect.addEventListener("change", () => {
+        const val = setSelect.value;
+        const id = parseInt(val, 10);
+        if (!isNaN(id)) {
+            switchToSet(id);
+        }
+    });
+
+    async function loadManifestAndSets() {
+        try {
+            const res = await fetch("vocab/manifest.json");
+            if (!res.ok) {
+                throw new Error("Kan manifest niet laden");
+            }
+            manifestConfig = await res.json();
+        } catch (e) {
+            setSelect.innerHTML = "<option>Fout bij laden van manifest</option>";
+            console.error(e);
+            return;
+        }
+
+        const maxSets = manifestConfig.maxSets || 0;
+        const prefix = manifestConfig.filePrefix || "set_";
+        const pad = manifestConfig.fileNumberPadding || 2;
+        const ext = manifestConfig.fileExtension || ".json";
+
+        const loadedSets = [];
+
+        for (let i = 1; i <= maxSets; i++) {
+            const num = String(i).padStart(pad, "0");
+            const url = `vocab/${prefix}${num}${ext}`;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) {
+                    continue;
+                }
+                const data = await res.json();
+                if (!data || !Array.isArray(data.words)) continue;
+                loadedSets.push({
+                    id: data.id || i,
+                    label: data.label || ("Set " + i),
+                    description: data.description || "",
+                    words: data.words
+                });
+            } catch (e) {
+                console.warn("Kon set niet laden:", i, e);
+            }
+        }
+
+        allSets = loadedSets;
+
+        if (!allSets.length) {
+            setSelect.innerHTML = "<option>Geen sets gevonden</option>";
+            setDescription.textContent = "";
+            render();
+            return;
+        }
+
+        setSelect.innerHTML = "";
+        allSets.forEach(set => {
+            const opt = document.createElement("option");
+            opt.value = String(set.id);
+            opt.textContent = set.label;
+            setSelect.appendChild(opt);
+        });
+
+        switchToSet(allSets[0].id);
+    }
+
+    function switchToSet(id) {
+        const setObj = allSets.find(s => s.id === id);
+        if (!setObj) return;
+        currentSetId = id;
+        vocabData = setObj.words || [];
+        setDescription.textContent = setObj.description || "";
+        if (setSelect.value !== String(id)) {
+            setSelect.value = String(id);
+        }
+        loadState();
+        render();
+    }
+
+    loadManifestAndSets();
+</script>
+</body>
+</html>
