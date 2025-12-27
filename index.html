@@ -296,6 +296,13 @@
                     <option>Sets laden…</option>
                 </select>
                 <div class="progress" id="set-description" style="margin-top:0.25rem;"></div>
+                <div class="progress" style="margin-top:0.5rem;">
+                    <label for="mode-select" style="margin-right:0.5rem;">Oefenrichting:</label>
+                    <select id="mode-select">
+                        <option value="nl-en">NL → EN</option>
+                        <option value="en-nl">EN → NL</option>
+                    </select>
+                </div>
             </div>
         </div>
 
@@ -314,7 +321,8 @@
             <button class="ghost" id="skip-button">Sla woord over ⏭</button>
             <button class="ghost" id="previous-button">Vorige woord ⏮</button>
             <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
-</div>
+            <button class="ghost" id="reset-button">Herbegin (vergeet voortgang)</button>
+        </div>
         <div class="hint">
             Hints: Spatie/Enter = volgende stap • Pijltje links = vorig woord •
             Deze pagina bewaart automatisch je voortgang per set op dit apparaat (via localStorage).
@@ -347,7 +355,6 @@
 
 <script>
     const SET_STORAGE_PREFIX = "nl_b1_trainer_set_";
-    const SELECTED_SET_KEY = "nl_b1_trainer_selected_set_id";
     let manifestConfig = null;
     let allSets = [];
     let currentSetId = null;
@@ -429,12 +436,28 @@
     const overviewBody = document.getElementById("overview-body");
     const setSelect = document.getElementById("set-select");
     const setDescription = document.getElementById("set-description");
+    const modeSelect = document.getElementById("mode-select");
+
+    const MODE_STORAGE_KEY = "nl_b1_trainer_mode";
+    let vocabMode = (function(){
+        try { return localStorage.getItem(MODE_STORAGE_KEY) || "nl-en"; } catch (e) { return "nl-en"; }
+    })();
+    if (modeSelect) {
+        modeSelect.value = vocabMode;
+        modeSelect.addEventListener("change", () => {
+            vocabMode = modeSelect.value || "nl-en";
+            try { localStorage.setItem(MODE_STORAGE_KEY, vocabMode); } catch (e) {}
+            render();
+        });
+    }
 
     const nextButton = document.getElementById("next-button");
     const previousButton = document.getElementById("previous-button");
     const skipButton = document.getElementById("skip-button");
     const shuffleButton = document.getElementById("shuffle-button");
-const phaseNames = [
+    const resetButton = document.getElementById("reset-button");
+
+    const phaseNames = [
         { badge: "Fase 1: woord", label: "Lees en spreek het woord hardop uit." },
         { badge: "Fase 2: zin (NL)", label: "Begrijp de Nederlandse zin en zoek de betekenis uit de context." },
         { badge: "Fase 3: vertaling (EN)", label: "Controleer je begrip met de Engelse vertaling." },
@@ -534,7 +557,7 @@ const phaseNames = [
         progressText.textContent = `Set ${setLabel}: woord ${globalIndex + 1} / ${vocabData.length}`;
         difficultyText.textContent = difficultyToStars(item.difficulty || 1);
 
-        wordDisplay.textContent = item.word;
+        wordDisplay.textContent = (vocabMode === "en-nl" ? (item.meaning_en || "—") : item.word);
         posDisplay.textContent = item.pos ? `Soort woord: ${item.pos}` : "";
 
         const phaseInfo = phaseNames[currentPhase];
@@ -577,8 +600,8 @@ const phaseNames = [
             }
 
             extraInfoDisplay.innerHTML = `
-                <dt>Betekenis (EN)</dt>
-                <dd>${item.meaning_en || ""}</dd>
+                <dt>${vocabMode === "en-nl" ? "Woord (NL)" : "Betekenis (EN)"}</dt>
+                <dd>${vocabMode === "en-nl" ? item.word : (item.meaning_en || "")}</dd>
                 <dt>Woordvorming</dt>
                 <dd>${item.formation || "—"}</dd>
                 ${formationPartsHtml}
@@ -643,6 +666,23 @@ const phaseNames = [
         saveState();
         render();
     });
+
+    resetButton.addEventListener("click", () => {
+        if (!vocabData.length) return;
+        if (confirm("Weet je zeker dat je alle voortgang voor deze set wilt vergeten en opnieuw wilt beginnen?")) {
+            try {
+                const keyIndex = storageKeyIndex();
+                const keyOrder = storageKeyOrder();
+                if (keyIndex) localStorage.removeItem(keyIndex);
+                if (keyOrder) localStorage.removeItem(keyOrder);
+            } catch (e) {}
+            order = createDefaultOrder();
+            currentIndex = 0;
+            currentPhase = 0;
+            render();
+        }
+    });
+
     setSelect.addEventListener("change", () => {
         const val = setSelect.value;
         const id = parseInt(val, 10);
@@ -708,26 +748,15 @@ const phaseNames = [
             opt.textContent = set.label;
             setSelect.appendChild(opt);
         });
-        // Restore last selected set if available
-        let savedSetId = null;
-        try {
-            const raw = localStorage.getItem(SELECTED_SET_KEY);
-            if (raw !== null) {
-                const parsed = parseInt(raw, 10);
-                if (!isNaN(parsed)) savedSetId = parsed;
-            }
-        } catch (e) {}
 
-        const exists = (savedSetId !== null) && allSets.some(s => s.id === savedSetId);
-        switchToSet(exists ? savedSetId : allSets[0].id);
-}
+        switchToSet(allSets[0].id);
+    }
 
     function switchToSet(id) {
         const setObj = allSets.find(s => s.id === id);
         if (!setObj) return;
         currentSetId = id;
-                try { localStorage.setItem(SELECTED_SET_KEY, String(id)); } catch (e) {}
-vocabData = setObj.words || [];
+        vocabData = setObj.words || [];
         setDescription.textContent = setObj.description || "";
         if (setSelect.value !== String(id)) {
             setSelect.value = String(id);
