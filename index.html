@@ -500,6 +500,7 @@
             const lowerCore = core.toLowerCase();
             if (!core) return t;
             if (lowerCore === lowerMain) {
+                if (typeof vocabMode !== "undefined" && vocabMode === "en-nl") return t;
                 return t.replace(core, `<span class="target-word">${core}</span>`);
             }
             if (extraSet.has(lowerCore)) {
