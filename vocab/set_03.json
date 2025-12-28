@@ -9,12 +9,20 @@
       "difficulty": 2,
       "formation": "toe + passen",
       "meaning_en": "to apply, to use (a rule, method)",
-      "example_nl": "In de samenvatting leggen we uit hoe je de methode kunt toepassen, zodat elk gedeelte van het verslag betrouwbaar blijft.",
-      "example_en": "In the summary we explain how to apply the method, so that each section of the report remains reliable.",
+      "example_nl": "De regels worden consequent toegepast in alle gevallen.",
+      "example_en": "The rules are applied consistently in all cases.",
       "other_b1_words": [
         {
-          "word": "grammatica",
-          "meaning_en": ""
+          "word": "regels",
+          "meaning_en": "rules"
+        },
+        {
+          "word": "consequent",
+          "meaning_en": "consistently"
+        },
+        {
+          "word": "gevallen",
+          "meaning_en": "cases"
         }
       ],
       "formation_parts": []
@@ -25,24 +33,20 @@
       "difficulty": 3,
       "formation": "uit + oefenen",
       "meaning_en": "to exercise (influence, pressure), to practice (a profession)",
-      "example_nl": "Als je verantwoordelijk bent, moet je die rol uitoefenen door bij tegenslag door te zetten en anderen te ondersteunen.",
-      "example_en": "If you are responsible, you must carry out that role by persevering through setbacks and supporting others.",
+      "example_nl": "De organisatie wil meer invloed uitoefenen op het beleid.",
+      "example_en": "The organization wants to exert more influence on policy.",
       "other_b1_words": [
         {
           "word": "organisatie",
-          "meaning_en": ""
+          "meaning_en": "organization"
         },
         {
           "word": "invloed",
-          "meaning_en": ""
+          "meaning_en": "influence"
         },
         {
           "word": "beleid",
-          "meaning_en": ""
-        },
-        {
-          "word": "regering",
-          "meaning_en": ""
+          "meaning_en": "policy"
         }
       ],
       "formation_parts": []
@@ -53,20 +57,20 @@
       "difficulty": 2,
       "formation": "uit + breiden → uitgebreid",
       "meaning_en": "extensive, elaborate",
-      "example_nl": "Na het misverstand hebben we het plan uitgebreid besproken en er een gewoonte van gemaakt om verbeteringen te voorstellen in de samenvatting.",
-      "example_en": "After the misunderstanding we discussed the plan extensively and made it a habit to propose improvements in the summary.",
+      "example_nl": "Het rapport bevat een uitgebreid overzicht van de resultaten.",
+      "example_en": "The report contains an extensive overview of the results.",
       "other_b1_words": [
         {
-          "word": "examen",
-          "meaning_en": ""
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "studenten",
-          "meaning_en": ""
+          "word": "overzicht",
+          "meaning_en": "overview"
         },
         {
-          "word": "feest",
-          "meaning_en": ""
+          "word": "resultaten",
+          "meaning_en": "results"
         }
       ],
       "formation_parts": []
@@ -77,20 +81,20 @@
       "difficulty": 2,
       "formation": "uit + stellen",
       "meaning_en": "to postpone, to delay",
-      "example_nl": "Door afleiding en een tegenslag moesten we het overleg uitstellen, maar we bleven verantwoordelijk voor de samenvatting.",
-      "example_en": "Because of distraction and a setback we had to postpone the meeting, but we remained responsible for the summary.",
+      "example_nl": "De beslissing werd uitgesteld vanwege gebrek aan informatie.",
+      "example_en": "The decision was postponed due to a lack of information.",
       "other_b1_words": [
         {
-          "word": "ziekte",
-          "meaning_en": ""
+          "word": "beslissing",
+          "meaning_en": "decision"
         },
         {
-          "word": "rijexamen",
-          "meaning_en": ""
+          "word": "gebrek",
+          "meaning_en": "lack"
         },
         {
-          "word": "opnieuw",
-          "meaning_en": ""
+          "word": "informatie",
+          "meaning_en": "information"
         }
       ],
       "formation_parts": []
@@ -101,20 +105,20 @@
       "difficulty": 1,
       "formation": "vol + doen + -de",
       "meaning_en": "sufficient, enough",
-      "example_nl": "Met voldoende tijd kun je het zogenaamd lastige gedeelte herschrijven en betrouwbare informatie toevoegen aan de samenvatting.",
-      "example_en": "With sufficient time you can rewrite the supposedly difficult section and add reliable information to the summary.",
+      "example_nl": "Er is voldoende bewijs om verdere stappen te rechtvaardigen.",
+      "example_en": "There is sufficient evidence to justify further steps.",
       "other_b1_words": [
         {
-          "word": "belangrijk",
-          "meaning_en": ""
+          "word": "bewijs",
+          "meaning_en": "evidence"
         },
         {
-          "word": "water",
-          "meaning_en": ""
+          "word": "stappen",
+          "meaning_en": "steps"
         },
         {
-          "word": "sporten",
-          "meaning_en": ""
+          "word": "rechtvaardigen",
+          "meaning_en": "to justify"
         }
       ],
       "formation_parts": []
@@ -125,12 +129,20 @@
       "difficulty": 2,
       "formation": "voor + stellen",
       "meaning_en": "to introduce; to suggest; to imagine",
-      "example_nl": "Tijdens het overleg kon ik een oplossing voorstellen om eenzaamheid te verminderen en elkaar beter te ondersteunen.",
-      "example_en": "During the meeting I could propose a solution to reduce loneliness and support each other better.",
+      "example_nl": "De commissie zal volgende week nieuwe maatregelen voorstellen.",
+      "example_en": "The committee will propose new measures next week.",
       "other_b1_words": [
         {
-          "word": "collega",
-          "meaning_en": ""
+          "word": "commissie",
+          "meaning_en": "committee"
+        },
+        {
+          "word": "maatregelen",
+          "meaning_en": "measures"
+        },
+        {
+          "word": "volgende week",
+          "meaning_en": "next week"
         }
       ],
       "formation_parts": []
@@ -141,20 +153,20 @@
       "difficulty": 1,
       "formation": "waar + schijn + -lijk",
       "meaning_en": "probably, likely",
-      "example_nl": "Het is waarschijnlijk dat we moeten doorzetten na deze tegenslag, anders moeten we weer een gedeelte uitstellen.",
-      "example_en": "It is likely that we have to persevere after this setback, otherwise we will have to postpone a section again.",
+      "example_nl": "Het is waarschijnlijk dat de economie langzaam herstelt.",
+      "example_en": "It is likely that the economy will recover slowly.",
       "other_b1_words": [
         {
-          "word": "morgen",
-          "meaning_en": ""
+          "word": "economie",
+          "meaning_en": "economy"
         },
         {
-          "word": "hele dag",
-          "meaning_en": ""
+          "word": "langzaam",
+          "meaning_en": "slowly"
         },
         {
-          "word": "regenen",
-          "meaning_en": ""
+          "word": "herstellen",
+          "meaning_en": "to recover"
         }
       ],
       "formation_parts": []
@@ -165,20 +177,20 @@
       "difficulty": 3,
       "formation": "zo + genaamd",
       "meaning_en": "so-called",
-      "example_nl": "Het zogenaamd eenvoudige onderdeel gaf veel afleiding, dus maakten we er een gewoonte van om het rustig toe te passen; waarschijnlijk scheelt dat tijd.",
-      "example_en": "The supposedly simple part caused a lot of distraction, so we made it a habit to apply it calmly; it will probably save time.",
+      "example_nl": "Het zogenaamd eenvoudige probleem bleek complexer dan gedacht.",
+      "example_en": "The so-called simple problem turned out to be more complex than expected.",
       "other_b1_words": [
         {
-          "word": "slimme",
-          "meaning_en": ""
+          "word": "probleem",
+          "meaning_en": "problem"
         },
         {
-          "word": "truc",
-          "meaning_en": ""
+          "word": "complex",
+          "meaning_en": "complex"
         },
         {
-          "word": "verdienen",
-          "meaning_en": ""
+          "word": "gedacht",
+          "meaning_en": "thought"
         }
       ],
       "formation_parts": []
@@ -189,20 +201,20 @@
       "difficulty": 2,
       "formation": "af + leiding",
       "meaning_en": "distraction",
-      "example_nl": "Afleiding zorgt snel voor een misverstand, waardoor je het gedeelte later moet uitstellen en de samenvatting minder duidelijk wordt.",
-      "example_en": "Distraction quickly causes a misunderstanding, which means you have to postpone the section and the summary becomes less clear.",
+      "example_nl": "Tijdens het werk zorgt afleiding vaak voor fouten.",
+      "example_en": "During work, distraction often leads to mistakes.",
       "other_b1_words": [
         {
-          "word": "studeren",
-          "meaning_en": ""
+          "word": "werk",
+          "meaning_en": "work"
         },
         {
-          "word": "proberen",
-          "meaning_en": ""
+          "word": "fouten",
+          "meaning_en": "mistakes"
         },
         {
-          "word": "uitzetten",
-          "meaning_en": ""
+          "word": "vaak",
+          "meaning_en": "often"
         }
       ],
       "formation_parts": []
@@ -213,20 +225,20 @@
       "difficulty": 2,
       "formation": "be + trouw + -baar",
       "meaning_en": "reliable, trustworthy",
-      "example_nl": "Een betrouwbare samenvatting helpt verantwoordelijke teamleden om de methode juist toe te passen en misverstanden te voorkomen.",
-      "example_en": "A reliable summary helps responsible team members apply the method correctly and prevent misunderstandings.",
+      "example_nl": "De bron wordt als betrouwbaar beschouwd door experts.",
+      "example_en": "The source is considered reliable by experts.",
       "other_b1_words": [
         {
-          "word": "belangrijk",
-          "meaning_en": ""
-        },
-        {
-          "word": "informatie",
-          "meaning_en": ""
-        },
-        {
           "word": "bron",
-          "meaning_en": ""
+          "meaning_en": "source"
+        },
+        {
+          "word": "experts",
+          "meaning_en": "experts"
+        },
+        {
+          "word": "beschouwd",
+          "meaning_en": "considered"
         }
       ],
       "formation_parts": []
@@ -237,16 +249,20 @@
       "difficulty": 2,
       "formation": "door + zetten",
       "meaning_en": "to persevere, to keep going",
-      "example_nl": "Bij tegenslag moet je doorzetten, zelfs als de leeftijd in de groep verschilt en er een misverstand ontstaat.",
-      "example_en": "When there is a setback you must persevere, even if the ages in the group differ and a misunderstanding arises.",
+      "example_nl": "Ondanks de kritiek bleef het team doorzetten.",
+      "example_en": "Despite the criticism, the team continued persevering.",
       "other_b1_words": [
         {
-          "word": "moeilijk",
-          "meaning_en": ""
+          "word": "ondanks",
+          "meaning_en": "despite"
         },
         {
-          "word": "studie",
-          "meaning_en": ""
+          "word": "kritiek",
+          "meaning_en": "criticism"
+        },
+        {
+          "word": "team",
+          "meaning_en": "team"
         }
       ],
       "formation_parts": []
@@ -257,24 +273,20 @@
       "difficulty": 3,
       "formation": "eenzaam + -heid",
       "meaning_en": "loneliness",
-      "example_nl": "Door een vaste gewoonte van overleg voelt niemand eenzaamheid, en we kunnen elkaar ondersteunen als het moeilijk wordt.",
-      "example_en": "With a fixed habit of meeting, no one feels loneliness, and we can support each other when it gets difficult.",
+      "example_nl": "Eenzaamheid onder ouderen is een groeiend maatschappelijk probleem.",
+      "example_en": "Loneliness among the elderly is a growing social problem.",
       "other_b1_words": [
         {
-          "word": "verhuizen",
-          "meaning_en": ""
+          "word": "ouderen",
+          "meaning_en": "elderly"
         },
         {
-          "word": "stad",
-          "meaning_en": ""
+          "word": "maatschappelijk",
+          "meaning_en": "social"
         },
         {
-          "word": "soms",
-          "meaning_en": ""
-        },
-        {
-          "word": "voelen",
-          "meaning_en": ""
+          "word": "probleem",
+          "meaning_en": "problem"
         }
       ],
       "formation_parts": []
@@ -285,20 +297,20 @@
       "difficulty": 1,
       "formation": "ge + deel + -te",
       "meaning_en": "part, section",
-      "example_nl": "Voor elk gedeelte schrijven we een korte samenvatting, zodat het verslag uitgebreid blijft maar toch overzichtelijk.",
-      "example_en": "For each section we write a short summary, so the report remains extensive yet still clear.",
+      "example_nl": "Dit gedeelte van het rapport behandelt de conclusies.",
+      "example_en": "This section of the report deals with the conclusions.",
       "other_b1_words": [
         {
-          "word": "eerste",
-          "meaning_en": ""
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "cursus",
-          "meaning_en": ""
+          "word": "behandelen",
+          "meaning_en": "to deal with"
         },
         {
-          "word": "grammatica",
-          "meaning_en": ""
+          "word": "conclusies",
+          "meaning_en": "conclusions"
         }
       ],
       "formation_parts": []
@@ -309,20 +321,20 @@
       "difficulty": 1,
       "formation": "ge + woon + -te",
       "meaning_en": "habit",
-      "example_nl": "Het werd een gewoonte om na elke tegenslag even te overleggen en elkaar te ondersteunen, in plaats van het werk uit te stellen.",
-      "example_en": "It became a habit to meet briefly after every setback and support each other, instead of postponing the work.",
+      "example_nl": "Het is een slechte gewoonte om beslissingen uit te stellen.",
+      "example_en": "It is a bad habit to postpone decisions.",
       "other_b1_words": [
         {
-          "word": "goede",
-          "meaning_en": ""
+          "word": "beslissingen",
+          "meaning_en": "decisions"
         },
         {
-          "word": "elke dag",
-          "meaning_en": ""
+          "word": "uitstellen",
+          "meaning_en": "to postpone"
         },
         {
-          "word": "lezen",
-          "meaning_en": ""
+          "word": "slecht",
+          "meaning_en": "bad"
         }
       ],
       "formation_parts": []
@@ -333,24 +345,20 @@
       "difficulty": 1,
       "formation": "leef + tijd",
       "meaning_en": "age",
-      "example_nl": "De leeftijd verschilde in de groep, maar iedereen voelde zich verantwoordelijk en kon doorzetten bij tegenslag.",
-      "example_en": "The ages differed in the group, but everyone felt responsible and could persevere through setbacks.",
+      "example_nl": "De leeftijd van de deelnemers varieerde sterk.",
+      "example_en": "The age of the participants varied greatly.",
       "other_b1_words": [
         {
-          "word": "makkelijk",
-          "meaning_en": ""
+          "word": "deelnemers",
+          "meaning_en": "participants"
         },
         {
-          "word": "nieuwe",
-          "meaning_en": ""
+          "word": "variëren",
+          "meaning_en": "to vary"
         },
         {
-          "word": "taal",
-          "meaning_en": ""
-        },
-        {
-          "word": "leren",
-          "meaning_en": ""
+          "word": "sterk",
+          "meaning_en": "greatly"
         }
       ],
       "formation_parts": []
@@ -361,20 +369,20 @@
       "difficulty": 2,
       "formation": "mis + verstand",
       "meaning_en": "misunderstanding",
-      "example_nl": "Een misverstand over wie verantwoordelijk was, zorgde voor afleiding en maakte het nodig om het overleg uit te stellen.",
-      "example_en": "A misunderstanding about who was responsible caused distraction and made it necessary to postpone the meeting.",
+      "example_nl": "Het conflict ontstond door een misverstand.",
+      "example_en": "The conflict arose because of a misunderstanding.",
       "other_b1_words": [
         {
-          "word": "verkeerde",
-          "meaning_en": ""
+          "word": "conflict",
+          "meaning_en": "conflict"
         },
         {
-          "word": "dag",
-          "meaning_en": ""
+          "word": "ontstaan",
+          "meaning_en": "to arise"
         },
         {
-          "word": "examen",
-          "meaning_en": ""
+          "word": "door",
+          "meaning_en": "because of"
         }
       ],
       "formation_parts": []
@@ -385,24 +393,20 @@
       "difficulty": 2,
       "formation": "onder + steunen",
       "meaning_en": "to support",
-      "example_nl": "We moeten elkaar ondersteunen wanneer iemand door eenzaamheid minder goed kan doorzetten na een tegenslag.",
-      "example_en": "We should support each other when someone, because of loneliness, can persevere less well after a setback.",
+      "example_nl": "De overheid wil kwetsbare groepen beter ondersteunen.",
+      "example_en": "The government wants to better support vulnerable groups.",
       "other_b1_words": [
         {
-          "word": "familie",
-          "meaning_en": ""
+          "word": "overheid",
+          "meaning_en": "government"
         },
         {
-          "word": "zoeken",
-          "meaning_en": ""
+          "word": "kwetsbaar",
+          "meaning_en": "vulnerable"
         },
         {
-          "word": "nieuwe",
-          "meaning_en": ""
-        },
-        {
-          "word": "baan",
-          "meaning_en": ""
+          "word": "groepen",
+          "meaning_en": "groups"
         }
       ],
       "formation_parts": []
@@ -413,20 +417,20 @@
       "difficulty": 2,
       "formation": "samen + vatten → samenvatting",
       "meaning_en": "summary",
-      "example_nl": "In de samenvatting noemen we de tegenslag, de oplossing die we hebben voorgesteld en hoe we die gaan toepassen.",
-      "example_en": "In the summary we mention the setback, the solution we proposed, and how we are going to apply it.",
+      "example_nl": "Aan het einde volgt een korte samenvatting van het onderzoek.",
+      "example_en": "At the end there is a short summary of the research.",
       "other_b1_words": [
         {
-          "word": "eind",
-          "meaning_en": ""
+          "word": "einde",
+          "meaning_en": "end"
         },
         {
-          "word": "hoofdstuk",
-          "meaning_en": ""
+          "word": "onderzoek",
+          "meaning_en": "research"
         },
         {
-          "word": "korte",
-          "meaning_en": ""
+          "word": "kort",
+          "meaning_en": "short"
         }
       ],
       "formation_parts": []
@@ -437,20 +441,20 @@
       "difficulty": 2,
       "formation": "tegen + slag",
       "meaning_en": "setback, stroke of bad luck",
-      "example_nl": "Na de tegenslag maakten we een uitgebreid plan met voldoende stappen, zodat het volgende gedeelte soepel kon verlopen.",
-      "example_en": "After the setback we made an extensive plan with sufficient steps so the next section could go smoothly.",
+      "example_nl": "Na een tegenslag moest het project opnieuw worden gepland.",
+      "example_en": "After a setback, the project had to be rescheduled.",
       "other_b1_words": [
         {
-          "word": "financiële",
-          "meaning_en": ""
+          "word": "project",
+          "meaning_en": "project"
+        },
+        {
+          "word": "opnieuw",
+          "meaning_en": "again"
         },
         {
           "word": "plannen",
-          "meaning_en": ""
-        },
-        {
-          "word": "veranderen",
-          "meaning_en": ""
+          "meaning_en": "to plan"
         }
       ],
       "formation_parts": []
@@ -461,16 +465,20 @@
       "difficulty": 2,
       "formation": "ver + antwoord + -elijk",
       "meaning_en": "responsible",
-      "example_nl": "Je bent verantwoordelijk voor betrouwbare informatie en je moet die taak ook uitoefenen door de samenvatting te controleren en een misverstand te voorkomen.",
-      "example_en": "You are responsible for reliable information and you must also carry out that task by checking the summary and preventing a misunderstanding.",
+      "example_nl": "De manager is verantwoordelijk voor de uitvoering van het plan.",
+      "example_en": "The manager is responsible for the implementation of the plan.",
       "other_b1_words": [
         {
-          "word": "teamleider",
-          "meaning_en": ""
+          "word": "manager",
+          "meaning_en": "manager"
         },
         {
-          "word": "resultaat",
-          "meaning_en": ""
+          "word": "uitvoering",
+          "meaning_en": "implementation"
+        },
+        {
+          "word": "plan",
+          "meaning_en": "plan"
         }
       ],
       "formation_parts": []

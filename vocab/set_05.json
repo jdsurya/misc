@@ -9,24 +9,20 @@
       "difficulty": 3,
       "formation": "geluid + overlast",
       "meaning_en": "noise nuisance, noise pollution",
-      "example_nl": "Door voortdurende geluidsoverlast groeit de onzekerheid in de gemeenschap, wat de situatie soms hopeloos maakt.",
-      "example_en": "Due to constant noise disturbance, uncertainty grows in the community, sometimes making the situation feel hopeless.",
+      "example_nl": "Bewoners klagen over ernstige geluidsoverlast door het nachtelijke verkeer.",
+      "example_en": "Residents complain about serious noise pollution caused by nighttime traffic.",
       "other_b1_words": [
         {
           "word": "bewoners",
-          "meaning_en": ""
+          "meaning_en": "residents"
         },
         {
-          "word": "klagen",
-          "meaning_en": ""
+          "word": "nachtelijk",
+          "meaning_en": "nighttime"
         },
         {
-          "word": "vliegtuigen",
-          "meaning_en": ""
-        },
-        {
-          "word": "nacht",
-          "meaning_en": ""
+          "word": "verkeer",
+          "meaning_en": "traffic"
         }
       ],
       "formation_parts": []
@@ -37,16 +33,20 @@
       "difficulty": 2,
       "formation": "gemeen + schap",
       "meaning_en": "community",
-      "example_nl": "De gemeenschap zoekt een oplossing voor geluidsoverlast en bespreekt daarbij keuzevrijheid en invoering van regels.",
-      "example_en": "The community is looking for a solution to noise disturbance and discusses freedom of choice and rule introduction.",
+      "example_nl": "De gemeenschap speelt een belangrijke rol bij het ondersteunen van kwetsbare groepen.",
+      "example_en": "The community plays an important role in supporting vulnerable groups.",
       "other_b1_words": [
         {
-          "word": "kleine",
-          "meaning_en": ""
+          "word": "rol",
+          "meaning_en": "role"
         },
         {
-          "word": "iedereen",
-          "meaning_en": ""
+          "word": "ondersteunen",
+          "meaning_en": "to support"
+        },
+        {
+          "word": "groepen",
+          "meaning_en": "groups"
         }
       ],
       "formation_parts": []
@@ -57,24 +57,20 @@
       "difficulty": 3,
       "formation": "neigen → geneigd",
       "meaning_en": "inclined, tending",
-      "example_nl": "Mensen zijn geneigd problemen te onderdrukken, waardoor oplossingen blijven opschuiven.",
-      "example_en": "People are inclined to suppress problems, causing solutions to be postponed.",
+      "example_nl": "Consumenten zijn geneigd om prijs en kwaliteit met elkaar te vergelijken.",
+      "example_en": "Consumers tend to compare price and quality.",
       "other_b1_words": [
         {
-          "word": "te lang",
-          "meaning_en": ""
+          "word": "consumenten",
+          "meaning_en": "consumers"
         },
         {
-          "word": "werken",
-          "meaning_en": ""
+          "word": "prijs",
+          "meaning_en": "price"
         },
         {
-          "word": "vergeet",
-          "meaning_en": ""
-        },
-        {
-          "word": "pauze",
-          "meaning_en": ""
+          "word": "kwaliteit",
+          "meaning_en": "quality"
         }
       ],
       "formation_parts": []
@@ -85,20 +81,20 @@
       "difficulty": 1,
       "formation": "geschied + enis",
       "meaning_en": "history",
-      "example_nl": "De geschiedenis van de gemeenschap laat zien hoe onzekerheid en klimaatverandering eerder zijn aangepakt.",
-      "example_en": "The history of the community shows how uncertainty and climate change were handled before.",
+      "example_nl": "De stad heeft een rijke geschiedenis die teruggaat tot de middeleeuwen.",
+      "example_en": "The city has a rich history dating back to the Middle Ages.",
       "other_b1_words": [
         {
-          "word": "Nederlandse",
-          "meaning_en": ""
+          "word": "stad",
+          "meaning_en": "city"
         },
         {
-          "word": "interessant",
-          "meaning_en": ""
+          "word": "rijk",
+          "meaning_en": "rich"
         },
         {
-          "word": "vooral",
-          "meaning_en": ""
+          "word": "middeleeuwen",
+          "meaning_en": "Middle Ages"
         }
       ],
       "formation_parts": []
@@ -109,20 +105,20 @@
       "difficulty": 1,
       "formation": "her + kennen",
       "meaning_en": "to recognise",
-      "example_nl": "Door problemen tijdig te herkennen, kan de gemeenschap voorkomen dat onzekerheid en hopeloosheid toenemen.",
-      "example_en": "By recognizing problems in time, the community can prevent uncertainty and hopelessness from increasing.",
+      "example_nl": "Veel mensen herkennen de problemen die in het rapport worden beschreven.",
+      "example_en": "Many people recognize the problems described in the report.",
       "other_b1_words": [
         {
-          "word": "bijna",
-          "meaning_en": ""
+          "word": "problemen",
+          "meaning_en": "problems"
         },
         {
-          "word": "zonder",
-          "meaning_en": ""
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "baard",
-          "meaning_en": ""
+          "word": "beschrijven",
+          "meaning_en": "to describe"
         }
       ],
       "formation_parts": []
@@ -133,24 +129,20 @@
       "difficulty": 2,
       "formation": "hoop + -eloos",
       "meaning_en": "hopeless",
-      "example_nl": "Zonder oplossing voelt de situatie hopeloos aan en schuiven beslissingen voortdurend op.",
-      "example_en": "Without a solution, the situation feels hopeless and decisions keep being postponed.",
+      "example_nl": "Zonder extra steun lijkt de situatie voor veel gezinnen hopeloos.",
+      "example_en": "Without additional support, the situation for many families seems hopeless.",
       "other_b1_words": [
         {
-          "word": "drie",
-          "meaning_en": ""
+          "word": "situatie",
+          "meaning_en": "situation"
         },
         {
-          "word": "mislukte",
-          "meaning_en": ""
+          "word": "gezinnen",
+          "meaning_en": "families"
         },
         {
-          "word": "examens",
-          "meaning_en": ""
-        },
-        {
-          "word": "voelde",
-          "meaning_en": ""
+          "word": "steun",
+          "meaning_en": "support"
         }
       ],
       "formation_parts": []
@@ -161,24 +153,20 @@
       "difficulty": 2,
       "formation": "indruk + wekkend",
       "meaning_en": "impressive",
-      "example_nl": "Het was indrukwekkend hoe de gemeenschap ondanks onzekerheid en tegenslag toch een oplossing invoerde.",
-      "example_en": "It was impressive how the community introduced a solution despite uncertainty and setbacks.",
+      "example_nl": "Het nieuwe gebouw is architectonisch indrukwekkend.",
+      "example_en": "The new building is architecturally impressive.",
       "other_b1_words": [
         {
-          "word": "uitzicht",
-          "meaning_en": ""
+          "word": "gebouw",
+          "meaning_en": "building"
         },
         {
-          "word": "top",
-          "meaning_en": ""
+          "word": "nieuw",
+          "meaning_en": "new"
         },
         {
-          "word": "berg",
-          "meaning_en": ""
-        },
-        {
-          "word": "echt",
-          "meaning_en": ""
+          "word": "architectonisch",
+          "meaning_en": "architectural"
         }
       ],
       "formation_parts": []
@@ -189,24 +177,20 @@
       "difficulty": 2,
       "formation": "in + stelling",
       "meaning_en": "institution; setting; attitude",
-      "example_nl": "De instelling speelt een belangrijke rol bij de invoering van maatregelen tegen klimaatverandering.",
-      "example_en": "The institution plays an important role in introducing measures against climate change.",
+      "example_nl": "De instelling richt zich op zorg voor mensen met een beperking.",
+      "example_en": "The institution focuses on care for people with disabilities.",
       "other_b1_words": [
         {
-          "word": "onderwijsinstelling",
-          "meaning_en": ""
+          "word": "zorg",
+          "meaning_en": "care"
         },
         {
-          "word": "bieden",
-          "meaning_en": ""
+          "word": "mensen",
+          "meaning_en": "people"
         },
         {
-          "word": "cursussen",
-          "meaning_en": ""
-        },
-        {
-          "word": "avond",
-          "meaning_en": ""
+          "word": "beperking",
+          "meaning_en": "disability"
         }
       ],
       "formation_parts": []
@@ -217,24 +201,20 @@
       "difficulty": 3,
       "formation": "invoeren → invoering",
       "meaning_en": "introduction (of a law, system)",
-      "example_nl": "De invoering van nieuwe regels kan geluidsoverlast verminderen en de omgeving verbeteren.",
-      "example_en": "The introduction of new rules can reduce noise disturbance and improve the environment.",
+      "example_nl": "De invoering van de wet werd uitgesteld tot volgend jaar.",
+      "example_en": "The introduction of the law was postponed until next year.",
       "other_b1_words": [
         {
-          "word": "nieuw",
-          "meaning_en": ""
+          "word": "wet",
+          "meaning_en": "law"
         },
         {
-          "word": "systeem",
-          "meaning_en": ""
+          "word": "uitgesteld",
+          "meaning_en": "postponed"
         },
         {
-          "word": "zorgde",
-          "meaning_en": ""
-        },
-        {
-          "word": "verwarring",
-          "meaning_en": ""
+          "word": "volgend jaar",
+          "meaning_en": "next year"
         }
       ],
       "formation_parts": []
@@ -245,20 +225,20 @@
       "difficulty": 3,
       "formation": "keuze + vrijheid",
       "meaning_en": "freedom of choice",
-      "example_nl": "Meer keuzevrijheid helpt de gemeenschap om minder geneigd te zijn problemen te onderdrukken.",
-      "example_en": "More freedom of choice helps the community be less inclined to suppress problems.",
+      "example_nl": "Het debat draait om de balans tussen keuzevrijheid en bescherming.",
+      "example_en": "The debate revolves around the balance between freedom of choice and protection.",
       "other_b1_words": [
         {
-          "word": "zorgstelsel",
-          "meaning_en": ""
+          "word": "debat",
+          "meaning_en": "debate"
         },
         {
-          "word": "patiënten",
-          "meaning_en": ""
+          "word": "balans",
+          "meaning_en": "balance"
         },
         {
-          "word": "veel",
-          "meaning_en": ""
+          "word": "bescherming",
+          "meaning_en": "protection"
         }
       ],
       "formation_parts": []
@@ -269,20 +249,20 @@
       "difficulty": 3,
       "formation": "klimaat + verandering",
       "meaning_en": "climate change",
-      "example_nl": "Klimaatverandering heeft een toegenomen invloed op de omgeving en vergroot onzekerheid in de maatschappij.",
-      "example_en": "Climate change has an increased impact on the environment and increases uncertainty in society.",
+      "example_nl": "Klimaatverandering vormt een groeiende bedreiging voor kustgebieden.",
+      "example_en": "Climate change poses a growing threat to coastal areas.",
       "other_b1_words": [
         {
-          "word": "steeds meer",
-          "meaning_en": ""
+          "word": "bedreiging",
+          "meaning_en": "threat"
         },
         {
-          "word": "jongeren",
-          "meaning_en": ""
+          "word": "kustgebieden",
+          "meaning_en": "coastal areas"
         },
         {
-          "word": "zorgen",
-          "meaning_en": ""
+          "word": "groeiend",
+          "meaning_en": "growing"
         }
       ],
       "formation_parts": []
@@ -293,24 +273,20 @@
       "difficulty": 2,
       "formation": "maat + schap + -ij",
       "meaning_en": "society",
-      "example_nl": "De maatschappij verwacht dat instellingen oplossingen bieden voor onzekerheid en klimaatverandering.",
-      "example_en": "Society expects institutions to offer solutions for uncertainty and climate change.",
+      "example_nl": "Digitalisering verandert de manier waarop onze maatschappij functioneert.",
+      "example_en": "Digitalization is changing the way our society functions.",
       "other_b1_words": [
         {
-          "word": "moderne",
-          "meaning_en": ""
+          "word": "digitalisering",
+          "meaning_en": "digitalization"
         },
         {
-          "word": "sociale media",
-          "meaning_en": ""
+          "word": "manier",
+          "meaning_en": "way"
         },
         {
-          "word": "grote",
-          "meaning_en": ""
-        },
-        {
-          "word": "rol",
-          "meaning_en": ""
+          "word": "functioneren",
+          "meaning_en": "to function"
         }
       ],
       "formation_parts": []
@@ -321,16 +297,20 @@
       "difficulty": 1,
       "formation": "om + geving",
       "meaning_en": "environment, surroundings",
-      "example_nl": "Een gezonde omgeving vermindert onzekerheid en versterkt de gemeenschap.",
-      "example_en": "A healthy environment reduces uncertainty and strengthens the community.",
+      "example_nl": "Een veilige omgeving is essentieel voor de ontwikkeling van kinderen.",
+      "example_en": "A safe environment is essential for children's development.",
       "other_b1_words": [
         {
-          "word": "baan",
-          "meaning_en": ""
+          "word": "veilig",
+          "meaning_en": "safe"
         },
         {
-          "word": "zoeken",
-          "meaning_en": ""
+          "word": "ontwikkeling",
+          "meaning_en": "development"
+        },
+        {
+          "word": "kinderen",
+          "meaning_en": "children"
         }
       ],
       "formation_parts": []
@@ -341,24 +321,20 @@
       "difficulty": 3,
       "formation": "onder + drukken",
       "meaning_en": "to suppress, to oppress",
-      "example_nl": "Het onderdrukken van problemen zorgt ervoor dat oplossingen blijven opschuiven.",
-      "example_en": "Suppressing problems causes solutions to keep being postponed.",
+      "example_nl": "Het regime probeerde kritische stemmen te onderdrukken.",
+      "example_en": "The regime tried to suppress critical voices.",
       "other_b1_words": [
         {
-          "word": "sommige",
-          "meaning_en": ""
+          "word": "regime",
+          "meaning_en": "regime"
         },
         {
-          "word": "landen",
-          "meaning_en": ""
+          "word": "kritisch",
+          "meaning_en": "critical"
         },
         {
-          "word": "pers",
-          "meaning_en": ""
-        },
-        {
-          "word": "nog steeds",
-          "meaning_en": ""
+          "word": "stemmen",
+          "meaning_en": "voices"
         }
       ],
       "formation_parts": []
@@ -369,20 +345,20 @@
       "difficulty": 2,
       "formation": "onzeker + -heid",
       "meaning_en": "uncertainty, insecurity",
-      "example_nl": "Onzekerheid groeit wanneer problemen niet worden herkend en oplossingen uitblijven.",
-      "example_en": "Uncertainty grows when problems are not recognized and solutions fail to appear.",
+      "example_nl": "Economische onzekerheid heeft invloed op investeringsbeslissingen.",
+      "example_en": "Economic uncertainty affects investment decisions.",
       "other_b1_words": [
         {
-          "word": "economische",
-          "meaning_en": ""
+          "word": "economisch",
+          "meaning_en": "economic"
         },
         {
-          "word": "moeilijk",
-          "meaning_en": ""
+          "word": "investeringsbeslissingen",
+          "meaning_en": "investment decisions"
         },
         {
-          "word": "plannen",
-          "meaning_en": ""
+          "word": "invloed",
+          "meaning_en": "influence"
         }
       ],
       "formation_parts": []
@@ -393,24 +369,20 @@
       "difficulty": 1,
       "formation": "op + lossing",
       "meaning_en": "solution",
-      "example_nl": "Een duurzame oplossing kan zowel geluidsoverlast als onzekerheid verminderen.",
-      "example_en": "A sustainable solution can reduce both noise disturbance and uncertainty.",
+      "example_nl": "Er wordt gezocht naar een duurzame oplossing voor het probleem.",
+      "example_en": "A sustainable solution is being sought for the problem.",
       "other_b1_words": [
         {
-          "word": "lang",
-          "meaning_en": ""
-        },
-        {
-          "word": "overleg",
-          "meaning_en": ""
-        },
-        {
-          "word": "eindelijk",
-          "meaning_en": ""
+          "word": "duurzaam",
+          "meaning_en": "sustainable"
         },
         {
           "word": "probleem",
-          "meaning_en": ""
+          "meaning_en": "problem"
+        },
+        {
+          "word": "zoeken",
+          "meaning_en": "to seek"
         }
       ],
       "formation_parts": []
@@ -421,20 +393,20 @@
       "difficulty": 3,
       "formation": "op + schuiven",
       "meaning_en": "to move up, to shift",
-      "example_nl": "Problemen blijven opschuiven zolang de invoering van een oplossing ontbreekt.",
-      "example_en": "Problems keep being postponed as long as the introduction of a solution is missing.",
+      "example_nl": "De deadline moest opnieuw worden opgeschoven.",
+      "example_en": "The deadline had to be postponed again.",
       "other_b1_words": [
         {
-          "word": "iemand",
-          "meaning_en": ""
+          "word": "deadline",
+          "meaning_en": "deadline"
         },
         {
-          "word": "tafel",
-          "meaning_en": ""
+          "word": "opnieuw",
+          "meaning_en": "again"
         },
         {
-          "word": "zitten",
-          "meaning_en": ""
+          "word": "moeten",
+          "meaning_en": "had to"
         }
       ],
       "formation_parts": []
@@ -445,20 +417,20 @@
       "difficulty": 3,
       "formation": "over + bodig (oud)",
       "meaning_en": "unnecessary, superfluous",
-      "example_nl": "Zonder duidelijke invoering voelen sommige maatregelen overbodig aan voor de gemeenschap.",
-      "example_en": "Without clear introduction, some measures feel unnecessary for the community.",
+      "example_nl": "Extra regels maken het proces onnodig complex en overbodig.",
+      "example_en": "Additional rules make the process unnecessarily complex and redundant.",
       "other_b1_words": [
         {
-          "word": "bijlagen",
-          "meaning_en": ""
+          "word": "regels",
+          "meaning_en": "rules"
         },
         {
-          "word": "e-mail",
-          "meaning_en": ""
+          "word": "proces",
+          "meaning_en": "process"
         },
         {
-          "word": "eigenlijk",
-          "meaning_en": ""
+          "word": "onnodig",
+          "meaning_en": "unnecessary"
         }
       ],
       "formation_parts": []
@@ -469,24 +441,20 @@
       "difficulty": 2,
       "formation": "toe + nemen → toegenomen",
       "meaning_en": "increased",
-      "example_nl": "De toegenomen druk door klimaatverandering beïnvloedt de gemeenschap sterk.",
-      "example_en": "The increased pressure from climate change strongly affects the community.",
+      "example_nl": "De belangstelling voor duurzame energie is sterk toegenomen.",
+      "example_en": "Interest in sustainable energy has increased significantly.",
       "other_b1_words": [
         {
-          "word": "aantal",
-          "meaning_en": ""
+          "word": "belangstelling",
+          "meaning_en": "interest"
         },
         {
-          "word": "internationale",
-          "meaning_en": ""
+          "word": "duurzame energie",
+          "meaning_en": "sustainable energy"
         },
         {
-          "word": "studenten",
-          "meaning_en": ""
-        },
-        {
-          "word": "laatste jaren",
-          "meaning_en": ""
+          "word": "sterk",
+          "meaning_en": "significantly"
         }
       ],
       "formation_parts": []
@@ -497,16 +465,20 @@
       "difficulty": 3,
       "formation": "voort + durend",
       "meaning_en": "constant, continually",
-      "example_nl": "Voortdurend uitstel van een oplossing vergroot de onzekerheid in de maatschappij.",
-      "example_en": "Constant postponement of a solution increases uncertainty in society.",
+      "example_nl": "Het voortdurende gebrek aan duidelijkheid zorgt voor frustratie.",
+      "example_en": "The constant lack of clarity causes frustration.",
       "other_b1_words": [
         {
-          "word": "bezig",
-          "meaning_en": ""
+          "word": "gebrek",
+          "meaning_en": "lack"
         },
         {
-          "word": "verbeteren",
-          "meaning_en": ""
+          "word": "duidelijkheid",
+          "meaning_en": "clarity"
+        },
+        {
+          "word": "frustratie",
+          "meaning_en": "frustration"
         }
       ],
       "formation_parts": []

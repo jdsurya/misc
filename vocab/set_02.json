@@ -9,20 +9,20 @@
       "difficulty": 2,
       "formation": "ge + schikken + -t",
       "meaning_en": "suitable, appropriate",
-      "example_nl": "Deze ruimte is geschikt om te overleggen, omdat er genoeg plek is om rustig te praten.",
-      "example_en": "This room is suitable for a meeting because there is enough space to talk calmly.",
+      "example_nl": "Deze maatregel is niet geschikt voor langdurige toepassing.",
+      "example_en": "This measure is not suitable for long-term application.",
       "other_b1_words": [
         {
-          "word": "kamer",
-          "meaning_en": ""
+          "word": "maatregel",
+          "meaning_en": "measure"
         },
         {
-          "word": "personen",
-          "meaning_en": ""
+          "word": "langdurig",
+          "meaning_en": "long-term"
         },
         {
-          "word": "klein",
-          "meaning_en": ""
+          "word": "toepassing",
+          "meaning_en": "application"
         }
       ],
       "formation_parts": []
@@ -33,16 +33,20 @@
       "difficulty": 1,
       "formation": "ge + volgen",
       "meaning_en": "consequence, result",
-      "example_nl": "Het gevolg van de schade was een klacht van de buren, dus we moesten onmiddellijk overleggen.",
-      "example_en": "The consequence of the damage was a complaint from the neighbours, so we had to consult immediately.",
+      "example_nl": "Een direct gevolg van het besluit was extra onzekerheid op de markt.",
+      "example_en": "A direct consequence of the decision was additional uncertainty in the market.",
       "other_b1_words": [
         {
-          "word": "staking",
-          "meaning_en": ""
+          "word": "besluit",
+          "meaning_en": "decision"
         },
         {
-          "word": "treinen",
-          "meaning_en": ""
+          "word": "onzekerheid",
+          "meaning_en": "uncertainty"
+        },
+        {
+          "word": "markt",
+          "meaning_en": "market"
         }
       ],
       "formation_parts": []
@@ -53,20 +57,20 @@
       "difficulty": 2,
       "formation": "in + druk",
       "meaning_en": "impression",
-      "example_nl": "Tijdens het overleg maakte hij een goede indruk, omdat hij rustig kon omgaan met de klacht.",
-      "example_en": "During the meeting he made a good impression because he could deal calmly with the complaint.",
+      "example_nl": "Het rapport maakte de indruk dat verdere actie noodzakelijk is.",
+      "example_en": "The report gave the impression that further action is necessary.",
       "other_b1_words": [
         {
-          "word": "docent",
-          "meaning_en": ""
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "nieuwe",
-          "meaning_en": ""
+          "word": "actie",
+          "meaning_en": "action"
         },
         {
-          "word": "studenten",
-          "meaning_en": ""
+          "word": "noodzakelijk",
+          "meaning_en": "necessary"
         }
       ],
       "formation_parts": []
@@ -77,20 +81,20 @@
       "difficulty": 2,
       "formation": "in + houden",
       "meaning_en": "to mean, to imply; to contain",
-      "example_nl": "De nieuwe regel houdt in dat iedereen mag meedoen, tenzij de omstandigheden het niet toestaan.",
-      "example_en": "The new rule means that everyone may participate unless the circumstances do not allow it.",
+      "example_nl": "De hervorming zal aanzienlijke veranderingen inhouden.",
+      "example_en": "The reform will entail significant changes.",
       "other_b1_words": [
         {
-          "word": "uitleggen",
-          "meaning_en": ""
+          "word": "hervorming",
+          "meaning_en": "reform"
         },
         {
-          "word": "regel",
-          "meaning_en": ""
+          "word": "aanzienlijk",
+          "meaning_en": "significant"
         },
         {
-          "word": "precies",
-          "meaning_en": ""
+          "word": "veranderingen",
+          "meaning_en": "changes"
         }
       ],
       "formation_parts": []
@@ -101,16 +105,20 @@
       "difficulty": 3,
       "formation": "kennen → kennelijk",
       "meaning_en": "apparently, evidently",
-      "example_nl": "Kennelijk ontbreekt er informatie, want niemand kan uitleggen hoe de schade is ontstaan.",
-      "example_en": "Apparently information is missing, because nobody can explain how the damage occurred.",
+      "example_nl": "Kennelijk was er onvoldoende steun voor het voorstel.",
+      "example_en": "Apparently there was insufficient support for the proposal.",
       "other_b1_words": [
         {
-          "word": "instructies",
-          "meaning_en": ""
+          "word": "steun",
+          "meaning_en": "support"
         },
         {
-          "word": "gelezen",
-          "meaning_en": ""
+          "word": "voorstel",
+          "meaning_en": "proposal"
+        },
+        {
+          "word": "onvoldoende",
+          "meaning_en": "insufficient"
         }
       ],
       "formation_parts": []
@@ -121,20 +129,20 @@
       "difficulty": 2,
       "formation": "klagen → klacht",
       "meaning_en": "complaint",
-      "example_nl": "Na de klacht hebben we meteen overlegd om verdere schade te voorkomen.",
-      "example_en": "After the complaint we consulted right away to prevent further damage.",
+      "example_nl": "De toezichthouder ontving meerdere klachten over de dienstverlening.",
+      "example_en": "The regulator received several complaints about the service.",
       "other_b1_words": [
         {
-          "word": "klant",
-          "meaning_en": ""
+          "word": "toezichthouder",
+          "meaning_en": "regulator"
         },
         {
-          "word": "slechte",
-          "meaning_en": ""
+          "word": "klachten",
+          "meaning_en": "complaints"
         },
         {
-          "word": "service",
-          "meaning_en": ""
+          "word": "dienstverlening",
+          "meaning_en": "service"
         }
       ],
       "formation_parts": []
@@ -145,20 +153,20 @@
       "difficulty": 1,
       "formation": "mee + doen",
       "meaning_en": "to participate, to join in",
-      "example_nl": "Als je wilt meedoen, moet je afspraken respecteren en goed kunnen omgaan met anderen.",
-      "example_en": "If you want to participate, you must respect agreements and be able to deal well with others.",
+      "example_nl": "Ook kleine bedrijven kunnen meedoen aan het programma.",
+      "example_en": "Small companies can also participate in the program.",
       "other_b1_words": [
         {
-          "word": "morgen",
-          "meaning_en": ""
+          "word": "bedrijven",
+          "meaning_en": "companies"
         },
         {
-          "word": "sportdag",
-          "meaning_en": ""
+          "word": "programma",
+          "meaning_en": "program"
         },
         {
-          "word": "school",
-          "meaning_en": ""
+          "word": "klein",
+          "meaning_en": "small"
         }
       ],
       "formation_parts": []
@@ -169,20 +177,20 @@
       "difficulty": 3,
       "formation": "nadeel + -ig",
       "meaning_en": "disadvantageous, harmful",
-      "example_nl": "Te laat reageren is nadelig, want het gevolg kan zijn dat de schade groter wordt.",
-      "example_en": "Responding too late is disadvantageous, because the consequence can be that the damage becomes bigger.",
+      "example_nl": "De maatregel kan nadelig uitpakken voor kwetsbare groepen.",
+      "example_en": "The measure may have a negative effect on vulnerable groups.",
       "other_b1_words": [
         {
-          "word": "slaap",
-          "meaning_en": ""
+          "word": "maatregel",
+          "meaning_en": "measure"
         },
         {
-          "word": "effect",
-          "meaning_en": ""
+          "word": "kwetsbaar",
+          "meaning_en": "vulnerable"
         },
         {
-          "word": "concentratie",
-          "meaning_en": ""
+          "word": "groepen",
+          "meaning_en": "groups"
         }
       ],
       "formation_parts": []
@@ -193,12 +201,20 @@
       "difficulty": 2,
       "formation": "om + gaan + met",
       "meaning_en": "to deal with, to handle",
-      "example_nl": "De docent laat zien hoe je professioneel kunt omgaan met een klacht zonder dat het ruzie oproept.",
-      "example_en": "The teacher shows how you can deal professionally with a complaint without it causing a quarrel.",
+      "example_nl": "Overheden moeten zorgvuldig omgaan met gevoelige informatie.",
+      "example_en": "Governments must handle sensitive information carefully.",
       "other_b1_words": [
         {
-          "word": "kritiek",
-          "meaning_en": ""
+          "word": "overheden",
+          "meaning_en": "governments"
+        },
+        {
+          "word": "zorgvuldig",
+          "meaning_en": "carefully"
+        },
+        {
+          "word": "informatie",
+          "meaning_en": "information"
         }
       ],
       "formation_parts": []
@@ -209,24 +225,20 @@
       "difficulty": 3,
       "formation": "om + stand + -ig + heden",
       "meaning_en": "circumstances, conditions",
-      "example_nl": "Door bijzondere omstandigheden konden we niet in deze ruimte overleggen.",
-      "example_en": "Because of special circumstances we could not meet in this room.",
+      "example_nl": "Onder moeilijke omstandigheden werd het besluit toch uitgevoerd.",
+      "example_en": "Under difficult circumstances the decision was still implemented.",
       "other_b1_words": [
         {
-          "word": "slechte",
-          "meaning_en": ""
+          "word": "moeilijk",
+          "meaning_en": "difficult"
         },
         {
-          "word": "weer",
-          "meaning_en": ""
+          "word": "besluit",
+          "meaning_en": "decision"
         },
         {
-          "word": "concert",
-          "meaning_en": ""
-        },
-        {
-          "word": "verplaatst",
-          "meaning_en": ""
+          "word": "uitgevoerd",
+          "meaning_en": "implemented"
         }
       ],
       "formation_parts": []
@@ -237,16 +249,20 @@
       "difficulty": 2,
       "formation": "on + middel + -lijk",
       "meaning_en": "immediately, at once",
-      "example_nl": "Toen de schade werd ontdekt, moesten we onmiddellijk overleggen over een oplossing.",
-      "example_en": "When the damage was discovered, we had to consult immediately about a solution.",
+      "example_nl": "De autoriteiten grepen onmiddellijk in na het incident.",
+      "example_en": "The authorities intervened immediately after the incident.",
       "other_b1_words": [
         {
-          "word": "brand",
-          "meaning_en": ""
+          "word": "autoriteiten",
+          "meaning_en": "authorities"
         },
         {
-          "word": "hulpdiensten",
-          "meaning_en": ""
+          "word": "incident",
+          "meaning_en": "incident"
+        },
+        {
+          "word": "ingrijpen",
+          "meaning_en": "to intervene"
         }
       ],
       "formation_parts": []
@@ -257,20 +273,20 @@
       "difficulty": 2,
       "formation": "ont + breken",
       "meaning_en": "to be missing, to lack",
-      "example_nl": "In het plan ontbreekt een duidelijke afspraak, en dat kan nadelig zijn voor iedereen die wil meedoen.",
-      "example_en": "A clear agreement is missing in the plan, and that can be disadvantageous for everyone who wants to participate.",
+      "example_nl": "In het rapport ontbreken cruciale gegevens.",
+      "example_en": "Crucial data are missing from the report.",
       "other_b1_words": [
         {
-          "word": "verslag",
-          "meaning_en": ""
-        },
-        {
-          "word": "belangrijke",
-          "meaning_en": ""
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
           "word": "gegevens",
-          "meaning_en": ""
+          "meaning_en": "data"
+        },
+        {
+          "word": "cruciaal",
+          "meaning_en": "crucial"
         }
       ],
       "formation_parts": []
@@ -281,20 +297,20 @@
       "difficulty": 2,
       "formation": "ont + staan",
       "meaning_en": "to arise, to develop",
-      "example_nl": "De schade is ontstaan doordat er te weinig ruimte was en niemand onmiddellijk ingreep.",
-      "example_en": "The damage occurred because there was too little space and nobody intervened immediately.",
+      "example_nl": "De crisis is ontstaan door langdurig wanbeleid.",
+      "example_en": "The crisis arose due to prolonged mismanagement.",
       "other_b1_words": [
         {
-          "word": "misverstand",
-          "meaning_en": ""
+          "word": "crisis",
+          "meaning_en": "crisis"
         },
         {
-          "word": "e-mail",
-          "meaning_en": ""
+          "word": "wanbeleid",
+          "meaning_en": "mismanagement"
         },
         {
-          "word": "duidelijk",
-          "meaning_en": ""
+          "word": "langdurig",
+          "meaning_en": "prolonged"
         }
       ],
       "formation_parts": []
@@ -305,20 +321,20 @@
       "difficulty": 3,
       "formation": "op + roepen",
       "meaning_en": "to call up, to evoke",
-      "example_nl": "Een harde toon kan een klacht oproepen, zelfs als de omstandigheden lastig zijn.",
-      "example_en": "A harsh tone can provoke a complaint, even if the circumstances are difficult.",
+      "example_nl": "De uitspraak heeft veel maatschappelijke discussie opgeroepen.",
+      "example_en": "The statement sparked extensive public debate.",
       "other_b1_words": [
         {
-          "word": "muziek",
-          "meaning_en": ""
+          "word": "uitspraak",
+          "meaning_en": "statement"
         },
         {
-          "word": "herinneringen",
-          "meaning_en": ""
+          "word": "discussie",
+          "meaning_en": "debate"
         },
         {
-          "word": "jeugd",
-          "meaning_en": ""
+          "word": "maatschappelijk",
+          "meaning_en": "social"
         }
       ],
       "formation_parts": []
@@ -329,16 +345,20 @@
       "difficulty": 2,
       "formation": "over + leggen",
       "meaning_en": "to discuss, to consult",
-      "example_nl": "We overleggen eerst met de buren, zodat we een oplossing kunnen toestaan die voor iedereen geschikt is.",
-      "example_en": "We first consult with the neighbours so that we can allow a solution that is suitable for everyone.",
+      "example_nl": "De partijen zullen eerst onderling overleggen.",
+      "example_en": "The parties will first consult with each other.",
       "other_b1_words": [
         {
-          "word": "team",
-          "meaning_en": ""
+          "word": "partijen",
+          "meaning_en": "parties"
         },
         {
-          "word": "beslissing",
-          "meaning_en": ""
+          "word": "onderling",
+          "meaning_en": "mutually"
+        },
+        {
+          "word": "eerst",
+          "meaning_en": "first"
         }
       ],
       "formation_parts": []
@@ -349,20 +369,20 @@
       "difficulty": 3,
       "formation": "over + tuigen",
       "meaning_en": "to convince, to persuade",
-      "example_nl": "Hij probeerde de groep te overtuigen dat overleggen beter is dan onmiddellijk boos worden.",
-      "example_en": "He tried to convince the group that consulting is better than getting angry immediately.",
+      "example_nl": "De minister probeerde het parlement te overtuigen van zijn plan.",
+      "example_en": "The minister tried to convince parliament of his plan.",
       "other_b1_words": [
         {
-          "word": "moeite",
-          "meaning_en": ""
+          "word": "minister",
+          "meaning_en": "minister"
         },
         {
-          "word": "belang",
-          "meaning_en": ""
+          "word": "parlement",
+          "meaning_en": "parliament"
         },
         {
-          "word": "cursus",
-          "meaning_en": ""
+          "word": "plan",
+          "meaning_en": "plan"
         }
       ],
       "formation_parts": []
@@ -373,24 +393,20 @@
       "difficulty": 1,
       "formation": "ruim + -te",
       "meaning_en": "space, room",
-      "example_nl": "Er is niet genoeg ruimte voor iedereen om mee te doen, dus we moeten de planning aanpassen.",
-      "example_en": "There is not enough space for everyone to participate, so we must adjust the planning.",
+      "example_nl": "Er is weinig ruimte voor fouten in dit proces.",
+      "example_en": "There is little room for error in this process.",
       "other_b1_words": [
         {
-          "word": "genoeg",
-          "meaning_en": ""
+          "word": "fouten",
+          "meaning_en": "errors"
         },
         {
-          "word": "woonkamer",
-          "meaning_en": ""
+          "word": "proces",
+          "meaning_en": "process"
         },
         {
-          "word": "grote",
-          "meaning_en": ""
-        },
-        {
-          "word": "tafel",
-          "meaning_en": ""
+          "word": "weinig",
+          "meaning_en": "little"
         }
       ],
       "formation_parts": []
@@ -401,20 +417,20 @@
       "difficulty": 2,
       "formation": "schaden → schade",
       "meaning_en": "damage",
-      "example_nl": "De schade was klein, maar het gevolg was toch een klacht omdat het een slechte indruk gaf.",
-      "example_en": "The damage was small, but the consequence was still a complaint because it gave a bad impression.",
+      "example_nl": "De storm veroorzaakte grote schade aan de infrastructuur.",
+      "example_en": "The storm caused major damage to the infrastructure.",
       "other_b1_words": [
         {
           "word": "storm",
-          "meaning_en": ""
+          "meaning_en": "storm"
         },
         {
-          "word": "daken",
-          "meaning_en": ""
+          "word": "infrastructuur",
+          "meaning_en": "infrastructure"
         },
         {
-          "word": "veroorzaakt",
-          "meaning_en": ""
+          "word": "groot",
+          "meaning_en": "major"
         }
       ],
       "formation_parts": []
@@ -425,20 +441,20 @@
       "difficulty": 1,
       "formation": "ouder Nederlands woord",
       "meaning_en": "constantly, more and more",
-      "example_nl": "Steeds dezelfde fout maken is nadelig; daardoor kan er opnieuw schade ontstaan.",
-      "example_en": "Making the same mistake again and again is disadvantageous; it can cause damage to occur again.",
+      "example_nl": "De druk op de woningmarkt neemt steeds verder toe.",
+      "example_en": "The pressure on the housing market keeps increasing.",
       "other_b1_words": [
         {
-          "word": "beter",
-          "meaning_en": ""
+          "word": "druk",
+          "meaning_en": "pressure"
         },
         {
-          "word": "begrijpen",
-          "meaning_en": ""
+          "word": "woningmarkt",
+          "meaning_en": "housing market"
         },
         {
-          "word": "gesproken",
-          "meaning_en": ""
+          "word": "toenemen",
+          "meaning_en": "to increase"
         }
       ],
       "formation_parts": []
@@ -449,16 +465,20 @@
       "difficulty": 2,
       "formation": "toe + staan",
       "meaning_en": "to allow, to permit",
-      "example_nl": "De manager wil meedoen toestaan, maar alleen als de omstandigheden veilig zijn en er genoeg ruimte is.",
-      "example_en": "The manager wants to allow participation, but only if the circumstances are safe and there is enough space.",
+      "example_nl": "De wet staat deze vorm van samenwerking niet toe.",
+      "example_en": "The law does not allow this form of cooperation.",
       "other_b1_words": [
         {
-          "word": "locatie",
-          "meaning_en": ""
+          "word": "wet",
+          "meaning_en": "law"
         },
         {
-          "word": "roken",
-          "meaning_en": ""
+          "word": "samenwerking",
+          "meaning_en": "cooperation"
+        },
+        {
+          "word": "vorm",
+          "meaning_en": "form"
         }
       ],
       "formation_parts": []

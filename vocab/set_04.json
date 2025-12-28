@@ -9,24 +9,20 @@
       "difficulty": 2,
       "formation": "aan + trekken",
       "meaning_en": "to attract; to put on (clothes)",
-      "example_nl": "De gemeente wil nieuwe bewoners aantrekken met geavanceerde woningen, zodat de arbeidsmarkt beter kan doorstromen.",
-      "example_en": "The municipality wants to attract new residents with advanced housing, so the labor market can flow better.",
+      "example_nl": "De sector probeert internationaal talent aan te trekken om de krapte op de arbeidsmarkt te verminderen.",
+      "example_en": "The sector is trying to attract international talent to reduce the tightness in the labour market.",
       "other_b1_words": [
         {
-          "word": "lage",
-          "meaning_en": ""
+          "word": "sector",
+          "meaning_en": "sector"
         },
         {
-          "word": "huurprijzen",
-          "meaning_en": ""
+          "word": "talent",
+          "meaning_en": "talent"
         },
         {
-          "word": "studenten",
-          "meaning_en": ""
-        },
-        {
-          "word": "buurt",
-          "meaning_en": ""
+          "word": "arbeidsmarkt",
+          "meaning_en": "labour market"
         }
       ],
       "formation_parts": []
@@ -37,20 +33,20 @@
       "difficulty": 2,
       "formation": "achter + stand",
       "meaning_en": "backlog, delay, disadvantage",
-      "example_nl": "Door financieel gedoe liep het project achterstand op, maar de doelstelling bleef om alles afgerond te krijgen.",
-      "example_en": "Due to financial issues the project fell behind, but the goal remained to get everything completed.",
+      "example_nl": "Door jarenlange achterstand in onderhoud raakte het gebouw beschadigd.",
+      "example_en": "Due to years of maintenance backlog, the building became damaged.",
       "other_b1_words": [
         {
-          "word": "ziekte",
-          "meaning_en": ""
+          "word": "onderhoud",
+          "meaning_en": "maintenance"
         },
         {
-          "word": "grote",
-          "meaning_en": ""
+          "word": "gebouw",
+          "meaning_en": "building"
         },
         {
-          "word": "studie",
-          "meaning_en": ""
+          "word": "beschadigd",
+          "meaning_en": "damaged"
         }
       ],
       "formation_parts": []
@@ -61,24 +57,20 @@
       "difficulty": 1,
       "formation": "af + ronden → afgerond",
       "meaning_en": "finished, completed",
-      "example_nl": "Als de renovatie is afgerond, blijft het eigendom van de woning bij de bewoner en is de balans financieel gezonder.",
-      "example_en": "When the renovation is completed, the ownership of the home remains with the resident and the balance is financially healthier.",
+      "example_nl": "Het onderzoek is afgerond en de resultaten worden volgende week gepubliceerd.",
+      "example_en": "The research has been completed and the results will be published next week.",
       "other_b1_words": [
         {
-          "word": "project",
-          "meaning_en": ""
+          "word": "onderzoek",
+          "meaning_en": "research"
         },
         {
-          "word": "bijna",
-          "meaning_en": ""
+          "word": "resultaten",
+          "meaning_en": "results"
         },
         {
-          "word": "verslag",
-          "meaning_en": ""
-        },
-        {
-          "word": "schrijven",
-          "meaning_en": ""
+          "word": "gepubliceerd",
+          "meaning_en": "published"
         }
       ],
       "formation_parts": []
@@ -89,24 +81,20 @@
       "difficulty": 3,
       "formation": "afhankelijk + -heid",
       "meaning_en": "dependence, dependency",
-      "example_nl": "Te veel afhankelijkheid van de beurs kan eenzijdig gedrag aantrekken bij investeerders.",
-      "example_en": "Too much dependence on the stock market can attract one-sided behavior among investors.",
+      "example_nl": "De afhankelijkheid van één leverancier maakt de organisatie kwetsbaar voor verstoringen.",
+      "example_en": "Dependence on a single supplier makes the organization vulnerable to disruptions.",
       "other_b1_words": [
         {
-          "word": "mobiele",
-          "meaning_en": ""
+          "word": "leverancier",
+          "meaning_en": "supplier"
         },
         {
-          "word": "telefoons",
-          "meaning_en": ""
+          "word": "kwetsbaar",
+          "meaning_en": "vulnerable"
         },
         {
-          "word": "neemt",
-          "meaning_en": ""
-        },
-        {
-          "word": "steeds",
-          "meaning_en": ""
+          "word": "verstoringen",
+          "meaning_en": "disruptions"
         }
       ],
       "formation_parts": []
@@ -117,20 +105,20 @@
       "difficulty": 3,
       "formation": "afwegen → afweging",
       "meaning_en": "consideration, weighing (of options)",
-      "example_nl": "Bij elke afweging tussen geavanceerde kwaliteit en bescheiden kosten moet je de doelstelling helder bepalen.",
-      "example_en": "With every trade-off between advanced quality and modest costs, you must clearly define the objective.",
+      "example_nl": "Na een zorgvuldige afweging koos het bestuur voor een bescheiden uitbreiding.",
+      "example_en": "After careful consideration, the board opted for a modest expansion.",
       "other_b1_words": [
         {
-          "word": "zorgvuldige",
-          "meaning_en": ""
+          "word": "zorgvuldig",
+          "meaning_en": "careful"
         },
         {
-          "word": "koos",
-          "meaning_en": ""
+          "word": "bestuur",
+          "meaning_en": "board"
         },
         {
-          "word": "deeltijdopleiding",
-          "meaning_en": ""
+          "word": "uitbreiding",
+          "meaning_en": "expansion"
         }
       ],
       "formation_parts": []
@@ -141,24 +129,20 @@
       "difficulty": 2,
       "formation": "arbeid + markt",
       "meaning_en": "labour market, job market",
-      "example_nl": "Een sterke arbeidsmarkt helpt bewoners doorstromen en vermindert afhankelijkheid van financiële steun.",
-      "example_en": "A strong labor market helps residents move on and reduces dependence on financial support.",
+      "example_nl": "De arbeidsmarkt blijft krap, waardoor werkgevers moeilijk personeel aantrekken.",
+      "example_en": "The labour market remains tight, making it hard for employers to attract staff.",
       "other_b1_words": [
         {
-          "word": "huidige",
-          "meaning_en": ""
+          "word": "krap",
+          "meaning_en": "tight"
         },
         {
-          "word": "vraag",
-          "meaning_en": ""
+          "word": "werkgevers",
+          "meaning_en": "employers"
         },
         {
-          "word": "technische",
-          "meaning_en": ""
-        },
-        {
-          "word": "beroepen",
-          "meaning_en": ""
+          "word": "personeel",
+          "meaning_en": "staff"
         }
       ],
       "formation_parts": []
@@ -169,24 +153,20 @@
       "difficulty": 1,
       "formation": "uit het Frans 'balance'",
       "meaning_en": "balance",
-      "example_nl": "We zoeken balans: bescheiden huren voor bewoners, maar genoeg financieel draagvlak voor onderhoud van het eigendom.",
-      "example_en": "We seek balance: modest rents for residents, but enough financial support for maintenance of the property.",
+      "example_nl": "De regering zoekt een balans tussen economische groei en klimaatbeleid.",
+      "example_en": "The government is seeking a balance between economic growth and climate policy.",
       "other_b1_words": [
         {
-          "word": "betere",
-          "meaning_en": ""
+          "word": "regering",
+          "meaning_en": "government"
         },
         {
-          "word": "werk",
-          "meaning_en": ""
+          "word": "groei",
+          "meaning_en": "growth"
         },
         {
-          "word": "studie",
-          "meaning_en": ""
-        },
-        {
-          "word": "vrije tijd",
-          "meaning_en": ""
+          "word": "klimaatbeleid",
+          "meaning_en": "climate policy"
         }
       ],
       "formation_parts": []
@@ -197,20 +177,20 @@
       "difficulty": 2,
       "formation": "be + palen",
       "meaning_en": "to determine, to decide",
-      "example_nl": "De gemeente moet bepalen welke bijbehorend regels het eigendom beschermen en schade aan woningen voorkomen.",
-      "example_en": "The municipality must decide which related rules protect ownership and prevent damage to homes.",
+      "example_nl": "De uitkomst zal bepalen welke maatregelen het meest doeltreffend zijn.",
+      "example_en": "The outcome will determine which measures are most effective.",
       "other_b1_words": [
         {
-          "word": "docent",
-          "meaning_en": ""
+          "word": "uitkomst",
+          "meaning_en": "outcome"
         },
         {
-          "word": "onderwerpen",
-          "meaning_en": ""
+          "word": "maatregelen",
+          "meaning_en": "measures"
         },
         {
-          "word": "examen",
-          "meaning_en": ""
+          "word": "doeltreffend",
+          "meaning_en": "effective"
         }
       ],
       "formation_parts": []
@@ -221,20 +201,20 @@
       "difficulty": 2,
       "formation": "be + schade + -igen",
       "meaning_en": "to damage",
-      "example_nl": "Slecht gedrag kan het geavanceerd systeem beschadigen en zo de doelstelling van snelle doorstromen vertragen.",
-      "example_en": "Bad behavior can damage the advanced system and thus delay the goal of quick flow-through.",
+      "example_nl": "De storm kan de infrastructuur beschadigen en het verkeer ontregelen.",
+      "example_en": "The storm can damage infrastructure and disrupt traffic.",
       "other_b1_words": [
         {
-          "word": "boek",
-          "meaning_en": ""
+          "word": "storm",
+          "meaning_en": "storm"
         },
         {
-          "word": "bibliotheek",
-          "meaning_en": ""
+          "word": "infrastructuur",
+          "meaning_en": "infrastructure"
         },
         {
-          "word": "vergoeden",
-          "meaning_en": ""
+          "word": "verkeer",
+          "meaning_en": "traffic"
         }
       ],
       "formation_parts": []
@@ -245,16 +225,20 @@
       "difficulty": 2,
       "formation": "bescheid (oud) + -en",
       "meaning_en": "modest, humble",
-      "example_nl": "Met een bescheiden lening via de beurs kon de bewoner een deel van het eigendom kopen.",
-      "example_en": "With a modest loan via the stock market, the resident could buy a part of the property.",
+      "example_nl": "Het team boekte een bescheiden winst, maar verwacht volgend jaar groei.",
+      "example_en": "The team posted a modest profit but expects growth next year.",
       "other_b1_words": [
         {
-          "word": "talent",
-          "meaning_en": ""
+          "word": "winst",
+          "meaning_en": "profit"
         },
         {
-          "word": "prestaties",
-          "meaning_en": ""
+          "word": "verwacht",
+          "meaning_en": "expects"
+        },
+        {
+          "word": "groei",
+          "meaning_en": "growth"
         }
       ],
       "formation_parts": []
@@ -265,16 +249,20 @@
       "difficulty": 3,
       "formation": "verwant aan Frans 'bourse'",
       "meaning_en": "stock exchange; fair; grant",
-      "example_nl": "Op de beurs reageert men soms eenzijdig als de arbeidsmarkt achterstand toont en het project niet afgerond lijkt.",
-      "example_en": "On the stock market, people sometimes react one-sidedly when the labor market shows delays and the project does not seem finished.",
+      "example_nl": "Het aandeel steeg sterk op de beurs na het kwartaalbericht.",
+      "example_en": "The share rose sharply on the stock exchange after the quarterly report.",
       "other_b1_words": [
         {
-          "word": "studiebeurs",
-          "meaning_en": ""
+          "word": "aandeel",
+          "meaning_en": "share"
         },
         {
-          "word": "universiteit",
-          "meaning_en": ""
+          "word": "steeg",
+          "meaning_en": "rose"
+        },
+        {
+          "word": "kwartaalbericht",
+          "meaning_en": "quarterly report"
         }
       ],
       "formation_parts": []
@@ -285,24 +273,20 @@
       "difficulty": 1,
       "formation": "bewonen → bewoner",
       "meaning_en": "inhabitant, resident",
-      "example_nl": "Elke bewoner wil duidelijkheid over eigendom en het bijbehorend financieel risico.",
-      "example_en": "Every resident wants clarity about ownership and the related financial risk.",
+      "example_nl": "Bewoners van de wijk maken zich zorgen over de veiligheid in de avond.",
+      "example_en": "Residents of the neighbourhood are worried about safety in the evening.",
       "other_b1_words": [
         {
-          "word": "bewoners",
-          "meaning_en": ""
+          "word": "wijk",
+          "meaning_en": "neighbourhood"
         },
         {
-          "word": "appartementencomplex",
-          "meaning_en": ""
+          "word": "zorgen",
+          "meaning_en": "worries"
         },
         {
-          "word": "organiseren",
-          "meaning_en": ""
-        },
-        {
-          "word": "buurtfeest",
-          "meaning_en": ""
+          "word": "veiligheid",
+          "meaning_en": "safety"
         }
       ],
       "formation_parts": []
@@ -313,24 +297,20 @@
       "difficulty": 3,
       "formation": "bij + behoren + -end",
       "meaning_en": "corresponding, associated",
-      "example_nl": "De bijbehorend documenten tonen dat de afweging tussen kosten en geavanceerd ontwerp zorgvuldig is bepaald.",
-      "example_en": "The related documents show that the trade-off between costs and the advanced design was carefully decided.",
+      "example_nl": "Het rapport bevat een bijbehorend overzicht met cijfers per regio.",
+      "example_en": "The report includes a corresponding overview with figures per region.",
       "other_b1_words": [
         {
-          "word": "cursus",
-          "meaning_en": ""
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "werkboek",
-          "meaning_en": ""
+          "word": "overzicht",
+          "meaning_en": "overview"
         },
         {
-          "word": "online",
-          "meaning_en": ""
-        },
-        {
-          "word": "oefeningen",
-          "meaning_en": ""
+          "word": "cijfers",
+          "meaning_en": "figures"
         }
       ],
       "formation_parts": []
@@ -341,24 +321,20 @@
       "difficulty": 2,
       "formation": "doel + stelling",
       "meaning_en": "objective, goal",
-      "example_nl": "De doelstelling is om achterstand weg te werken en meer bewoners aan te trekken zonder eenzijdig beleid.",
-      "example_en": "The objective is to eliminate delays and attract more residents without one-sided policy.",
+      "example_nl": "De doelstelling van het plan is om de uitstoot binnen vijf jaar te verlagen.",
+      "example_en": "The objective of the plan is to reduce emissions within five years.",
       "other_b1_words": [
         {
-          "word": "belangrijke",
-          "meaning_en": ""
+          "word": "doelstelling",
+          "meaning_en": "objective"
         },
         {
-          "word": "opleiding",
-          "meaning_en": ""
+          "word": "plan",
+          "meaning_en": "plan"
         },
         {
-          "word": "studenten",
-          "meaning_en": ""
-        },
-        {
-          "word": "zelfstandig",
-          "meaning_en": ""
+          "word": "uitstoot",
+          "meaning_en": "emissions"
         }
       ],
       "formation_parts": []
@@ -369,16 +345,20 @@
       "difficulty": 3,
       "formation": "door + stromen",
       "meaning_en": "to move on (to a higher level), to flow through",
-      "example_nl": "Als starters sneller kunnen doorstromen, komt er balans op de arbeidsmarkt en daalt afhankelijkheid van de beurs.",
-      "example_en": "If starters can move on faster, balance returns to the labor market and dependence on the stock market decreases.",
+      "example_nl": "Studenten kunnen sneller doorstromen naar het hoger onderwijs met dit traject.",
+      "example_en": "Students can progress more quickly to higher education with this track.",
       "other_b1_words": [
         {
-          "word": "mbo",
-          "meaning_en": ""
+          "word": "studenten",
+          "meaning_en": "students"
         },
         {
-          "word": "hbo",
-          "meaning_en": ""
+          "word": "hoger onderwijs",
+          "meaning_en": "higher education"
+        },
+        {
+          "word": "sneller",
+          "meaning_en": "faster"
         }
       ],
       "formation_parts": []
@@ -389,20 +369,20 @@
       "difficulty": 3,
       "formation": "één + zijde + -ig",
       "meaning_en": "one-sided",
-      "example_nl": "Een eenzijdig besluit om alleen financieel te sturen kan gedrag beschadigen en de doelstelling missen.",
-      "example_en": "A one-sided decision to steer only financially can damage behavior and miss the objective.",
+      "example_nl": "De kritiek was dat het beleid te eenzijdig op bezuinigingen gericht is.",
+      "example_en": "The criticism was that the policy is too one-sidedly focused on cutbacks.",
       "other_b1_words": [
         {
-          "word": "nieuws",
-          "meaning_en": ""
+          "word": "kritiek",
+          "meaning_en": "criticism"
         },
         {
-          "word": "krant",
-          "meaning_en": ""
+          "word": "beleid",
+          "meaning_en": "policy"
         },
         {
-          "word": "mening",
-          "meaning_en": ""
+          "word": "bezuinigingen",
+          "meaning_en": "cutbacks"
         }
       ],
       "formation_parts": []
@@ -413,20 +393,20 @@
       "difficulty": 2,
       "formation": "eigen + dom",
       "meaning_en": "property, ownership",
-      "example_nl": "Bij gedeeld eigendom maakt de bewoner een afweging: bescheiden maandlasten of sneller afgerond kopen.",
-      "example_en": "With shared ownership, the resident makes a trade-off: modest monthly costs or buying it off faster and finishing sooner.",
+      "example_nl": "Het eigendom van de grond is onderwerp van een juridisch geschil.",
+      "example_en": "Ownership of the land is the subject of a legal dispute.",
       "other_b1_words": [
         {
-          "word": "huis",
-          "meaning_en": ""
+          "word": "grond",
+          "meaning_en": "land"
         },
         {
-          "word": "huurhuis",
-          "meaning_en": ""
+          "word": "juridisch",
+          "meaning_en": "legal"
         },
         {
-          "word": "persoonlijk",
-          "meaning_en": ""
+          "word": "geschil",
+          "meaning_en": "dispute"
         }
       ],
       "formation_parts": []
@@ -437,24 +417,20 @@
       "difficulty": 2,
       "formation": "financie + -eel",
       "meaning_en": "financial",
-      "example_nl": "Financieel gezien is het geavanceerd plan haalbaar, mits we de balans bewaken en geen achterstand laten ontstaan.",
-      "example_en": "Financially speaking, the advanced plan is feasible, provided we maintain the balance and avoid delays.",
+      "example_nl": "De gemeente biedt financieel steun aan gezinnen met een laag inkomen.",
+      "example_en": "The municipality provides financial support to families with a low income.",
       "other_b1_words": [
         {
-          "word": "zorgen",
-          "meaning_en": ""
+          "word": "gemeente",
+          "meaning_en": "municipality"
         },
         {
-          "word": "situatie",
-          "meaning_en": ""
+          "word": "steun",
+          "meaning_en": "support"
         },
         {
-          "word": "verliezen",
-          "meaning_en": ""
-        },
-        {
-          "word": "baan",
-          "meaning_en": ""
+          "word": "inkomen",
+          "meaning_en": "income"
         }
       ],
       "formation_parts": []
@@ -465,24 +441,20 @@
       "difficulty": 3,
       "formation": "ge + avanceer (Frans) + -d",
       "meaning_en": "advanced, sophisticated",
-      "example_nl": "Het geavanceerd systeem in het complex hoort bijbehorend bij strikte regels voor gedrag van elke bewoner.",
-      "example_en": "The advanced system in the complex comes with strict related rules for the behavior of each resident.",
+      "example_nl": "Het ziekenhuis gebruikt geavanceerde apparatuur voor complexe operaties.",
+      "example_en": "The hospital uses advanced equipment for complex operations.",
       "other_b1_words": [
         {
-          "word": "universiteit",
-          "meaning_en": ""
+          "word": "ziekenhuis",
+          "meaning_en": "hospital"
         },
         {
-          "word": "software",
-          "meaning_en": ""
+          "word": "apparatuur",
+          "meaning_en": "equipment"
         },
         {
-          "word": "gegevens",
-          "meaning_en": ""
-        },
-        {
-          "word": "analyseren",
-          "meaning_en": ""
+          "word": "operaties",
+          "meaning_en": "operations"
         }
       ],
       "formation_parts": []
@@ -493,24 +465,20 @@
       "difficulty": 2,
       "formation": "gedragen → gedrag",
       "meaning_en": "behaviour",
-      "example_nl": "Goed gedrag van bewoners voorkomt dat ze het eigendom beschadigen, houdt het project afgerond op tijd en maakt het aantrekkelijk op de beurs.",
-      "example_en": "Good behavior by residents prevents them from damaging the property, keeps the project completed on time, and makes it attractive on the stock market.",
+      "example_nl": "Onveilig gedrag in het verkeer leidt vaak tot ernstige ongelukken.",
+      "example_en": "Unsafe behaviour in traffic often leads to serious accidents.",
       "other_b1_words": [
         {
-          "word": "kinderen",
-          "meaning_en": ""
+          "word": "onveilig",
+          "meaning_en": "unsafe"
         },
         {
-          "word": "veranderde",
-          "meaning_en": ""
+          "word": "verkeer",
+          "meaning_en": "traffic"
         },
         {
-          "word": "nieuwe",
-          "meaning_en": ""
-        },
-        {
-          "word": "leraar",
-          "meaning_en": ""
+          "word": "ongelukken",
+          "meaning_en": "accidents"
         }
       ],
       "formation_parts": []
