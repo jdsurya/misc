@@ -9,24 +9,20 @@
       "difficulty": 2,
       "formation": "aan + pakken",
       "meaning_en": "to tackle, to approach (a problem)",
-      "example_nl": "De regering wil het probleem van werkloosheid aanpakken, maar dat is afhankelijk van goede samenwerking.",
-      "example_en": "The government wants to tackle the problem of unemployment, but that depends on good cooperation.",
+      "example_nl": "De overheid wil het probleem van de woningnood snel en effectief aanpakken.",
+      "example_en": "The government wants to tackle the housing shortage quickly and effectively.",
       "other_b1_words": [
         {
-          "word": "regering",
-          "meaning_en": ""
+          "word": "overheid",
+          "meaning_en": "government"
         },
         {
           "word": "probleem",
-          "meaning_en": ""
+          "meaning_en": "problem"
         },
         {
-          "word": "werkloosheid",
-          "meaning_en": ""
-        },
-        {
-          "word": "grondig",
-          "meaning_en": ""
+          "word": "woningnood",
+          "meaning_en": "housing shortage"
         }
       ],
       "formation_parts": []
@@ -37,20 +33,20 @@
       "difficulty": 2,
       "formation": "af + hangen + -elijk",
       "meaning_en": "dependent (on)",
-      "example_nl": "Het succes van het project is afhankelijk van hoe grondig we het probleem aanpakken.",
-      "example_en": "The success of the project depends on how thoroughly we tackle the problem.",
+      "example_nl": "Het succes van het project is sterk afhankelijk van politieke steun.",
+      "example_en": "The success of the project strongly depends on political support.",
       "other_b1_words": [
         {
           "word": "succes",
-          "meaning_en": ""
+          "meaning_en": "success"
         },
         {
           "word": "project",
-          "meaning_en": ""
+          "meaning_en": "project"
         },
         {
-          "word": "samenwerking",
-          "meaning_en": ""
+          "word": "steun",
+          "meaning_en": "support"
         }
       ],
       "formation_parts": []
@@ -61,12 +57,20 @@
       "difficulty": 1,
       "formation": "beleven → beleefd",
       "meaning_en": "polite",
-      "example_nl": "Bij een kennismaking is het belangrijk om beleefd te zijn, omdat dat een goede indruk geeft.",
-      "example_en": "During an introduction it is important to be polite, because that creates a good impression.",
+      "example_nl": "Hij beleefde een intens moment tijdens de herdenking.",
+      "example_en": "He experienced an intense moment during the commemoration.",
       "other_b1_words": [
         {
-          "word": "kennismaking",
-          "meaning_en": ""
+          "word": "moment",
+          "meaning_en": "moment"
+        },
+        {
+          "word": "herdenking",
+          "meaning_en": "commemoration"
+        },
+        {
+          "word": "intens",
+          "meaning_en": "intense"
         }
       ],
       "formation_parts": []
@@ -77,20 +81,20 @@
       "difficulty": 2,
       "formation": "beschik + -baar",
       "meaning_en": "available",
-      "example_nl": "De docent is dit weekend niet beschikbaar, dus het overleg wordt uitgesteld.",
-      "example_en": "The teacher is not available this weekend, so the meeting is postponed.",
+      "example_nl": "Er is onvoldoende informatie beschikbaar om een beslissing te nemen.",
+      "example_en": "There is insufficient information available to make a decision.",
       "other_b1_words": [
         {
-          "word": "kamer",
-          "meaning_en": ""
+          "word": "informatie",
+          "meaning_en": "information"
         },
         {
-          "word": "hotel",
-          "meaning_en": ""
+          "word": "onvoldoende",
+          "meaning_en": "insufficient"
         },
         {
-          "word": "weekend",
-          "meaning_en": ""
+          "word": "beslissing",
+          "meaning_en": "decision"
         }
       ],
       "formation_parts": []
@@ -101,20 +105,20 @@
       "difficulty": 3,
       "formation": "be + treffen",
       "meaning_en": "to concern, to be about",
-      "example_nl": "De nieuwe regels betreffen alleen studenten die daadwerkelijk voltijd studeren.",
-      "example_en": "The new rules concern only students who actually study full-time.",
+      "example_nl": "De nieuwe regels betreffen vooral kleine bedrijven.",
+      "example_en": "The new rules mainly concern small businesses.",
       "other_b1_words": [
         {
           "word": "regels",
-          "meaning_en": ""
+          "meaning_en": "rules"
         },
         {
-          "word": "studenten",
-          "meaning_en": ""
+          "word": "vooral",
+          "meaning_en": "mainly"
         },
         {
-          "word": "voltijd",
-          "meaning_en": ""
+          "word": "bedrijven",
+          "meaning_en": "companies"
         }
       ],
       "formation_parts": []
@@ -125,20 +129,20 @@
       "difficulty": 2,
       "formation": "be + wust (verwant aan weten)",
       "meaning_en": "conscious, aware; deliberately",
-      "example_nl": "Hij maakt bewust andere keuzes, omdat hij het probleem beter wil aanpakken.",
-      "example_en": "He deliberately makes different choices because he wants to tackle the problem better.",
+      "example_nl": "De overheid wil burgers bewuster maken van hun energieverbruik.",
+      "example_en": "The government wants to make citizens more aware of their energy consumption.",
       "other_b1_words": [
         {
-          "word": "gezonde",
-          "meaning_en": ""
+          "word": "burgers",
+          "meaning_en": "citizens"
         },
         {
-          "word": "keuzes",
-          "meaning_en": ""
+          "word": "bewuster",
+          "meaning_en": "more aware"
         },
         {
-          "word": "voeding",
-          "meaning_en": ""
+          "word": "energieverbruik",
+          "meaning_en": "energy consumption"
         }
       ],
       "formation_parts": []
@@ -149,20 +153,20 @@
       "difficulty": 2,
       "formation": "bij + dragen",
       "meaning_en": "to contribute",
-      "example_nl": "Goede samenwerking kan bijdragen aan het succes van het project.",
-      "example_en": "Good cooperation can contribute to the success of the project.",
+      "example_nl": "Deze maatregel kan bijdragen aan meer sociale gelijkheid.",
+      "example_en": "This measure can contribute to greater social equality.",
       "other_b1_words": [
         {
-          "word": "vrijwilliger",
-          "meaning_en": ""
+          "word": "maatregel",
+          "meaning_en": "measure"
         },
         {
-          "word": "succes",
-          "meaning_en": ""
+          "word": "bijdragen",
+          "meaning_en": "to contribute"
         },
         {
-          "word": "festival",
-          "meaning_en": ""
+          "word": "gelijkheid",
+          "meaning_en": "equality"
         }
       ],
       "formation_parts": []
@@ -173,16 +177,20 @@
       "difficulty": 3,
       "formation": "be + invloed + -en",
       "meaning_en": "to influence",
-      "example_nl": "Sociale media beïnvloeden hoe jongeren zichzelf ervaren en welke keuzes ze maken.",
-      "example_en": "Social media influence how young people experience themselves and which choices they make.",
+      "example_nl": "Economische onzekerheid kan het vertrouwen van consumenten beïnvloeden.",
+      "example_en": "Economic uncertainty can influence consumer confidence.",
       "other_b1_words": [
         {
-          "word": "sociale",
-          "meaning_en": ""
+          "word": "onzekerheid",
+          "meaning_en": "uncertainty"
         },
         {
-          "word": "jongeren",
-          "meaning_en": ""
+          "word": "vertrouwen",
+          "meaning_en": "confidence"
+        },
+        {
+          "word": "consumenten",
+          "meaning_en": "consumers"
         }
       ],
       "formation_parts": []
@@ -193,12 +201,20 @@
       "difficulty": 3,
       "formation": "daad + werkelijk",
       "meaning_en": "actually, in reality",
-      "example_nl": "Het probleem lijkt groot, maar het is daadwerkelijk kleiner dan verwacht.",
-      "example_en": "The problem seems big, but it is actually smaller than expected.",
+      "example_nl": "De hervormingen hebben daadwerkelijk effect gehad.",
+      "example_en": "The reforms have actually had an effect.",
       "other_b1_words": [
         {
-          "word": "plannen",
-          "meaning_en": ""
+          "word": "hervormingen",
+          "meaning_en": "reforms"
+        },
+        {
+          "word": "effect",
+          "meaning_en": "effect"
+        },
+        {
+          "word": "gehad",
+          "meaning_en": "had"
         }
       ],
       "formation_parts": []
@@ -209,16 +225,20 @@
       "difficulty": 3,
       "formation": "des + ondanks",
       "meaning_en": "nevertheless, despite that",
-      "example_nl": "Het project was moeilijk; desondanks bleef iedereen beleefd samenwerken.",
-      "example_en": "The project was difficult; nevertheless, everyone continued to cooperate politely.",
+      "example_nl": "Desondanks bleef de steun voor het voorstel groot.",
+      "example_en": "Nevertheless, support for the proposal remained strong.",
       "other_b1_words": [
         {
-          "word": "regende",
-          "meaning_en": ""
+          "word": "steun",
+          "meaning_en": "support"
         },
         {
-          "word": "strand",
-          "meaning_en": ""
+          "word": "voorstel",
+          "meaning_en": "proposal"
+        },
+        {
+          "word": "groot",
+          "meaning_en": "strong"
         }
       ],
       "formation_parts": []
@@ -229,16 +249,20 @@
       "difficulty": 2,
       "formation": "doel + gericht",
       "meaning_en": "goal-oriented, focused",
-      "example_nl": "Als je doelgericht werkt, kun je het probleem sneller aanpakken.",
-      "example_en": "If you work in a goal-oriented way, you can tackle the problem faster.",
+      "example_nl": "Het beleid moet doelgericht worden uitgevoerd.",
+      "example_en": "The policy must be implemented in a targeted way.",
       "other_b1_words": [
         {
-          "word": "studeren",
-          "meaning_en": ""
+          "word": "beleid",
+          "meaning_en": "policy"
         },
         {
-          "word": "korte tijd",
-          "meaning_en": ""
+          "word": "uitgevoerd",
+          "meaning_en": "implemented"
+        },
+        {
+          "word": "gericht",
+          "meaning_en": "targeted"
         }
       ],
       "formation_parts": []
@@ -249,24 +273,20 @@
       "difficulty": 1,
       "formation": "door + brengen",
       "meaning_en": "to spend (time)",
-      "example_nl": "De studenten brengen veel tijd door aan het project dat hen direct betreft.",
-      "example_en": "The students spend a lot of time on the project that directly concerns them.",
+      "example_nl": "Veel mensen brengen hun vakantie liever in eigen land door.",
+      "example_en": "Many people prefer to spend their holiday in their own country.",
       "other_b1_words": [
         {
           "word": "vakantie",
-          "meaning_en": ""
+          "meaning_en": "holiday"
         },
         {
-          "word": "rustig",
-          "meaning_en": ""
+          "word": "liever",
+          "meaning_en": "prefer"
         },
         {
-          "word": "dorp",
-          "meaning_en": ""
-        },
-        {
-          "word": "zee",
-          "meaning_en": ""
+          "word": "land",
+          "meaning_en": "country"
         }
       ],
       "formation_parts": []
@@ -277,16 +297,20 @@
       "difficulty": 1,
       "formation": "druk + -te",
       "meaning_en": "crowd, hustle and bustle",
-      "example_nl": "Door de drukte rond het project was de docent niet altijd beschikbaar.",
-      "example_en": "Because of the bustle around the project, the teacher was not always available.",
+      "example_nl": "Vanwege de drukte in de stad werd het evenement uitgesteld.",
+      "example_en": "Due to the crowds in the city, the event was postponed.",
       "other_b1_words": [
         {
           "word": "stad",
-          "meaning_en": ""
+          "meaning_en": "city"
         },
         {
-          "word": "afspraak",
-          "meaning_en": ""
+          "word": "evenement",
+          "meaning_en": "event"
+        },
+        {
+          "word": "uitgesteld",
+          "meaning_en": "postponed"
         }
       ],
       "formation_parts": []
@@ -297,16 +321,20 @@
       "difficulty": 2,
       "formation": "eigen + schap",
       "meaning_en": "characteristic, quality, trait",
-      "example_nl": "Beleefd zijn is een belangrijke eigenschap bij goede samenwerking.",
-      "example_en": "Being polite is an important quality in good cooperation.",
+      "example_nl": "Geduld is een belangrijke eigenschap voor een goede leider.",
+      "example_en": "Patience is an important trait for a good leader.",
       "other_b1_words": [
         {
           "word": "geduld",
-          "meaning_en": ""
+          "meaning_en": "patience"
         },
         {
-          "word": "belangrijke",
-          "meaning_en": ""
+          "word": "belangrijk",
+          "meaning_en": "important"
+        },
+        {
+          "word": "leider",
+          "meaning_en": "leader"
         }
       ],
       "formation_parts": []
@@ -317,16 +345,20 @@
       "difficulty": 2,
       "formation": "er + kennen",
       "meaning_en": "to admit, to recognize",
-      "example_nl": "De regering erkent dat het probleem moeilijk is om aan te pakken.",
-      "example_en": "The government acknowledges that the problem is difficult to tackle.",
+      "example_nl": "De regering erkende de ernst van de situatie.",
+      "example_en": "The government acknowledged the seriousness of the situation.",
       "other_b1_words": [
         {
-          "word": "fout",
-          "meaning_en": ""
+          "word": "regering",
+          "meaning_en": "government"
         },
         {
-          "word": "excuses",
-          "meaning_en": ""
+          "word": "ernst",
+          "meaning_en": "seriousness"
+        },
+        {
+          "word": "situatie",
+          "meaning_en": "situation"
         }
       ],
       "formation_parts": []
@@ -337,20 +369,20 @@
       "difficulty": 2,
       "formation": "er + varen",
       "meaning_en": "to experience; experienced",
-      "example_nl": "Veel studenten ervaren hoe afhankelijk het succes van het project is van samenwerking.",
-      "example_en": "Many students experience how dependent the success of the project is on cooperation.",
+      "example_nl": "Veel studenten ervaren druk tijdens de examenperiode.",
+      "example_en": "Many students experience pressure during the exam period.",
       "other_b1_words": [
         {
-          "word": "moeilijk",
-          "meaning_en": ""
+          "word": "studenten",
+          "meaning_en": "students"
         },
         {
-          "word": "land",
-          "meaning_en": ""
+          "word": "druk",
+          "meaning_en": "pressure"
         },
         {
-          "word": "opnieuw",
-          "meaning_en": ""
+          "word": "examenperiode",
+          "meaning_en": "exam period"
         }
       ],
       "formation_parts": []
@@ -361,20 +393,20 @@
       "difficulty": 3,
       "formation": "even + wicht",
       "meaning_en": "balance, equilibrium",
-      "example_nl": "Het is belangrijk een evenwicht te vinden tussen doelgericht werken en beleefd overleg.",
-      "example_en": "It is important to find a balance between goal-oriented work and polite discussion.",
+      "example_nl": "Het beleid probeert een evenwicht te vinden tussen groei en duurzaamheid.",
+      "example_en": "The policy seeks to find a balance between growth and sustainability.",
       "other_b1_words": [
         {
-          "word": "belangrijk",
-          "meaning_en": ""
+          "word": "beleid",
+          "meaning_en": "policy"
         },
         {
-          "word": "vinden",
-          "meaning_en": ""
+          "word": "groei",
+          "meaning_en": "growth"
         },
         {
-          "word": "privéleven",
-          "meaning_en": ""
+          "word": "duurzaamheid",
+          "meaning_en": "sustainability"
         }
       ],
       "formation_parts": []
@@ -385,16 +417,20 @@
       "difficulty": 1,
       "formation": "ge + heim (oud woord voor huis)",
       "meaning_en": "secret",
-      "example_nl": "Het plan bleef eerst geheim, omdat het probleem gevoelig lag.",
-      "example_en": "The plan remained secret at first because the problem was sensitive.",
+      "example_nl": "De details van het akkoord bleven lange tijd geheim.",
+      "example_en": "The details of the agreement remained secret for a long time.",
       "other_b1_words": [
         {
-          "word": "beste",
-          "meaning_en": ""
+          "word": "details",
+          "meaning_en": "details"
         },
         {
-          "word": "familie",
-          "meaning_en": ""
+          "word": "akkoord",
+          "meaning_en": "agreement"
+        },
+        {
+          "word": "lange tijd",
+          "meaning_en": "long time"
         }
       ],
       "formation_parts": []
@@ -405,16 +441,20 @@
       "difficulty": 1,
       "formation": "lijden → geleden (verleden tijdsvorm)",
       "meaning_en": "ago",
-      "example_nl": "Tien jaar geleden woonde hij nog bij zijn ouders.",
-      "example_en": "Ten years ago he still lived with his parents.",
+      "example_nl": "Het incident vond enkele maanden geleden plaats.",
+      "example_en": "The incident took place several months ago.",
       "other_b1_words": [
         {
-          "word": "woon­de",
-          "meaning_en": ""
+          "word": "incident",
+          "meaning_en": "incident"
         },
         {
-          "word": "ouders",
-          "meaning_en": ""
+          "word": "maanden",
+          "meaning_en": "months"
+        },
+        {
+          "word": "plaatsvinden",
+          "meaning_en": "to take place"
         }
       ],
       "formation_parts": []
@@ -425,16 +465,20 @@
       "difficulty": 1,
       "formation": "geluk + -ig",
       "meaning_en": "happy; fortunately",
-      "example_nl": "Gelukkig was de docent beschikbaar om het probleem samen aan te pakken.",
-      "example_en": "Fortunately, the teacher was available to tackle the problem together.",
+      "example_nl": "Gelukkig werd niemand ernstig gewond bij het ongeluk.",
+      "example_en": "Fortunately, no one was seriously injured in the accident.",
       "other_b1_words": [
         {
-          "word": "examen",
-          "meaning_en": ""
+          "word": "ernstig",
+          "meaning_en": "seriously"
         },
         {
-          "word": "verwacht",
-          "meaning_en": ""
+          "word": "gewond",
+          "meaning_en": "injured"
+        },
+        {
+          "word": "ongeluk",
+          "meaning_en": "accident"
         }
       ],
       "formation_parts": []
