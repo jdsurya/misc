@@ -319,6 +319,8 @@
         <div class="controls">
             <button class="main" id="next-button">Volgende stap / woord ⏭</button>
             <button class="ghost" id="skip-button">Sla woord over ⏭</button>
+            <button class="ghost" id="ignore-toggle-button">Negeer woord 🚫</button>
+            <button class="ghost" id="restore-ignored-button">Herstel genegeerde woorden ↩️</button>
             <button class="ghost" id="previous-button">Vorige woord ⏮</button>
             <button class="ghost" id="shuffle-button">Woorden schudden 🔀</button>
 </div>
@@ -423,6 +425,61 @@
             localStorage.setItem(keyIndex, String(currentIndex));
         } catch (e) {}
     }
+    function storageKeyIgnore() {
+        return currentSetId == null ? null : SET_STORAGE_PREFIX + "ignore_" + String(currentSetId);
+    }
+
+    function loadIgnoredWords() {
+        const key = storageKeyIgnore();
+        if (!key) return new Set();
+        try {
+            const raw = localStorage.getItem(key);
+            if (!raw) return new Set();
+            const parsed = JSON.parse(raw);
+            if (!Array.isArray(parsed)) return new Set();
+            return new Set(parsed.filter(v => typeof v === "string"));
+        } catch (e) {
+            return new Set();
+        }
+    }
+
+    function saveIgnoredWords(setObj) {
+        const key = storageKeyIgnore();
+        if (!key) return;
+        try {
+            localStorage.setItem(key, JSON.stringify(Array.from(setObj)));
+        } catch (e) {}
+    }
+
+    function isIgnoredIndex(wordIdx, ignoredSet) {
+        const w = vocabData[wordIdx];
+        if (!w) return false;
+        return ignoredSet.has(w.word);
+    }
+
+    function getActiveOrder(ignoredSet) {
+        return order.filter(idx => !isIgnoredIndex(idx, ignoredSet));
+    }
+
+    function findNextActivePosition(fromPos, dir, ignoredSet) {
+        const n = order.length;
+        if (n === 0) return 0;
+        let steps = 0;
+        let p = fromPos;
+        while (steps < n) {
+            const wordIdx = order[p];
+            if (!isIgnoredIndex(wordIdx, ignoredSet)) return p;
+            p = (p + dir + n) % n;
+            steps++;
+        }
+        return fromPos;
+    }
+
+    function activeIndexFromCurrent(currentDataIndex, activeOrder) {
+        const pos = activeOrder.indexOf(currentDataIndex);
+        return pos === -1 ? 0 : pos;
+    }
+
 
     const wordDisplay = document.getElementById("word-display");
     const posDisplay = document.getElementById("pos-display");
@@ -454,6 +511,8 @@
     const nextButton = document.getElementById("next-button");
     const previousButton = document.getElementById("previous-button");
     const skipButton = document.getElementById("skip-button");
+    const ignoreToggleButton = document.getElementById("ignore-toggle-button");
+    const restoreIgnoredButton = document.getElementById("restore-ignored-button");
     const shuffleButton = document.getElementById("shuffle-button");
 const phaseNames = [
         { badge: "Fase 1: woord", label: "Lees en spreek het woord hardop uit." },
@@ -508,13 +567,21 @@ const phaseNames = [
         }).join("");
     }
 
-    function updateOverviewTable() {
+    function updateOverviewTable(activeOrder = null, ignoredSet = null) {
         overviewBody.innerHTML = "";
-        order.forEach((dataIndex, i) => {
+        const ignoredLocal = ignoredSet || loadIgnoredWords();
+        const indicesToShow = (activeOrder && Array.isArray(activeOrder) ? activeOrder : order.filter(idx => !isIgnoredIndex(idx, ignoredLocal)));
+
+        indicesToShow.forEach((dataIndex, i) => {
             const item = vocabData[dataIndex];
+        if (ignoreToggleButton) {
+            const ignored = ignoredSet.has(item.word);
+            ignoreToggleButton.textContent = ignored ? "Herstel woord ↩️" : "Negeer woord 🚫";
+        }
+
             const tr = document.createElement("tr");
             tr.classList.add("clickable-row");
-            if (i === currentIndex) {
+            if (dataIndex === order[currentIndex]) {
                 tr.classList.add("current-row");
             }
 
@@ -527,7 +594,7 @@ const phaseNames = [
             `;
 
             tr.addEventListener("click", () => {
-                currentIndex = i;
+                currentIndex = order.indexOf(dataIndex);
                 currentPhase = 0;
                 saveState();
                 render();
@@ -546,6 +613,24 @@ const phaseNames = [
             return;
         }
 
+
+        const ignoredSet = loadIgnoredWords();
+        const activeOrder = getActiveOrder(ignoredSet);
+        if (activeOrder.length === 0) {
+            clearDisplays();
+            wordDisplay.textContent = "—";
+            posDisplay.textContent = "";
+            progressText.textContent = "Geen woorden (alles genegeerd)";
+            difficultyText.textContent = "";
+            phaseBadge.textContent = "";
+            phaseLabel.textContent = "Herstel genegeerde woorden om verder te oefenen.";
+            if (ignoreToggleButton) ignoreToggleButton.textContent = "Negeer woord 🚫";
+            updateOverviewTable(activeOrder, ignoredSet);
+            return;
+        }
+        currentIndex = findNextActivePosition(currentIndex, 1, ignoredSet);
+        saveState();
+
         const globalIndex = currentIndex;
         const dataIndex = order[globalIndex];
         const item = vocabData[dataIndex];
@@ -553,7 +638,9 @@ const phaseNames = [
         const currentSet = allSets.find(s => s.id === currentSetId);
         const setLabel = currentSet ? currentSet.label : "—";
 
-        progressText.textContent = `Set ${setLabel}: woord ${globalIndex + 1} / ${vocabData.length}`;
+        const activeNumber = activeIndexFromCurrent(dataIndex, activeOrder) + 1;
+
+        progressText.textContent = `Set ${setLabel}: woord ${activeNumber} / ${activeOrder.length}`;
         difficultyText.textContent = difficultyToStars(item.difficulty || 1);
 
         wordDisplay.textContent = (vocabMode === "en-nl" ? (item.meaning_en || "—") : item.word);
@@ -616,7 +703,7 @@ const phaseNames = [
             ? "Laatste stap (opnieuw beginnen)"
             : (currentPhase === 3 ? "Volgende woord ⏭" : "Volgende stap ⏭");
 
-        updateOverviewTable();
+        updateOverviewTable(activeOrder, ignoredSet);
     }
 
     nextButton.addEventListener("click", () => {
@@ -656,6 +743,36 @@ const phaseNames = [
         saveState();
         render();
     });
+
+    if (ignoreToggleButton) {
+        ignoreToggleButton.addEventListener("click", () => {
+            if (currentSetId == null || !order.length || !vocabData.length) return;
+            const ignoredSet = loadIgnoredWords();
+            const dataIndex = order[currentIndex];
+            const item = vocabData[dataIndex];
+            if (!item) return;
+
+            if (ignoredSet.has(item.word)) {
+                ignoredSet.delete(item.word);
+            } else {
+                ignoredSet.add(item.word);
+            }
+            saveIgnoredWords(ignoredSet);
+            currentIndex = findNextActivePosition(currentIndex, 1, ignoredSet);
+            saveState();
+            render();
+        });
+    }
+
+    if (restoreIgnoredButton) {
+        restoreIgnoredButton.addEventListener("click", () => {
+            const key = storageKeyIgnore();
+            if (!key) return;
+            try { localStorage.removeItem(key); } catch (e) {}
+            render();
+        });
+    }
+
 
     shuffleButton.addEventListener("click", () => {
         if (!vocabData.length) return;
