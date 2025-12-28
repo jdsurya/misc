@@ -628,8 +628,10 @@ const phaseNames = [
             updateOverviewTable(activeOrder, ignoredSet);
             return;
         }
-        currentIndex = findNextActivePosition(currentIndex, 1, ignoredSet);
-        saveState();
+        if (isIgnoredIndex(order[currentIndex], ignoredSet)) {
+            currentIndex = findNextActivePosition(currentIndex, 1, ignoredSet);
+            saveState();
+        }
 
         const globalIndex = currentIndex;
         const dataIndex = order[globalIndex];
@@ -707,44 +709,36 @@ const phaseNames = [
     }
 
     nextButton.addEventListener("click", () => {
-        if (!vocabData.length) return;
-        if (currentPhase < 3) {
-            currentPhase += 1;
-        } else {
-            if (currentIndex < vocabData.length - 1) {
-                currentIndex += 1;
-            } else {
-                currentIndex = 0;
-            }
-            currentPhase = 0;
-        }
-        saveState();
-        render();
-    });
-
-    previousButton.addEventListener("click", () => {
-        if (!vocabData.length) return;
-        if (currentIndex > 0) {
-            currentIndex -= 1;
-            currentPhase = 3;
-            saveState();
-            render();
-        }
-    });
-
-    skipButton.addEventListener("click", () => {
-        if (!vocabData.length) return;
-        if (currentIndex < vocabData.length - 1) {
-            currentIndex += 1;
-        } else {
-            currentIndex = 0;
-        }
+        if (!order.length) return;
+        const ignoredSet = loadIgnoredWords();
+        let p = (currentIndex + 1) % order.length;
+        p = findNextActivePosition(p, 1, ignoredSet);
+        currentIndex = p;
         currentPhase = 0;
         saveState();
         render();
     });
-
-    if (ignoreToggleButton) {
+previousButton.addEventListener("click", () => {
+        if (!order.length) return;
+        const ignoredSet = loadIgnoredWords();
+        let p = (currentIndex - 1 + order.length) % order.length;
+        p = findNextActivePosition(p, -1, ignoredSet);
+        currentIndex = p;
+        currentPhase = 0;
+        saveState();
+        render();
+    });
+skipButton.addEventListener("click", () => {
+        if (!order.length) return;
+        const ignoredSet = loadIgnoredWords();
+        let p = (currentIndex + 1) % order.length;
+        p = findNextActivePosition(p, 1, ignoredSet);
+        currentIndex = p;
+        currentPhase = 0;
+        saveState();
+        render();
+    });
+if (ignoreToggleButton) {
         ignoreToggleButton.addEventListener("click", () => {
             if (currentSetId == null || !order.length || !vocabData.length) return;
             const ignoredSet = loadIgnoredWords();
@@ -758,6 +752,7 @@ const phaseNames = [
                 ignoredSet.add(item.word);
             }
             saveIgnoredWords(ignoredSet);
+            currentPhase = 0;
             currentIndex = findNextActivePosition(currentIndex, 1, ignoredSet);
             saveState();
             render();
