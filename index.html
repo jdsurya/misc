@@ -711,6 +711,14 @@ const phaseNames = [
     nextButton.addEventListener("click", () => {
         if (!order.length) return;
         const ignoredSet = loadIgnoredWords();
+
+        if (currentPhase < 3) {
+            currentPhase++;
+            saveState();
+            render();
+            return;
+        }
+
         let p = (currentIndex + 1) % order.length;
         p = findNextActivePosition(p, 1, ignoredSet);
         currentIndex = p;
