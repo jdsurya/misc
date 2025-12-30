@@ -10,20 +10,20 @@
       "meaning_en": "legitimate",
       "formation": "uit het Latijn",
       "formation_parts": [],
-      "example_nl": "De beslissing werd als legitiem aanzien omdat ze objectief te verantwoorden was volgens het principe.",
-      "example_en": "The decision was regarded as legitimate because it could be objectively justified according to the principle.",
+      "example_nl": "De zorgen van omwonenden zijn legitiem en verdienen aandacht.",
+      "example_en": "The concerns of local residents are legitimate and deserve attention.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "zorgen",
+          "meaning_en": "concerns"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "omwonenden",
+          "meaning_en": "local residents"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "aandacht",
+          "meaning_en": "attention"
         }
       ]
     },
@@ -34,20 +34,20 @@
       "meaning_en": "objective",
       "formation": "object + -ief",
       "formation_parts": [],
-      "example_nl": "Om de validiteit te beoordelen, moet je objectief blijven en elke factor zorgvuldig afwegen.",
-      "example_en": "To assess validity, you must remain objective and carefully weigh each factor.",
+      "example_nl": "Het onderzoek werd zo objectief mogelijk uitgevoerd.",
+      "example_en": "The research was conducted as objectively as possible.",
       "other_b1_words": [
-        {
-          "word": "student",
-          "meaning_en": "student"
-        },
-        {
-          "word": "docent",
-          "meaning_en": "teacher"
-        },
         {
           "word": "onderzoek",
           "meaning_en": "research"
+        },
+        {
+          "word": "uitgevoerd",
+          "meaning_en": "conducted"
+        },
+        {
+          "word": "mogelijk",
+          "meaning_en": "possible"
         }
       ]
     },
@@ -58,20 +58,20 @@
       "meaning_en": "plausible",
       "formation": "uit het Latijn",
       "formation_parts": [],
-      "example_nl": "De verklaring klonk plausibel, maar door een nuanceverschil in interpretatie ontstond toch weerstand.",
-      "example_en": "The explanation sounded plausible, but a nuance difference in interpretation still led to resistance.",
+      "example_nl": "Zijn verklaring klinkt plausibel gezien de beschikbare informatie.",
+      "example_en": "His explanation sounds plausible given the available information.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "verklaring",
+          "meaning_en": "explanation"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "beschikbaar",
+          "meaning_en": "available"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "informatie",
+          "meaning_en": "information"
         }
       ]
     },
@@ -82,20 +82,20 @@
       "meaning_en": "relevant",
       "formation": "relevantie → relevant",
       "formation_parts": [],
-      "example_nl": "Alleen relevante gegevens helpen om uit het uitgangspunt een geldige conclusie af te leiden en de validiteit te toetsen.",
-      "example_en": "Only relevant data helps to infer a valid conclusion from the starting point and test its validity.",
+      "example_nl": "De gegevens zijn relevant voor de verdere besluitvorming.",
+      "example_en": "The data are relevant for further decision-making.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "gegevens",
+          "meaning_en": "data"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "besluitvorming",
+          "meaning_en": "decision-making"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "verder",
+          "meaning_en": "further"
         }
       ]
     },
@@ -106,20 +106,20 @@
       "meaning_en": "subjective",
       "formation": "subject + -ief",
       "formation_parts": [],
-      "example_nl": "Een subjectieve interpretatie kan een afwijking veroorzaken en de validiteit van de doelstelling aantasten.",
-      "example_en": "A subjective interpretation can cause a deviation and undermine the validity of the objective.",
+      "example_nl": "De beoordeling blijft deels subjectief.",
+      "example_en": "The assessment remains partly subjective.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "beoordeling",
+          "meaning_en": "assessment"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "deels",
+          "meaning_en": "partly"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "blijven",
+          "meaning_en": "to remain"
         }
       ]
     },
@@ -130,20 +130,20 @@
       "meaning_en": "sufficient, adequate",
       "formation": "toe + reiken → toereikend",
       "formation_parts": [],
-      "example_nl": "Het bewijs was toereikend om de afwijking te verklaren, maar niet om alle complexiteit weg te nemen.",
-      "example_en": "The evidence was sufficient to explain the deviation, but not to remove all complexity.",
+      "example_nl": "De huidige middelen zijn niet toereikend voor uitvoering.",
+      "example_en": "The current resources are not sufficient for implementation.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "middelen",
+          "meaning_en": "resources"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "uitvoering",
+          "meaning_en": "implementation"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "huidig",
+          "meaning_en": "current"
         }
       ]
     },
@@ -154,20 +154,20 @@
       "meaning_en": "to justify, to account for",
       "formation": "ver + antwoord + -en",
       "formation_parts": [],
-      "example_nl": "Je kunt een keuze alleen verantwoorden als het uitgangspunt legitiem is en de factor objectief wordt beoordeeld.",
-      "example_en": "You can justify a choice only if the starting point is legitimate and the factor is assessed objectively.",
+      "example_nl": "De hoge kosten zijn moeilijk te verantwoorden.",
+      "example_en": "The high costs are difficult to justify.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "kosten",
+          "meaning_en": "costs"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "hoog",
+          "meaning_en": "high"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "moeilijk",
+          "meaning_en": "difficult"
         }
       ]
     },
@@ -178,20 +178,20 @@
       "meaning_en": "deviation",
       "formation": "afwijken → afwijking",
       "formation_parts": [],
-      "example_nl": "De afwijking van het uitgangspunt vroeg om zorgvuldigheid in de interpretatie van elke relevante factor.",
-      "example_en": "The deviation from the starting point required careful interpretation of each relevant factor.",
+      "example_nl": "Elke afwijking van de richtlijn moet worden gemotiveerd.",
+      "example_en": "Any deviation from the guideline must be justified.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "richtlijn",
+          "meaning_en": "guideline"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "gemotiveerd",
+          "meaning_en": "justified"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "afwijking",
+          "meaning_en": "deviation"
         }
       ]
     },
@@ -202,20 +202,20 @@
       "meaning_en": "complexity",
       "formation": "complex + -iteit",
       "formation_parts": [],
-      "example_nl": "Door de complexiteit van het vraagstuk moest de doelstelling worden herzien en beter worden verantwooord.",
-      "example_en": "Because of the complexity of the issue, the objective had to be revised and better justified.",
+      "example_nl": "De complexiteit van het vraagstuk vraagt om expertise.",
+      "example_en": "The complexity of the issue calls for expertise.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "vraagstuk",
+          "meaning_en": "issue"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "expertise",
+          "meaning_en": "expertise"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "vragen",
+          "meaning_en": "to call for"
         }
       ]
     },
@@ -226,20 +226,20 @@
       "meaning_en": "objective, goal",
       "formation": "doel + stelling",
       "formation_parts": [],
-      "example_nl": "De doelstelling bleef plausibel, maar we moesten objectief nagaan of ze ook toereikend was.",
-      "example_en": "The objective remained plausible, but we had to objectively check whether it was also sufficient.",
+      "example_nl": "De doelstelling van het project is helder omschreven.",
+      "example_en": "The objective of the project is clearly defined.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "project",
+          "meaning_en": "project"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "helder",
+          "meaning_en": "clear"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "omschreven",
+          "meaning_en": "defined"
         }
       ]
     },
@@ -250,20 +250,20 @@
       "meaning_en": "factor",
       "formation": "uit het Latijn",
       "formation_parts": [],
-      "example_nl": "Een doorslaggevende factor was de validiteit van de methode en de relevantie van de gegevens.",
-      "example_en": "A decisive factor was the validity of the method and the relevance of the data.",
+      "example_nl": "Tijd is een cruciale factor in dit proces.",
+      "example_en": "Time is a crucial factor in this process.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "tijd",
+          "meaning_en": "time"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "cruciaal",
+          "meaning_en": "crucial"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "proces",
+          "meaning_en": "process"
         }
       ]
     },
@@ -274,20 +274,20 @@
       "meaning_en": "interpretation",
       "formation": "interpreteren → interpretatie",
       "formation_parts": [],
-      "example_nl": "De interpretatie van het principe verschilde, wat een nuanceverschil opleverde en weerstand opriep.",
-      "example_en": "The interpretation of the principle differed, which created a nuance difference and raised resistance.",
+      "example_nl": "De interpretatie van de resultaten verschilt per onderzoeker.",
+      "example_en": "The interpretation of the results differs per researcher.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "resultaten",
+          "meaning_en": "results"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "verschillen",
+          "meaning_en": "to differ"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "onderzoeker",
+          "meaning_en": "researcher"
         }
       ]
     },
@@ -298,20 +298,20 @@
       "meaning_en": "difference in nuance",
       "formation": "nuance + verschil",
       "formation_parts": [],
-      "example_nl": "Door een nuanceverschil in interpretatie leek dezelfde factor soms subjectief in plaats van objectief.",
-      "example_en": "Because of a nuance difference in interpretation, the same factor sometimes seemed subjective rather than objective.",
+      "example_nl": "Het nuanceverschil tussen beide standpunten is klein.",
+      "example_en": "The nuance difference between the two viewpoints is small.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "standpunten",
+          "meaning_en": "viewpoints"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "beide",
+          "meaning_en": "both"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "klein",
+          "meaning_en": "small"
         }
       ]
     },
@@ -322,20 +322,20 @@
       "meaning_en": "principle",
       "formation": "uit het Latijn",
       "formation_parts": [],
-      "example_nl": "Het principe vormde het legitieme uitgangspunt en maakte de doelstelling beter te verantwoorden.",
-      "example_en": "The principle formed the legitimate starting point and made the objective easier to justify.",
+      "example_nl": "In principe steunt de organisatie het voorstel.",
+      "example_en": "In principle, the organization supports the proposal.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "organisatie",
+          "meaning_en": "organization"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "voorstel",
+          "meaning_en": "proposal"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "steunen",
+          "meaning_en": "to support"
         }
       ]
     },
@@ -346,20 +346,20 @@
       "meaning_en": "starting point, premise",
       "formation": "uitgaan + punt",
       "formation_parts": [],
-      "example_nl": "Het uitgangspunt werd aangepast na een afwijking, zodat de doelstelling weer relevant en toereikend werd.",
-      "example_en": "The starting point was adjusted after a deviation so the objective became relevant and sufficient again.",
+      "example_nl": "Gelijke behandeling is het uitgangspunt van het beleid.",
+      "example_en": "Equal treatment is the starting point of the policy.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "behandeling",
+          "meaning_en": "treatment"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "beleid",
+          "meaning_en": "policy"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "gelijk",
+          "meaning_en": "equal"
         }
       ]
     },
@@ -370,20 +370,20 @@
       "meaning_en": "validity",
       "formation": "valide + -iteit",
       "formation_parts": [],
-      "example_nl": "De validiteit stond ter discussie door subjectieve interpretatie en onvoldoende zorgvuldigheid.",
-      "example_en": "The validity was questioned due to subjective interpretation and insufficient carefulness.",
+      "example_nl": "De validiteit van het experiment werd zorgvuldig gecontroleerd.",
+      "example_en": "The validity of the experiment was carefully checked.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "experiment",
+          "meaning_en": "experiment"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "zorgvuldig",
+          "meaning_en": "carefully"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "controleren",
+          "meaning_en": "to check"
         }
       ]
     },
@@ -394,20 +394,20 @@
       "meaning_en": "resistance",
       "formation": "weer + stand",
       "formation_parts": [],
-      "example_nl": "Er kwam weerstand toen de doelstelling als niet-legitiem werd aanzien door een afwijking van het principe.",
-      "example_en": "Resistance arose when the objective was seen as illegitimate because of a deviation from the principle.",
+      "example_nl": "Het voorstel stuitte op weerstand bij verschillende groepen.",
+      "example_en": "The proposal encountered resistance among various groups.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "voorstel",
+          "meaning_en": "proposal"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "groepen",
+          "meaning_en": "groups"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "stuiten op",
+          "meaning_en": "to encounter"
         }
       ]
     },
@@ -418,20 +418,20 @@
       "meaning_en": "carefulness, diligence",
       "formation": "zorgvuldig + -heid",
       "formation_parts": [],
-      "example_nl": "Zorgvuldigheid is essentieel: zonder objectieve beoordeling wordt de interpretatie snel subjectief.",
-      "example_en": "Carefulness is essential: without objective assessment, interpretation quickly becomes subjective.",
+      "example_nl": "Het proces werd met grote zorgvuldigheid uitgevoerd.",
+      "example_en": "The process was carried out with great care.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "proces",
+          "meaning_en": "process"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "uitgevoerd",
+          "meaning_en": "carried out"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "groot",
+          "meaning_en": "great"
         }
       ]
     },
@@ -442,20 +442,20 @@
       "meaning_en": "to infer, to derive",
       "formation": "af + leiden",
       "formation_parts": [],
-      "example_nl": "Uit de relevante gegevens konden we afleiden dat de afwijking klein was, ondanks de complexiteit.",
-      "example_en": "From the relevant data we could infer that the deviation was small, despite the complexity.",
+      "example_nl": "Uit de cijfers kan een duidelijke trend worden afgeleid.",
+      "example_en": "A clear trend can be derived from the figures.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "cijfers",
+          "meaning_en": "figures"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "trend",
+          "meaning_en": "trend"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "duidelijk",
+          "meaning_en": "clear"
         }
       ]
     },
@@ -466,20 +466,20 @@
       "meaning_en": "reputation, prestige",
       "formation": "aan + zien",
       "formation_parts": [],
-      "example_nl": "We moesten het plan als legitiem aanzien en uit de relevante gegevens afleiden of de doelstelling objectief en toereikend was.",
-      "example_en": "We had to regard the plan as legitimate and infer from the relevant data whether the objective was objective and sufficient.",
+      "example_nl": "Het voorstel werd met veel aanzien ontvangen.",
+      "example_en": "The proposal was received with great respect.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "voorstel",
+          "meaning_en": "proposal"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "ontvangen",
+          "meaning_en": "received"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "respect",
+          "meaning_en": "respect"
         }
       ]
     }

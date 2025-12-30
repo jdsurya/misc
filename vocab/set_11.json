@@ -10,20 +10,20 @@
       "meaning_en": "assumption",
       "formation": "aan + nemen → aanname",
       "formation_parts": [],
-      "example_nl": "De aanname achter de hypothese klonk logisch, maar zonder sterk argument bleef ze te betwijfelen.",
-      "example_en": "The assumption behind the hypothesis sounded logical, but without a strong argument it remained doubtful.",
+      "example_nl": "De aanname dat de inflatie snel daalt, wordt in het rapport betwijfeld.",
+      "example_en": "The assumption that inflation will fall quickly is questioned in the report.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "inflatie",
+          "meaning_en": "inflation"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "betwijfeld",
+          "meaning_en": "questioned"
         }
       ]
     },
@@ -34,20 +34,20 @@
       "meaning_en": "argument",
       "formation": "uit het Latijn via Frans",
       "formation_parts": [],
-      "example_nl": "Een goed argument is essentieel: het maakt je stelling overtuigend en helpt om de conclusie te onderbouwen.",
-      "example_en": "A good argument is essential: it makes your proposition convincing and helps support the conclusion.",
+      "example_nl": "Het belangrijkste argument voor de maatregel is de verbetering van de veiligheid.",
+      "example_en": "The main argument for the measure is the improvement of safety.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "maatregel",
+          "meaning_en": "measure"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "verbetering",
+          "meaning_en": "improvement"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "veiligheid",
+          "meaning_en": "safety"
         }
       ]
     },
@@ -58,20 +58,20 @@
       "meaning_en": "to argue (for), to justify with arguments",
       "formation": "be + argumenteren",
       "formation_parts": [],
-      "example_nl": "Hij kon zijn stelling helder beargumenteren, elke tegenwerping beantwoorden en uiteindelijk tot een conclusie komen.",
-      "example_en": "He could argue his proposition clearly, answer every objection, and ultimately reach a conclusion.",
+      "example_nl": "De minister probeerde de keuze voor het beleid helder te beargumenteren.",
+      "example_en": "The minister tried to argue clearly for the choice of policy.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "minister",
+          "meaning_en": "minister"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "keuze",
+          "meaning_en": "choice"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "beleid",
+          "meaning_en": "policy"
         }
       ]
     },
@@ -82,20 +82,20 @@
       "meaning_en": "to emphasize",
       "formation": "be + drukken",
       "formation_parts": [],
-      "example_nl": "De docent benadrukte dat je elke gevolgtrekking moet onderbouwen en de redenering consequent moet beoordelen.",
-      "example_en": "The teacher emphasized that you must support every inference and consistently assess the reasoning.",
+      "example_nl": "De commissie benadrukte dat transparantie essentieel is voor vertrouwen.",
+      "example_en": "The committee emphasized that transparency is essential for trust.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "commissie",
+          "meaning_en": "committee"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "transparantie",
+          "meaning_en": "transparency"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "vertrouwen",
+          "meaning_en": "trust"
         }
       ]
     },
@@ -106,20 +106,20 @@
       "meaning_en": "to doubt",
       "formation": "be + twijfelen",
       "formation_parts": [],
-      "example_nl": "Je kunt de effectiviteit van de maatregel betwijfelen als het argument zwak is en de conclusie te snel wordt getrokken.",
-      "example_en": "You can doubt the effectiveness of the measure if the argument is weak and the conclusion is drawn too quickly.",
+      "example_nl": "Analisten betwijfelen of de voorspelling realistisch is.",
+      "example_en": "Analysts doubt whether the forecast is realistic.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "analisten",
+          "meaning_en": "analysts"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "voorspelling",
+          "meaning_en": "forecast"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "realistisch",
+          "meaning_en": "realistic"
         }
       ]
     },
@@ -130,20 +130,20 @@
       "meaning_en": "conclusion",
       "formation": "concluderen → conclusie",
       "formation_parts": [],
-      "example_nl": "De conclusie volgde uit de redenering, maar de gevolgtrekking bleef alleen aanvaardbaar als ze goed was onderbouwd.",
-      "example_en": "The conclusion followed from the reasoning, but the inference was only acceptable if it was well supported.",
+      "example_nl": "De conclusie van het onderzoek is dat extra investeringen nodig zijn.",
+      "example_en": "The conclusion of the study is that additional investments are needed.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
-        },
-        {
-          "word": "docent",
-          "meaning_en": "teacher"
-        },
-        {
           "word": "onderzoek",
-          "meaning_en": "research"
+          "meaning_en": "study"
+        },
+        {
+          "word": "investeringen",
+          "meaning_en": "investments"
+        },
+        {
+          "word": "nodig",
+          "meaning_en": "needed"
         }
       ]
     },
@@ -154,20 +154,20 @@
       "meaning_en": "inference",
       "formation": "gevolg + trekken → gevolgtrekking",
       "formation_parts": [],
-      "example_nl": "Zijn gevolgtrekking leek logisch, maar zonder goede beoordeling van het argument bleef de conclusie wankel.",
-      "example_en": "His inference seemed logical, but without a proper assessment of the argument the conclusion remained shaky.",
+      "example_nl": "Die gevolgtrekking volgt niet direct uit de beschikbare gegevens.",
+      "example_en": "That inference does not follow directly from the available data.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "gevolgtrekking",
+          "meaning_en": "inference"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "beschikbaar",
+          "meaning_en": "available"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "gegevens",
+          "meaning_en": "data"
         }
       ]
     },
@@ -178,20 +178,20 @@
       "meaning_en": "hypothesis",
       "formation": "uit het Grieks",
       "formation_parts": [],
-      "example_nl": "De hypothese werd opgesteld vanuit een aanname en daarna beoordeeld op effectiviteit en aanvaardbaarheid.",
-      "example_en": "The hypothesis was formulated from an assumption and then evaluated for effectiveness and acceptability.",
+      "example_nl": "De onderzoekers toetsen de hypothese in een vervolgstudie.",
+      "example_en": "The researchers are testing the hypothesis in a follow-up study.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "onderzoekers",
+          "meaning_en": "researchers"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "toetsen",
+          "meaning_en": "to test"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "vervolgstudie",
+          "meaning_en": "follow-up study"
         }
       ]
     },
@@ -202,20 +202,20 @@
       "meaning_en": "to substantiate, to support with evidence",
       "formation": "onder + bouwen",
       "formation_parts": [],
-      "example_nl": "Je moet je conclusie onderbouwen met een duidelijk argument—dat is essentieel—anders is de gevolgtrekking makkelijk te weerleggen.",
-      "example_en": "You must support your conclusion with a clear argument—that is essential—otherwise the inference is easy to refute.",
+      "example_nl": "Je moet de claim onderbouwen met betrouwbare bronnen.",
+      "example_en": "You must support the claim with reliable sources.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "claim",
+          "meaning_en": "claim"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "betrouwbare",
+          "meaning_en": "reliable"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "bronnen",
+          "meaning_en": "sources"
         }
       ]
     },
@@ -226,20 +226,20 @@
       "meaning_en": "reasoning",
       "formation": "redeneren → redenering",
       "formation_parts": [],
-      "example_nl": "Een consistente redenering verbindt elk argument met de conclusie en maakt de stelling sterker.",
-      "example_en": "A consistent line of reasoning connects each argument to the conclusion and makes the proposition stronger.",
+      "example_nl": "De redenering klinkt logisch, maar mist concrete voorbeelden.",
+      "example_en": "The reasoning sounds logical but lacks concrete examples.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "logisch",
+          "meaning_en": "logical"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "mist",
+          "meaning_en": "lacks"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "voorbeelden",
+          "meaning_en": "examples"
         }
       ]
     },
@@ -250,20 +250,20 @@
       "meaning_en": "claim, proposition",
       "formation": "stellen → stelling",
       "formation_parts": [],
-      "example_nl": "De stelling riep een tegenwerping op, dus moest hij zijn argument beter beargumenteren en onderbouwen om haar te verdedigen.",
-      "example_en": "The proposition raised an objection, so he had to argue and support his argument better to defend it.",
+      "example_nl": "De stelling dat het beleid werkt, is nog niet bewezen.",
+      "example_en": "The claim that the policy works has not yet been proven.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "beleid",
+          "meaning_en": "policy"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "bewezen",
+          "meaning_en": "proven"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "nog niet",
+          "meaning_en": "not yet"
         }
       ]
     },
@@ -274,20 +274,20 @@
       "meaning_en": "objection, counterargument",
       "formation": "tegen + werpen → tegenwerping",
       "formation_parts": [],
-      "example_nl": "Na de tegenwerping moest hij de aanname verduidelijken en met een beter argument zijn stelling onderbouwen.",
-      "example_en": "After the objection he had to clarify the assumption and support his proposition with a better argument.",
+      "example_nl": "Een veelgehoorde tegenwerping is dat de kosten te hoog zijn.",
+      "example_en": "A common counterargument is that the costs are too high.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "veelgehoord",
+          "meaning_en": "commonly heard"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "kosten",
+          "meaning_en": "costs"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "te hoog",
+          "meaning_en": "too high"
         }
       ]
     },
@@ -298,20 +298,20 @@
       "meaning_en": "to refute",
       "formation": "weer + leggen",
       "formation_parts": [],
-      "example_nl": "Je kunt een tegenwerping weerleggen door de redenering stap voor stap te onderbouwen en een heldere conclusie te trekken.",
-      "example_en": "You can refute an objection by supporting the reasoning step by step and drawing a clear conclusion.",
+      "example_nl": "De onderzoekers konden de kritiek met nieuwe data weerleggen.",
+      "example_en": "The researchers were able to refute the criticism with new data.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "kritiek",
+          "meaning_en": "criticism"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "nieuwe data",
+          "meaning_en": "new data"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "onderzoekers",
+          "meaning_en": "researchers"
         }
       ]
     },
@@ -322,20 +322,20 @@
       "meaning_en": "acceptable",
       "formation": "aanvaarden → aanvaardbaar",
       "formation_parts": [],
-      "example_nl": "De maatregel is aanvaardbaar als je de effectiviteit kunt beoordelen en de aanpak hanteerbaar blijft.",
-      "example_en": "The measure is acceptable if you can assess its effectiveness and the approach remains workable.",
+      "example_nl": "Voor veel partijen is dit compromis aanvaardbaar.",
+      "example_en": "For many parties, this compromise is acceptable.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "partijen",
+          "meaning_en": "parties"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "compromis",
+          "meaning_en": "compromise"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "aanvaardbaar",
+          "meaning_en": "acceptable"
         }
       ]
     },
@@ -346,20 +346,20 @@
       "meaning_en": "to assess, to judge",
       "formation": "be + oordelen",
       "formation_parts": [],
-      "example_nl": "Om een hypothese te beoordelen, wil ik benadrukken dat je naar effectiviteit kijkt; soms is één argument doorslaggevend.",
-      "example_en": "To evaluate a hypothesis, I want to emphasize that you look at effectiveness; sometimes one argument is decisive.",
+      "example_nl": "De toezichthouder zal het plan op haalbaarheid beoordelen.",
+      "example_en": "The regulator will assess the plan for feasibility.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "toezichthouder",
+          "meaning_en": "regulator"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "plan",
+          "meaning_en": "plan"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "haalbaarheid",
+          "meaning_en": "feasibility"
         }
       ]
     },
@@ -370,20 +370,20 @@
       "meaning_en": "effective",
       "formation": "doel + treffend",
       "formation_parts": [],
-      "example_nl": "Een doeltreffende aanpak verhoogt de effectiviteit en maakt de conclusie sneller aanvaardbaar.",
-      "example_en": "An effective approach increases effectiveness and makes the conclusion acceptable more quickly.",
+      "example_nl": "De aanpak is doeltreffend gebleken bij het terugdringen van fraude.",
+      "example_en": "The approach has proven effective in reducing fraud.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "aanpak",
+          "meaning_en": "approach"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "terugdringen",
+          "meaning_en": "reducing"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "fraude",
+          "meaning_en": "fraud"
         }
       ]
     },
@@ -394,20 +394,20 @@
       "meaning_en": "decisive",
       "formation": "door + slaan → doorslaggevend",
       "formation_parts": [],
-      "example_nl": "Een doorslaggevend argument kan een tegenwerping neutraliseren en de conclusie sterker maken.",
-      "example_en": "A decisive argument can neutralize an objection and make the conclusion stronger.",
+      "example_nl": "Bij de selectie was relevante werkervaring doorslaggevend.",
+      "example_en": "In the selection, relevant work experience was decisive.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "selectie",
+          "meaning_en": "selection"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "werkervaring",
+          "meaning_en": "work experience"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "relevant",
+          "meaning_en": "relevant"
         }
       ]
     },
@@ -418,20 +418,20 @@
       "meaning_en": "effectiveness",
       "formation": "effectief + -iteit",
       "formation_parts": [],
-      "example_nl": "De effectiviteit bleek hoog, en zoals de docent benadrukte moesten we nog beoordelen of de maatregel hanteerbaar was.",
-      "example_en": "The effectiveness proved high, and as the teacher emphasized we still had to assess whether the measure was workable.",
+      "example_nl": "De effectiviteit van de maatregel wordt nog onderzocht.",
+      "example_en": "The effectiveness of the measure is still being studied.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "effectiviteit",
+          "meaning_en": "effectiveness"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "maatregel",
+          "meaning_en": "measure"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "onderzocht",
+          "meaning_en": "studied"
         }
       ]
     },
@@ -442,20 +442,20 @@
       "meaning_en": "essential",
       "formation": "uit het Latijn",
       "formation_parts": [],
-      "example_nl": "Het is essentieel om je aanname te onderbouwen, anders blijft elke conclusie te betwijfelen.",
-      "example_en": "It is essential to support your assumption, otherwise every conclusion remains doubtful.",
+      "example_nl": "Een onafhankelijke controle is essentieel voor de kwaliteit.",
+      "example_en": "An independent review is essential for quality.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "onafhankelijk",
+          "meaning_en": "independent"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "controle",
+          "meaning_en": "review"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "kwaliteit",
+          "meaning_en": "quality"
         }
       ]
     },
@@ -466,20 +466,20 @@
       "meaning_en": "manageable, workable",
       "formation": "hanteren → hanteerbaar",
       "formation_parts": [],
-      "example_nl": "Een plan is hanteerbaar wanneer het doeltreffend is en de voorwaarden aanvaardbaar blijven.",
-      "example_en": "A plan is workable when it is effective and the conditions remain acceptable.",
+      "example_nl": "De regels moeten duidelijk en hanteerbaar blijven voor gebruikers.",
+      "example_en": "The rules must remain clear and manageable for users.",
       "other_b1_words": [
         {
-          "word": "student",
-          "meaning_en": "student"
+          "word": "regels",
+          "meaning_en": "rules"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "duidelijk",
+          "meaning_en": "clear"
         },
         {
-          "word": "onderzoek",
-          "meaning_en": "research"
+          "word": "gebruikers",
+          "meaning_en": "users"
         }
       ]
     }

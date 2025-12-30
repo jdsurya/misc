@@ -10,20 +10,20 @@
       "formation": "zoeken + tocht",
       "formation_parts": [],
       "meaning_en": "search, quest",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"zoektocht\".",
-      "example_en": "In class the students discussed the word \"zoektocht\" with the teacher.",
+      "example_nl": "De zoektocht naar duurzame oplossingen staat centraal in het publieke debat.",
+      "example_en": "The search for sustainable solutions is central to the public debate.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "duurzaam",
+          "meaning_en": "sustainable"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "oplossingen",
+          "meaning_en": "solutions"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "debat",
+          "meaning_en": "debate"
         }
       ]
     },
@@ -34,20 +34,20 @@
       "formation": "zelf + vertrouwen",
       "formation_parts": [],
       "meaning_en": "self-confidence",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"zelfvertrouwen\".",
-      "example_en": "In class the students discussed the word \"zelfvertrouwen\" with the teacher.",
+      "example_nl": "Zelfvertrouwen speelt een belangrijke rol bij professionele ontwikkeling.",
+      "example_en": "Self-confidence plays an important role in professional development.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "rol",
+          "meaning_en": "role"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "professioneel",
+          "meaning_en": "professional"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "ontwikkeling",
+          "meaning_en": "development"
         }
       ]
     },
@@ -58,20 +58,20 @@
       "formation": "zelf + stand + -ig",
       "formation_parts": [],
       "meaning_en": "independent",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"zelfstandig\".",
-      "example_en": "In class the students discussed the word \"zelfstandig\" with the teacher.",
+      "example_nl": "Studenten worden aangemoedigd om zelfstandig onderzoek te verrichten.",
+      "example_en": "Students are encouraged to conduct research independently.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "onderzoek",
+          "meaning_en": "research"
+        },
+        {
+          "word": "aanmoedigen",
+          "meaning_en": "to encourage"
         }
       ]
     },
@@ -82,20 +82,20 @@
       "formation": "zich + ontwikkelen",
       "formation_parts": [],
       "meaning_en": "to develop oneself",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"zich ontwikkelen\".",
-      "example_en": "In class the students discussed the word \"zich ontwikkelen\" with the teacher.",
+      "example_nl": "Jonge professionals blijven zich ontwikkelen binnen hun vakgebied.",
+      "example_en": "Young professionals continue to develop within their field.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "professionals",
+          "meaning_en": "professionals"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "vakgebied",
+          "meaning_en": "field"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "blijven",
+          "meaning_en": "to continue"
         }
       ]
     },
@@ -106,20 +106,20 @@
       "formation": "af + studeren",
       "formation_parts": [],
       "meaning_en": "to graduate",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"afstuderen\".",
-      "example_en": "In class the students discussed the word \"afstuderen\" with the teacher.",
+      "example_nl": "Na het afstuderen vinden veel studenten een baan binnen hun sector.",
+      "example_en": "After graduation, many students find a job within their sector.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "baan",
+          "meaning_en": "job"
+        },
+        {
+          "word": "sector",
+          "meaning_en": "sector"
         }
       ]
     },
@@ -130,20 +130,20 @@
       "formation": "be + geleiden",
       "formation_parts": [],
       "meaning_en": "to guide, to coach",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"begeleiden\".",
-      "example_en": "In class the students discussed the word \"begeleiden\" with the teacher.",
+      "example_nl": "De docent begeleidt studenten tijdens het onderzoeksproces.",
+      "example_en": "The lecturer guides students during the research process.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "docent",
+          "meaning_en": "lecturer"
         },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "proces",
+          "meaning_en": "process"
         }
       ]
     },
@@ -154,20 +154,20 @@
       "formation": "be + perken",
       "formation_parts": [],
       "meaning_en": "to limit, to restrict",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"beperken\".",
-      "example_en": "In class the students discussed the word \"beperken\" with the teacher.",
+      "example_nl": "De maatregelen zijn bedoeld om de risico’s te beperken.",
+      "example_en": "The measures are intended to limit the risks.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "maatregelen",
+          "meaning_en": "measures"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "risico’s",
+          "meaning_en": "risks"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "bedoeld",
+          "meaning_en": "intended"
         }
       ]
     },
@@ -178,20 +178,20 @@
       "formation": "beschikbaar + stellen",
       "formation_parts": [],
       "meaning_en": "to make available",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"beschikbaar stellen\".",
-      "example_en": "In class the students discussed the word \"beschikbaar stellen\" with the teacher.",
+      "example_nl": "De overheid stelt extra middelen beschikbaar voor onderzoek.",
+      "example_en": "The government makes additional resources available for research.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "overheid",
+          "meaning_en": "government"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "middelen",
+          "meaning_en": "resources"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "onderzoek",
+          "meaning_en": "research"
         }
       ]
     },
@@ -202,20 +202,20 @@
       "formation": "be + vestigen",
       "formation_parts": [],
       "meaning_en": "to confirm",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"bevestigen\".",
-      "example_en": "In class the students discussed the word \"bevestigen\" with the teacher.",
+      "example_nl": "De resultaten bevestigen eerdere bevindingen.",
+      "example_en": "The results confirm earlier findings.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "resultaten",
+          "meaning_en": "results"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "bevindingen",
+          "meaning_en": "findings"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "eerder",
+          "meaning_en": "earlier"
         }
       ]
     },
@@ -226,20 +226,20 @@
       "formation": "door + brengen + met",
       "formation_parts": [],
       "meaning_en": "to spend (time with)",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"doorbrengen met\".",
-      "example_en": "In class the students discussed the word \"doorbrengen met\" with the teacher.",
+      "example_nl": "Veel onderzoekers brengen hun tijd door met data-analyse.",
+      "example_en": "Many researchers spend their time on data analysis.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "onderzoekers",
+          "meaning_en": "researchers"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "tijd",
+          "meaning_en": "time"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "analyse",
+          "meaning_en": "analysis"
         }
       ]
     },
@@ -250,20 +250,20 @@
       "formation": "door + leren",
       "formation_parts": [],
       "meaning_en": "to continue studying",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"doorleren\".",
-      "example_en": "In class the students discussed the word \"doorleren\" with the teacher.",
+      "example_nl": "Steeds meer professionals kiezen ervoor om door te leren.",
+      "example_en": "More and more professionals choose to continue their education.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "professionals",
+          "meaning_en": "professionals"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "kiezen",
+          "meaning_en": "to choose"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "onderwijs",
+          "meaning_en": "education"
         }
       ]
     },
@@ -274,20 +274,20 @@
       "formation": "herinneren → herinnering",
       "formation_parts": [],
       "meaning_en": "memory, reminder",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"herinnering\".",
-      "example_en": "In class the students discussed the word \"herinnering\" with the teacher.",
+      "example_nl": "De gebeurtenis staat bij velen nog scherp in het geheugen als herinnering.",
+      "example_en": "For many, the event remains a vivid memory.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "gebeurtenis",
+          "meaning_en": "event"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "geheugen",
+          "meaning_en": "memory"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "scherp",
+          "meaning_en": "vivid"
         }
       ]
     },
@@ -298,20 +298,20 @@
       "formation": "inhoud + -elijk",
       "formation_parts": [],
       "meaning_en": "content-related, substantive",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"inhoudelijk\".",
-      "example_en": "In class the students discussed the word \"inhoudelijk\" with the teacher.",
+      "example_nl": "De inhoudelijke discussie richtte zich op de kern van het probleem.",
+      "example_en": "The substantive discussion focused on the core of the problem.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "discussie",
+          "meaning_en": "discussion"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "kern",
+          "meaning_en": "core"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "probleem",
+          "meaning_en": "problem"
         }
       ]
     },
@@ -322,20 +322,20 @@
       "formation": "in + leveren",
       "formation_parts": [],
       "meaning_en": "to hand in, to submit",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"inleveren\".",
-      "example_en": "In class the students discussed the word \"inleveren\" with the teacher.",
+      "example_nl": "Studenten moeten het verslag voor de deadline inleveren.",
+      "example_en": "Students must submit the report before the deadline.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "verslag",
+          "meaning_en": "report"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "deadline",
+          "meaning_en": "deadline"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "moeten",
+          "meaning_en": "must"
         }
       ]
     },
@@ -346,20 +346,20 @@
       "formation": "inschatten → inschatting",
       "formation_parts": [],
       "meaning_en": "estimate, assessment",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"inschatting\".",
-      "example_en": "In class the students discussed the word \"inschatting\" with the teacher.",
+      "example_nl": "De inschatting van de impact verschilt per deskundige.",
+      "example_en": "The assessment of the impact differs per expert.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "impact",
+          "meaning_en": "impact"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "deskundige",
+          "meaning_en": "expert"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "verschillen",
+          "meaning_en": "to differ"
         }
       ]
     },
@@ -370,20 +370,20 @@
       "formation": "inspannen → inspannend",
       "formation_parts": [],
       "meaning_en": "strenuous, demanding",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"inspannend\".",
-      "example_en": "In class the students discussed the word \"inspannend\" with the teacher.",
+      "example_nl": "Het onderzoeksproces was intensief en inspannend.",
+      "example_en": "The research process was intensive and demanding.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "onderzoek",
+          "meaning_en": "research"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "intensief",
+          "meaning_en": "intensive"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "proces",
+          "meaning_en": "process"
         }
       ]
     },
@@ -394,20 +394,20 @@
       "formation": "kwaliteit + -ief",
       "formation_parts": [],
       "meaning_en": "qualitative, high-quality",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"kwalitatief\".",
-      "example_en": "In class the students discussed the word \"kwalitatief\" with the teacher.",
+      "example_nl": "Het rapport biedt een kwalitatieve analyse van de gegevens.",
+      "example_en": "The report provides a qualitative analysis of the data.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "rapport",
+          "meaning_en": "report"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "analyse",
+          "meaning_en": "analysis"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "gegevens",
+          "meaning_en": "data"
         }
       ]
     },
@@ -418,20 +418,20 @@
       "formation": "leren + -zaam",
       "formation_parts": [],
       "meaning_en": "educational, instructive",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"leerzaam\".",
-      "example_en": "In class the students discussed the word \"leerzaam\" with the teacher.",
+      "example_nl": "De stage werd als bijzonder leerzaam ervaren.",
+      "example_en": "The internship was experienced as particularly instructive.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "stage",
+          "meaning_en": "internship"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "ervaren",
+          "meaning_en": "experienced"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "bijzonder",
+          "meaning_en": "particularly"
         }
       ]
     },
@@ -442,20 +442,20 @@
       "formation": "maatschappij + leer",
       "formation_parts": [],
       "meaning_en": "social studies (school subject)",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"maatschappijleer\".",
-      "example_en": "In class the students discussed the word \"maatschappijleer\" with the teacher.",
+      "example_nl": "Maatschappijleer draagt bij aan inzicht in democratische processen.",
+      "example_en": "Civics contributes to understanding democratic processes.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "inzicht",
+          "meaning_en": "insight"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "democratisch",
+          "meaning_en": "democratic"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "processen",
+          "meaning_en": "processes"
         }
       ]
     },
@@ -466,20 +466,20 @@
       "formation": "nadelig + effect",
       "formation_parts": [],
       "meaning_en": "negative effect",
-      "example_nl": "In de les bespraken de studenten met de docent het woord \"nadelig effect\".",
-      "example_en": "In class the students discussed the word \"nadelig effect\" with the teacher.",
+      "example_nl": "De maatregel had een nadelig effect op kleine organisaties.",
+      "example_en": "The measure had an adverse effect on small organizations.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "maatregel",
+          "meaning_en": "measure"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "effect",
+          "meaning_en": "effect"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "organisaties",
+          "meaning_en": "organizations"
         }
       ]
     }

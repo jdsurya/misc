@@ -10,20 +10,20 @@
       "formation": "ondersteunen → ondersteuning",
       "formation_parts": [],
       "meaning_en": "support, assistance",
-      "example_nl": "Goede ondersteuning door de studiebegeleider verkleint de kans op uitval tijdens de studieduur.",
-      "example_en": "Good support from the study advisor reduces the risk of dropout during the study period.",
+      "example_nl": "Studenten met extra behoeften kunnen rekenen op passende ondersteuning.",
+      "example_en": "Students with additional needs can count on appropriate support.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "behoeften",
+          "meaning_en": "needs"
+        },
+        {
+          "word": "passend",
+          "meaning_en": "appropriate"
         }
       ]
     },
@@ -34,20 +34,20 @@
       "formation": "onderzoek + -er",
       "formation_parts": [],
       "meaning_en": "researcher",
-      "example_nl": "De onderzoeker presenteerde zijn bevindingen in samenwerking met het vakgebied.",
-      "example_en": "The researcher presented his findings in collaboration with the field of study.",
+      "example_nl": "De onderzoeker presenteerde zijn bevindingen tijdens de conferentie.",
+      "example_en": "The researcher presented his findings at the conference.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "bevindingen",
+          "meaning_en": "findings"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "conferentie",
+          "meaning_en": "conference"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "presenteren",
+          "meaning_en": "to present"
         }
       ]
     },
@@ -58,20 +58,20 @@
       "formation": "opleiding + niveau",
       "formation_parts": [],
       "meaning_en": "education level",
-      "example_nl": "Het opleidingsniveau beïnvloedt het toekomstperspectief en de kans op een stageplaats.",
-      "example_en": "The level of education influences future prospects and the chance of an internship.",
+      "example_nl": "Het opleidingsniveau speelt een belangrijke rol bij de arbeidskansen.",
+      "example_en": "The level of education plays an important role in job opportunities.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "rol",
+          "meaning_en": "role"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "arbeidskansen",
+          "meaning_en": "job opportunities"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "belangrijk",
+          "meaning_en": "important"
         }
       ]
     },
@@ -82,20 +82,20 @@
       "formation": "over + stap",
       "formation_parts": [],
       "meaning_en": "transfer, switch",
-      "example_nl": "De overstap naar een ander vakgebied vergde toestemming, ondersteuning en extra studieduur.",
-      "example_en": "The switch to another field of study required permission, support, and extra study duration.",
+      "example_nl": "Voor veel studenten is de overstap naar het hoger onderwijs groot.",
+      "example_en": "For many students, the transition to higher education is significant.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "hoger onderwijs",
+          "meaning_en": "higher education"
+        },
+        {
+          "word": "groot",
+          "meaning_en": "significant"
         }
       ]
     },
@@ -106,20 +106,20 @@
       "formation": "presenteren → presentatie",
       "formation_parts": [],
       "meaning_en": "presentation (talk)",
-      "example_nl": "Tijdens de presentatie lichtte de onderzoeker het vakgebied en de samenwerking toe.",
-      "example_en": "During the presentation, the researcher explained the field of study and the collaboration.",
+      "example_nl": "De presentatie gaf een helder overzicht van het onderzoek.",
+      "example_en": "The presentation provided a clear overview of the research.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "overzicht",
+          "meaning_en": "overview"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "onderzoek",
+          "meaning_en": "research"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "helder",
+          "meaning_en": "clear"
         }
       ]
     },
@@ -130,20 +130,20 @@
       "formation": "rand + stad",
       "formation_parts": [],
       "meaning_en": "Randstad (urban region in NL)",
-      "example_nl": "In de Randstad zijn meer stageplaatsen en samenwerkingen beschikbaar, wat het toekomstperspectief verbetert.",
-      "example_en": "In the Randstad, more internships and collaborations are available, improving future prospects.",
+      "example_nl": "In de Randstad is de vraag naar gekwalificeerd personeel hoog.",
+      "example_en": "In the Randstad, demand for qualified staff is high.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "vraag",
+          "meaning_en": "demand"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "gekwalificeerd",
+          "meaning_en": "qualified"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "personeel",
+          "meaning_en": "staff"
         }
       ]
     },
@@ -154,20 +154,20 @@
       "formation": "samenwerken → samenwerking",
       "formation_parts": [],
       "meaning_en": "cooperation, collaboration",
-      "example_nl": "Samenwerking en aanvulling via een stageplaats verminderen een tekortkoming in begeleiding.",
-      "example_en": "Collaboration and supplementation through an internship reduce a shortcoming in guidance.",
+      "example_nl": "Goede samenwerking tussen instellingen is essentieel.",
+      "example_en": "Good cooperation between institutions is essential.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "instellingen",
+          "meaning_en": "institutions"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "essentieel",
+          "meaning_en": "essential"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "goed",
+          "meaning_en": "good"
         }
       ]
     },
@@ -178,20 +178,20 @@
       "formation": "stage + plaats",
       "formation_parts": [],
       "meaning_en": "internship position",
-      "example_nl": "Een geschikte stageplaats draagt bij aan het opleidingsniveau en toekomstperspectief.",
-      "example_en": "A suitable internship contributes to the level of education and future prospects.",
+      "example_nl": "Het vinden van een geschikte stageplaats kost soms veel tijd.",
+      "example_en": "Finding a suitable internship placement sometimes takes a lot of time.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "geschikt",
+          "meaning_en": "suitable"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "tijd",
+          "meaning_en": "time"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "vinden",
+          "meaning_en": "to find"
         }
       ]
     },
@@ -202,20 +202,20 @@
       "formation": "studie + begeleider",
       "formation_parts": [],
       "meaning_en": "study coach, tutor",
-      "example_nl": "De studiebegeleider helpt bij een overstap, presentatie en het nemen van verantwoordelijkheid.",
-      "example_en": "The study advisor helps with a switch, presentation, and taking responsibility.",
+      "example_nl": "De studiebegeleider ondersteunt studenten bij hun planning.",
+      "example_en": "The study advisor supports students with their planning.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "planning",
+          "meaning_en": "planning"
+        },
+        {
+          "word": "ondersteunen",
+          "meaning_en": "to support"
         }
       ]
     },
@@ -226,20 +226,20 @@
       "formation": "studie + duur",
       "formation_parts": [],
       "meaning_en": "duration of a study program",
-      "example_nl": "Een langere studieduur in de Randstad vraagt meer ondersteuning en verantwoordelijkheid.",
-      "example_en": "A longer study duration in the Randstad requires more support and responsibility.",
+      "example_nl": "De studieduur kan per opleiding verschillen.",
+      "example_en": "The duration of study can differ per program.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "opleiding",
+          "meaning_en": "program"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "verschillen",
+          "meaning_en": "to differ"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "per",
+          "meaning_en": "per"
         }
       ]
     },
@@ -250,20 +250,20 @@
       "formation": "tekort + komen → tekortkoming",
       "formation_parts": [],
       "meaning_en": "shortcoming, flaw",
-      "example_nl": "Een tekortkoming in ondersteuning of samenwerking kan leiden tot uitval.",
-      "example_en": "A shortcoming in support or collaboration can lead to dropout.",
+      "example_nl": "De inspectie wees op een ernstige tekortkoming in het systeem.",
+      "example_en": "The inspectorate pointed out a serious shortcoming in the system.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "inspectie",
+          "meaning_en": "inspectorate"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "ernstig",
+          "meaning_en": "serious"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "systeem",
+          "meaning_en": "system"
         }
       ]
     },
@@ -274,20 +274,20 @@
       "formation": "tentamen",
       "formation_parts": [],
       "meaning_en": "exam (usually at university)",
-      "example_nl": "Het tentamen werd uitgesteld vanwege de toetsweek en extra ondersteuning.",
-      "example_en": "The exam was postponed because of the exam week and extra support.",
+      "example_nl": "Het tentamen bleek moeilijker dan verwacht.",
+      "example_en": "The exam turned out to be more difficult than expected.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "moeilijk",
+          "meaning_en": "difficult"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "verwacht",
+          "meaning_en": "expected"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "blijken",
+          "meaning_en": "to turn out"
         }
       ]
     },
@@ -298,20 +298,20 @@
       "formation": "toekomst + perspectief",
       "formation_parts": [],
       "meaning_en": "future outlook",
-      "example_nl": "Een goed toekomstperspectief motiveert studenten om verantwoordelijkheid te nemen.",
-      "example_en": "Good future prospects motivate students to take responsibility.",
+      "example_nl": "De opleiding biedt studenten een goed toekomstperspectief.",
+      "example_en": "The program offers students good future prospects.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "opleiding",
+          "meaning_en": "program"
         },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "goed",
+          "meaning_en": "good"
         }
       ]
     },
@@ -322,20 +322,20 @@
       "formation": "toestaan → toestemming",
       "formation_parts": [],
       "meaning_en": "permission",
-      "example_nl": "Voor uitwisseling was toestemming nodig van de studiebegeleider.",
-      "example_en": "Permission for exchange was needed from the study advisor.",
+      "example_nl": "Voor deelname aan het onderzoek is toestemming vereist.",
+      "example_en": "Permission is required to participate in the research.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "deelname",
+          "meaning_en": "participation"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "onderzoek",
+          "meaning_en": "research"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "vereist",
+          "meaning_en": "required"
         }
       ]
     },
@@ -346,20 +346,20 @@
       "formation": "toets + week",
       "formation_parts": [],
       "meaning_en": "exam week",
-      "example_nl": "Tijdens de toetsweek en het tentamen is extra ondersteuning nodig om uitval te voorkomen.",
-      "example_en": "During exam week and the exam, extra support is needed to prevent dropout.",
+      "example_nl": "Tijdens de toetsweek ervaren veel studenten extra stress.",
+      "example_en": "During exam week, many students experience additional stress.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
         {
           "word": "studenten",
           "meaning_en": "students"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "stress",
+          "meaning_en": "stress"
+        },
+        {
+          "word": "tijdens",
+          "meaning_en": "during"
         }
       ]
     },
@@ -370,20 +370,20 @@
       "formation": "uit + val",
       "formation_parts": [],
       "meaning_en": "dropout, failure (in systems or study)",
-      "example_nl": "Uitval komt vaker voor zonder samenwerking en goede ondersteuning.",
-      "example_en": "Dropout occurs more often without collaboration and good support.",
+      "example_nl": "De uitval onder eerstejaars studenten blijft een aandachtspunt.",
+      "example_en": "Dropout among first-year students remains a point of concern.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "eerstejaars",
+          "meaning_en": "first-year"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "aandachtspunt",
+          "meaning_en": "point of concern"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "blijven",
+          "meaning_en": "to remain"
         }
       ]
     },
@@ -394,20 +394,20 @@
       "formation": "uitwisselen → uitwisseling",
       "formation_parts": [],
       "meaning_en": "exchange",
-      "example_nl": "Uitwisseling naar het buitenland verbetert het toekomstperspectief en vakgebiedkennis.",
-      "example_en": "Exchange abroad improves future prospects and field knowledge.",
+      "example_nl": "De universiteit stimuleert internationale uitwisseling.",
+      "example_en": "The university encourages international exchange.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "universiteit",
+          "meaning_en": "university"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "internationaal",
+          "meaning_en": "international"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "stimuleren",
+          "meaning_en": "to encourage"
         }
       ]
     },
@@ -418,20 +418,20 @@
       "formation": "vak + gebied",
       "formation_parts": [],
       "meaning_en": "field, area of expertise",
-      "example_nl": "Het vakgebied bepaalt het opleidingsniveau en toekomstperspectief.",
-      "example_en": "The field of study determines the level of education and future prospects.",
+      "example_nl": "Binnen dit vakgebied zijn de ontwikkelingen snel gegaan.",
+      "example_en": "Developments in this field have progressed rapidly.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "ontwikkelingen",
+          "meaning_en": "developments"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "snel",
+          "meaning_en": "rapid"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "binnen",
+          "meaning_en": "within"
         }
       ]
     },
@@ -442,20 +442,20 @@
       "formation": "aan + vulling",
       "formation_parts": [],
       "meaning_en": "addition, supplement",
-      "example_nl": "De stage was een waardevolle aanvulling op het vakgebied en het opleidingsniveau.",
-      "example_en": "The internship was a valuable addition to the field of study and the level of education.",
+      "example_nl": "Deze cursus vormt een waardevolle aanvulling op het programma.",
+      "example_en": "This course is a valuable addition to the program.",
       "other_b1_words": [
         {
-          "word": "les",
-          "meaning_en": "lesson"
+          "word": "cursus",
+          "meaning_en": "course"
         },
         {
-          "word": "studenten",
-          "meaning_en": "students"
+          "word": "waardevol",
+          "meaning_en": "valuable"
         },
         {
-          "word": "docent",
-          "meaning_en": "teacher"
+          "word": "programma",
+          "meaning_en": "program"
         }
       ]
     },
@@ -466,20 +466,20 @@
       "formation": "verantwoordelijk + -heid",
       "formation_parts": [],
       "meaning_en": "responsibility",
-      "example_nl": "Studenten nemen meer verantwoordelijkheid met goede begeleiding en ondersteuning.",
-      "example_en": "Students take more responsibility with good guidance and support.",
+      "example_nl": "De docent draagt verantwoordelijkheid voor de kwaliteit van het onderwijs.",
+      "example_en": "The teacher bears responsibility for the quality of education.",
       "other_b1_words": [
-        {
-          "word": "les",
-          "meaning_en": "lesson"
-        },
-        {
-          "word": "studenten",
-          "meaning_en": "students"
-        },
         {
           "word": "docent",
           "meaning_en": "teacher"
+        },
+        {
+          "word": "kwaliteit",
+          "meaning_en": "quality"
+        },
+        {
+          "word": "onderwijs",
+          "meaning_en": "education"
         }
       ]
     }
